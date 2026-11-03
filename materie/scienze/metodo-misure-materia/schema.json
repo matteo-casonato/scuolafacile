@@ -1,0 +1,75 @@
+{
+ "centro": "Scienze",
+ "sotto": "metodo · misure · materia · sostanze e miscugli",
+ "riquadri": [
+  {
+   "titolo": "Scienza e metodo",
+   "colore": "purple",
+   "voci": [
+    "<b>Scienze fisiche</b> (materia non viva): chimica, fisica, astronomia, scienze della Terra",
+    "<b>Scienze biologiche</b> (viventi): zoologia, botanica, microbiologia",
+    "<b>Galileo</b> introduce il <b>metodo sperimentale</b>"
+   ]
+  },
+  {
+   "titolo": "Misurare",
+   "colore": "blue",
+   "voci": [
+    "<b>Grandezza fisica</b>: si può misurare",
+    "<b>Fondamentali</b>: lunghezza, massa, tempo · <b>derivate</b>: velocità, area, volume",
+    "<b>Misurare</b>: quante volte l’unità sta nella grandezza (l = 16 cm)",
+    "<b>Diretta</b>: con lo strumento · <b>indiretta</b>: con un calcolo",
+    "<b>Media</b> = somma : numero di misure",
+    "<b>Portata</b> = valore max · <b>sensibilità</b> = valore min"
+   ]
+  },
+  {
+   "titolo": "Unità di misura",
+   "colore": "blue",
+   "voci": [
+    "<b>SI</b>: metro (m), kilogrammo (kg), secondo (s), kelvin (K)…",
+    "km → hm → dam → <b>m</b> → dm → cm → mm<br>scendo × 10 · salgo : 10",
+    "Notazione scientifica: 1,5 × 10¹¹ = 150 000 000 000"
+   ]
+  },
+  {
+   "titolo": "La materia",
+   "colore": "green",
+   "voci": [
+    "<b>Materia</b>: occupa spazio (volume) e ha massa",
+    "<b>Corpo</b> = porzione · <b>sostanza</b> = tipo di materia",
+    "<b>Massa</b>: kg, bilancia, non cambia · <b>peso</b>: N, dinamometro, cambia",
+    "<b>Densità</b> d = m : V · 1 dm³ = 1 litro",
+    "<b>Estensive</b> (massa, volume) · <b>intensive</b> (densità, colore)",
+    "Trasformazione <b>fisica</b> = reversibile · <b>chimica</b> = irreversibile"
+   ]
+  },
+  {
+   "titolo": "Sostanze",
+   "colore": "orange",
+   "voci": [
+    "Materia fatta di <b>atomi</b> (92 tipi) → formano <b>molecole</b>",
+    "<b>Elementi</b>: un solo tipo di atomo (Ag, O₂)",
+    "<b>Composti</b>: atomi diversi (H₂O)",
+    "<b>Formula chimica</b>: simboli + numero di atomi"
+   ]
+  },
+  {
+   "titolo": "Miscugli",
+   "colore": "orange",
+   "voci": [
+    "<b>Eterogeneo</b>: vedi le parti (roccia, latte)",
+    "<b>Omogeneo</b> = <b>soluzione</b>: tutto uguale (aria, tè)",
+    "Soluzione = <b>soluto</b> + <b>solvente</b>",
+    "Concentrazione = soluto : soluzione (25 : 500 = 5%)",
+    "<b>Satura</b>: non scioglie più niente"
+   ]
+  }
+ ],
+ "errori": [
+  "Area = misura INDIRETTA",
+  "Il volume è una grandezza DERIVATA",
+  "Massa in kg, peso in newton",
+  "Concentrazione: dividi per soluto + solvente"
+ ]
+}

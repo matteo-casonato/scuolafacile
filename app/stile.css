@@ -338,6 +338,8 @@
 }
 
 @media print{
-  /* In stampa i giochi non servono: restano solo le domande e le risposte. */
+  /* In stampa i giochi non servono: una pagina che contiene un gioco
+     si salta del tutto, invece di stampare un foglio quasi vuoto. */
   .gioco{display:none}
+  .slide:has(.gioco){display:none!important;break-after:auto}
 }

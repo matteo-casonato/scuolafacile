@@ -6,10 +6,13 @@ import { join } from 'node:path';
 import { TIPI_NOTI } from '../app/blocchi.js';
 
 /* Tag inline ammessi dentro i testi. Tutto il resto è un errore:
-   i contenuti devono restare leggibili e identici a quelli approvati. */
-const TAG_OK = new Set(['b', 'i', 'u', 'br', 'span', 'sub', 'sup']);
+   i contenuti devono restare leggibili e identici a quelli approvati.
+   svg e path ci sono perché musica mette i glifi delle note dentro al testo
+   e dentro alle tabelle: sono disegni piccoli, non impaginazione. */
+const TAG_OK = new Set(['b', 'i', 'u', 'br', 'span', 'sub', 'sup', 'svg', 'path']);
 const CLASSI_OK = new Set([
   'muted', 'f-red', 'f-blue', 'f-green', 'f-orange', 'f-purple', 'f-ink', 'f-muted',
+  'fig', 'mini', 'gl', 'mo', 'mb', 'mot', 'mbt',
 ]);
 const COLORI = new Set(['ink', 'blue', 'green', 'orange', 'purple', 'red', 'teal']);
 

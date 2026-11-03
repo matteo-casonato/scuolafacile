@@ -1,0 +1,1395 @@
+{
+ "titolo": "Scienze facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "Il metodo",
+   "colore": "purple"
+  },
+  {
+   "nome": "Misurare",
+   "colore": "blue"
+  },
+  {
+   "nome": "La materia",
+   "colore": "green"
+  },
+  {
+   "nome": "Sostanze e miscugli",
+   "colore": "orange"
+  },
+  {
+   "nome": "Quaderno",
+   "colore": "ink"
+  },
+  {
+   "nome": "Domande",
+   "colore": "red"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Scienze facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso: il metodo della scienza, le misure e la materia."
+    },
+    {
+     "t": "h",
+     "x": "Cosa ha chiesto il prof"
+    },
+    {
+     "t": "check",
+     "x": [
+      "Studiare <b>Unità 1</b> “Il metodo della scienza”: lezioni 1 e 2.",
+      "Studiare <b>Unità 2</b> “La materia e le sue trasformazioni”: lezioni 1 e 2.",
+      "Completare sul quaderno lo <b>schema di riepilogo</b>.",
+      "Portare il <b>quaderno</b>, NON il libro."
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Per ogni esercizio fai così"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> la consegna due volte.",
+      "<b>Sottolinea</b> le parole importanti: “un solo”, “non”, “distinti”…",
+      "<b>Disegna</b>, se puoi. Anche un disegno piccolo aiuta."
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Il metodo",
+   "titolo": "Che cos’è la scienza",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "“Scienza” viene dal latino <i>scientia</i>, che vuol dire <b>conoscenza</b>."
+    },
+    {
+     "t": "p",
+     "x": "La scienza studia la <b>natura</b> con un metodo preciso: il <b>metodo scientifico sperimentale</b>."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 335",
+     "alt": "Le scienze naturali divise in fisiche e biologiche",
+     "body": "<rect x=\"95\" y=\"8\" width=\"150\" height=\"40\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><text x=\"170\" y=\"34\" text-anchor=\"middle\" class=\"b\">Scienze naturali</text><line x1=\"140\" y1=\"48\" x2=\"85\" y2=\"78\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><line x1=\"200\" y1=\"48\" x2=\"255\" y2=\"78\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"80\" width=\"150\" height=\"52\" rx=\"10\" class=\"t-blue s-blue\" fill=\"\" stroke-width=\"2.5\"/><text x=\"85\" y=\"102\" text-anchor=\"middle\" class=\"f-blue b\">Fisiche</text><text x=\"85\" y=\"122\" text-anchor=\"middle\" class=\"sm\">materia “non viva”</text><rect x=\"180\" y=\"80\" width=\"150\" height=\"52\" rx=\"10\" class=\"t-green s-green\" fill=\"\" stroke-width=\"2.5\"/><text x=\"255\" y=\"102\" text-anchor=\"middle\" class=\"f-green b\">Biologiche</text><text x=\"255\" y=\"122\" text-anchor=\"middle\" class=\"sm\">esseri viventi</text><text x=\"18\" y=\"158\" text-anchor=\"start\" class=\"f-blue b\">chimica</text><text x=\"18\" y=\"175\" text-anchor=\"start\" class=\"sm f-muted\">sostanze e materiali</text><text x=\"18\" y=\"202\" text-anchor=\"start\" class=\"f-blue b\">fisica</text><text x=\"18\" y=\"219\" text-anchor=\"start\" class=\"sm f-muted\">movimento, energia</text><text x=\"18\" y=\"246\" text-anchor=\"start\" class=\"f-blue b\">astronomia</text><text x=\"18\" y=\"263\" text-anchor=\"start\" class=\"sm f-muted\">corpi celesti</text><text x=\"18\" y=\"290\" text-anchor=\"start\" class=\"f-blue b\">scienze della Terra</text><text x=\"18\" y=\"307\" text-anchor=\"start\" class=\"sm f-muted\">clima, rocce, acque</text><text x=\"188\" y=\"158\" text-anchor=\"start\" class=\"f-green b\">zoologia</text><text x=\"188\" y=\"175\" text-anchor=\"start\" class=\"sm f-muted\">animali</text><text x=\"188\" y=\"202\" text-anchor=\"start\" class=\"f-green b\">botanica</text><text x=\"188\" y=\"219\" text-anchor=\"start\" class=\"sm f-muted\">piante</text><text x=\"188\" y=\"246\" text-anchor=\"start\" class=\"f-green b\">microbiologia</text><text x=\"188\" y=\"263\" text-anchor=\"start\" class=\"sm f-muted\">virus, microbi</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Il metodo",
+   "titolo": "Galileo e il metodo sperimentale",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "I fatti che la scienza può spiegare si chiamano <b>fenomeni</b>. Esempio: perché gli oggetti cadono?"
+    },
+    {
+     "t": "p",
+     "x": "Il <b>metodo sperimentale</b> serve a spiegare i fenomeni con <b>prove</b>, non con opinioni."
+    },
+    {
+     "t": "p",
+     "x": "La sua parte più nuova sono gli <b>esperimenti</b>: si fanno misure con strumenti (bilance, termometri, orologi) e chiunque può ripeterli."
+    },
+    {
+     "t": "p",
+     "x": "La <b>matematica</b> serve a tutte le scienze: senza numeri non si potrebbe misurare."
+    },
+    {
+     "t": "h",
+     "x": "Galileo Galilei (1564–1642)"
+    },
+    {
+     "t": "p",
+     "x": "Scienziato di Pisa: ha introdotto il metodo sperimentale. Per questo è considerato il <b>fondatore della scienza moderna</b>."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Con Copernico sosteneva che è la Terra a girare intorno al Sole. Per queste idee fu processato."
+    }
+   ]
+  },
+  {
+   "sezione": "Il metodo",
+   "titolo": "Le 6 tappe del metodo",
+   "blocchi": [
+    {
+     "t": "svg",
+     "viewBox": "0 0 345 432",
+     "alt": "Le sei tappe del metodo sperimentale",
+     "body": "<rect x=\"10\" y=\"8\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"34\" r=\"15\" class=\"f-purple\"/><text x=\"34\" y=\"40\" text-anchor=\"middle\" class=\"b f-paper\">1</text><text x=\"58\" y=\"30\" text-anchor=\"start\" class=\"b\">Osservare</text><text x=\"58\" y=\"50\" text-anchor=\"start\" class=\"sm f-muted\">guardo e faccio una domanda</text><line x1=\"135\" y1=\"60\" x2=\"135\" y2=\"76\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"78\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"104\" r=\"15\" class=\"f-purple\"/><text x=\"34\" y=\"110\" text-anchor=\"middle\" class=\"b f-paper\">2</text><text x=\"58\" y=\"100\" text-anchor=\"start\" class=\"b\">Documentarsi</text><text x=\"58\" y=\"120\" text-anchor=\"start\" class=\"sm f-muted\">cerco informazioni</text><line x1=\"135\" y1=\"130\" x2=\"135\" y2=\"146\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"148\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"174\" r=\"15\" class=\"f-purple\"/><text x=\"34\" y=\"180\" text-anchor=\"middle\" class=\"b f-paper\">3</text><text x=\"58\" y=\"170\" text-anchor=\"start\" class=\"b\">Formulare un’ipotesi</text><text x=\"58\" y=\"190\" text-anchor=\"start\" class=\"sm f-muted\">provo a spiegare</text><line x1=\"135\" y1=\"200\" x2=\"135\" y2=\"216\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"218\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"244\" r=\"15\" class=\"f-purple\"/><text x=\"34\" y=\"250\" text-anchor=\"middle\" class=\"b f-paper\">4</text><text x=\"58\" y=\"240\" text-anchor=\"start\" class=\"b\">Sperimentare</text><text x=\"58\" y=\"260\" text-anchor=\"start\" class=\"sm f-muted\">faccio esperimenti e misure</text><line x1=\"135\" y1=\"270\" x2=\"135\" y2=\"286\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"288\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-purple s-purple\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"314\" r=\"15\" class=\"f-purple\"/><text x=\"34\" y=\"320\" text-anchor=\"middle\" class=\"b f-paper\">5</text><text x=\"58\" y=\"310\" text-anchor=\"start\" class=\"b\">Trarre le conclusioni</text><text x=\"58\" y=\"330\" text-anchor=\"start\" class=\"sm f-muted\">l’ipotesi era giusta?</text><line x1=\"135\" y1=\"340\" x2=\"135\" y2=\"356\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><rect x=\"10\" y=\"358\" width=\"278\" height=\"52\" rx=\"10\" class=\"t-green s-green\" fill=\"\" stroke-width=\"2.5\"/><circle cx=\"34\" cy=\"384\" r=\"15\" class=\"f-green\"/><text x=\"34\" y=\"390\" text-anchor=\"middle\" class=\"b f-paper\">6</text><text x=\"58\" y=\"380\" text-anchor=\"start\" class=\"b\">Condividere i risultati</text><text x=\"58\" y=\"400\" text-anchor=\"start\" class=\"sm f-muted\">lo racconto agli altri</text><path d=\"M288,314 H310 V174 H296\" fill=\"none\" class=\"s-red\" stroke-width=\"3\" stroke-dasharray=\"7 5\" marker-end=\"url(#a-red)\"/><text x=\"328\" y=\"250.0\" text-anchor=\"middle\" class=\"f-red big\">✗</text><text x=\"296\" y=\"390\" text-anchor=\"start\" class=\"f-green big\">✓</text>"
+    },
+    {
+     "t": "hl",
+     "x": "Se l’ipotesi è sbagliata, si cambia e si torna alla tappa 3."
+    },
+    {
+     "t": "hl",
+     "x": "Se è giusta, si condivide. Può diventare una legge."
+    }
+   ]
+  },
+  {
+   "sezione": "Il metodo",
+   "titolo": "Le tappe in pratica",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Il cellulare di Alice non si accende."
+    },
+    {
+     "t": "sym",
+     "simbolo": "1",
+     "x": "<b>Osservare</b>: lo schermo resta nero. Perché?"
+    },
+    {
+     "t": "sym",
+     "simbolo": "2",
+     "x": "<b>Documentarsi</b>: cerco informazioni sul problema."
+    },
+    {
+     "t": "sym",
+     "simbolo": "3",
+     "x": "<b>Ipotesi</b>: forse la batteria è scarica."
+    },
+    {
+     "t": "sym",
+     "simbolo": "4",
+     "x": "<b>Sperimentare</b>: lo collego al caricabatterie."
+    },
+    {
+     "t": "sym",
+     "simbolo": "5",
+     "x": "<b>Conclusioni</b>: si riaccende, l’ipotesi era giusta!"
+    },
+    {
+     "t": "sym",
+     "simbolo": "6",
+     "x": "<b>Condividere</b>: lo racconto, così altri sanno cosa fare."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Le grandezze fisiche",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Una <b>grandezza fisica</b> è una caratteristica che si può <b>misurare</b>."
+    },
+    {
+     "t": "p",
+     "x": "La massa di un cane è una grandezza. La sua bellezza no: non si misura con uno strumento."
+    },
+    {
+     "t": "tbl",
+     "righe": [
+      [
+       "Altezza di una persona",
+       "✓ sì"
+      ],
+      [
+       "Durata di un film",
+       "✓ sì"
+      ],
+      [
+       "Capienza di uno zaino",
+       "✓ sì (volume)"
+      ],
+      [
+       "Bellezza di un dipinto",
+       "✗ no"
+      ],
+      [
+       "Stanchezza",
+       "✗ no"
+      ],
+      [
+       "Fedeltà di un amico",
+       "✗ no"
+      ]
+     ],
+     "intestazione": [
+      "Caratteristica",
+      "Grandezza?"
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "Trucco: c’è uno strumento che la misura? Allora è una grandezza."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Fondamentali e derivate",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Fondamentali",
+      "x": [
+       "Si misurano da sole, confrontandole con un campione.",
+       "lunghezza, massa, tempo, temperatura"
+      ]
+     },
+     "b": {
+      "titolo": "Derivate",
+      "x": [
+       "Si ottengono <b>combinando</b> le fondamentali.",
+       "velocità, area, volume"
+      ]
+     }
+    },
+    {
+     "t": "h",
+     "x": "Esempio: il ghepardo"
+    },
+    {
+     "t": "p",
+     "x": "Corre 28 metri (lunghezza) in 1 secondo (tempo)."
+    },
+    {
+     "t": "p",
+     "stile": "big-eq",
+     "x": "velocità = 28 m/s"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "L’area e il volume sono derivate perché nascono da più lunghezze."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Che cosa vuol dire misurare",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Misurare</b> = contare quante volte l’<b>unità di misura</b> sta dentro la grandezza."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 170",
+     "alt": "l uguale 16 centimetri spiegato",
+     "body": "<text x=\"170\" y=\"62\" text-anchor=\"middle\" class=\"huge\">l = 16 cm</text><line x1=\"60\" y1=\"120\" x2=\"103\" y2=\"74\" class=\"s-blue\" stroke-width=\"2.5\" marker-end=\"url(#a-blue)\"/><text x=\"58\" y=\"140\" text-anchor=\"middle\" class=\"f-blue b\">grandezza</text><text x=\"58\" y=\"158\" text-anchor=\"middle\" class=\"sm f-muted\">(lunghezza)</text><line x1=\"170\" y1=\"120\" x2=\"158\" y2=\"74\" class=\"s-orange\" stroke-width=\"2.5\" marker-end=\"url(#a-orange)\"/><text x=\"175\" y=\"140\" text-anchor=\"middle\" class=\"f-orange b\">numero</text><text x=\"175\" y=\"158\" text-anchor=\"middle\" class=\"sm f-muted\">quante volte</text><line x1=\"285\" y1=\"120\" x2=\"240\" y2=\"74\" class=\"s-green\" stroke-width=\"2.5\" marker-end=\"url(#a-green)\"/><text x=\"290\" y=\"140\" text-anchor=\"middle\" class=\"f-green b\">unità</text><text x=\"290\" y=\"158\" text-anchor=\"middle\" class=\"sm f-muted\">di misura</text>"
+    },
+    {
+     "t": "hl",
+     "x": "Scrivi sempre il numero E l’unità di misura."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Misura diretta",
+      "x": [
+       "Confronto subito con lo strumento.",
+       {
+        "stile": "muted",
+        "x": "righello, termometro"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Misura indiretta",
+      "x": [
+       "La <b>calcolo</b> usando altre misure.",
+       {
+        "stile": "muted",
+        "x": "area = base × altezza"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Errori e media",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Ogni misura ha un piccolo <b>errore</b> (i nostri sensi, lo strumento). Per ridurlo si misura <b>tante volte</b> e si fa la <b>media</b>."
+    },
+    {
+     "t": "tbl",
+     "righe": [
+      [
+       "Tempi (s)",
+       "13",
+       "12",
+       "11",
+       "13",
+       "12",
+       "12",
+       "12",
+       "11",
+       "13",
+       "12"
+      ]
+     ],
+     "intestazioneRighe": true
+    },
+    {
+     "t": "sym",
+     "simbolo": "1",
+     "x": "<b>Somma</b> tutto: 121 s"
+    },
+    {
+     "t": "sym",
+     "simbolo": "2",
+     "x": "<b>Conta</b> le misure: 10"
+    },
+    {
+     "t": "sym",
+     "simbolo": "3",
+     "x": "<b>Dividi</b>: 121 : 10 = <b>12,1 s</b>"
+    },
+    {
+     "t": "hl",
+     "x": "Più misure fai, più il risultato è preciso."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Il Sistema Internazionale (SI)",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Misurare “a spanne” o “a passi” è impreciso: ogni mano è diversa. Serve un sistema <b>uguale in tutto il mondo</b>: il <b>SI</b>, con 7 grandezze fondamentali."
+    },
+    {
+     "t": "tbl",
+     "righe": [
+      [
+       "<b>lunghezza</b>",
+       "metro",
+       "<b>m</b>"
+      ],
+      [
+       "<b>massa</b>",
+       "kilogrammo",
+       "<b>kg</b>"
+      ],
+      [
+       "<b>tempo</b>",
+       "secondo",
+       "<b>s</b>"
+      ],
+      [
+       "intensità di corrente",
+       "ampère",
+       "A"
+      ],
+      [
+       "<b>temperatura</b>",
+       "kelvin",
+       "<b>K</b>"
+      ],
+      [
+       "quantità di sostanza",
+       "mole",
+       "mol"
+      ],
+      [
+       "intensità luminosa",
+       "candela",
+       "cd"
+      ]
+     ],
+     "intestazione": [
+      "Grandezza",
+      "Unità",
+      "Simbolo"
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "Nel SI il tempo si misura in secondi, non in ore."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Nella vita di tutti i giorni la temperatura si misura in gradi Celsius (°C)."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Multipli e sottomultipli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Multipli</b>: più grandi del metro. <b>Sottomultipli</b>: più piccoli."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 220",
+     "alt": "La scala delle unità di lunghezza",
+     "body": "<rect x=\"10\" y=\"20\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"31\" y=\"43\" text-anchor=\"middle\" class=\"b\">km</text><rect x=\"56\" y=\"42\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"77\" y=\"65\" text-anchor=\"middle\" class=\"b\">hm</text><rect x=\"102\" y=\"64\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"123\" y=\"87\" text-anchor=\"middle\" class=\"b\">dam</text><rect x=\"148\" y=\"86\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-red s-red\" stroke-width=\"2\"/><text x=\"169\" y=\"109\" text-anchor=\"middle\" class=\"b\">m</text><rect x=\"194\" y=\"108\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"215\" y=\"131\" text-anchor=\"middle\" class=\"b\">dm</text><rect x=\"240\" y=\"130\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"261\" y=\"153\" text-anchor=\"middle\" class=\"b\">cm</text><rect x=\"286\" y=\"152\" width=\"42\" height=\"34\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"307\" y=\"175\" text-anchor=\"middle\" class=\"b\">mm</text><path d=\"M30,10 Q200,-10 310,150\" fill=\"none\" class=\"s-orange\" stroke-width=\"2.5\" marker-end=\"url(#a-orange)\"/><text x=\"250\" y=\"30\" text-anchor=\"middle\" class=\"f-orange b\">scendo: × 10</text><text x=\"250\" y=\"48\" text-anchor=\"middle\" class=\"f-orange sm\">a ogni gradino</text><path d=\"M300,205 Q120,215 20,70\" fill=\"none\" class=\"s-purple\" stroke-width=\"2.5\" marker-end=\"url(#a-purple)\"/><text x=\"95\" y=\"198\" text-anchor=\"middle\" class=\"f-purple b\">salgo: : 10</text>"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "1 km = 1000 m<br>1 m = 10 dm = 100 cm = 1000 mm"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Ancora più piccoli: micrometro (µm) e nanometro (nm)."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Allenati con le equivalenze",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Conta i gradini sulla scala. Scendi? Moltiplica per 10 a ogni gradino. Sali? Dividi."
+    },
+    {
+     "t": "sol",
+     "d": "51 m = … dm",
+     "r": "1 gradino giù → × 10 → <b>510 dm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "3,4 cm = … mm",
+     "r": "1 gradino giù → × 10 → <b>34 mm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "2,56 dm = … mm",
+     "r": "2 gradini giù → × 100 → <b>256 mm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "905 m = … hm",
+     "r": "2 gradini su → : 100 → <b>9,05 hm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "32,7 km = … m",
+     "r": "3 gradini giù → × 1000 → <b>32 700 m</b>"
+    },
+    {
+     "t": "sol",
+     "d": "1500 cm = … m",
+     "r": "2 gradini su → : 100 → <b>15 m</b>"
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "La notazione scientifica",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Serve a scrivere numeri <b>molto grandi</b> o <b>molto piccoli</b>:"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "un numero tra 1 e 10 × una potenza di 10"
+    },
+    {
+     "t": "h",
+     "x": "Numero grande: distanza Terra–Sole"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "1,5 × 10<sup>11</sup> m = 150 000 000 000 m"
+    },
+    {
+     "t": "p",
+     "x": "Esponente <b>positivo</b>: la virgola va a <b>destra</b> di 11 posti."
+    },
+    {
+     "t": "h",
+     "x": "Numero piccolo: granulo di polline"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "9,0 × 10<sup>−5</sup> m = 0,00009 m"
+    },
+    {
+     "t": "p",
+     "x": "Esponente <b>negativo</b>: la virgola va a <b>sinistra</b> di 5 posti."
+    }
+   ]
+  },
+  {
+   "sezione": "Misurare",
+   "titolo": "Gli strumenti di misura",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Analogico",
+      "x": [
+       "Ha una <b>scala graduata</b> con le tacche."
+      ]
+     },
+     "b": {
+      "titolo": "Digitale",
+      "x": [
+       "Ha uno <b>schermo</b> con il numero."
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-blue\">Portata</b>: il valore <b>più grande</b> che lo strumento può misurare."
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-red\">Sensibilità</b>: la variazione <b>più piccola</b> che riesce a vedere."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 132",
+     "alt": "Righello: portata e sensibilità",
+     "body": "<rect x=\"10\" y=\"20\" width=\"320\" height=\"56\" rx=\"6\" class=\"t-orange s-orange\" stroke-width=\"2\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"20\" y=\"62\" text-anchor=\"middle\" class=\"sm\">0</text><line x1=\"25\" y1=\"20\" x2=\"25\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"35\" y1=\"20\" x2=\"35\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"65\" y1=\"20\" x2=\"65\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" class=\"sm\">1</text><line x1=\"75\" y1=\"20\" x2=\"75\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"95\" y1=\"20\" x2=\"95\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"105\" y1=\"20\" x2=\"105\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"115\" y1=\"20\" x2=\"115\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"120\" y=\"62\" text-anchor=\"middle\" class=\"sm\">2</text><line x1=\"125\" y1=\"20\" x2=\"125\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"135\" y1=\"20\" x2=\"135\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"145\" y1=\"20\" x2=\"145\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"155\" y1=\"20\" x2=\"155\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"165\" y1=\"20\" x2=\"165\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"170\" y=\"62\" text-anchor=\"middle\" class=\"sm\">3</text><line x1=\"175\" y1=\"20\" x2=\"175\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"185\" y1=\"20\" x2=\"185\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"190\" y1=\"20\" x2=\"190\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"195\" y1=\"20\" x2=\"195\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"205\" y1=\"20\" x2=\"205\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"215\" y1=\"20\" x2=\"215\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"220\" y=\"62\" text-anchor=\"middle\" class=\"sm\">4</text><line x1=\"225\" y1=\"20\" x2=\"225\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"230\" y1=\"20\" x2=\"230\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"235\" y1=\"20\" x2=\"235\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"240\" y1=\"20\" x2=\"240\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"245\" y1=\"20\" x2=\"245\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"255\" y1=\"20\" x2=\"255\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"260\" y1=\"20\" x2=\"260\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"265\" y1=\"20\" x2=\"265\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"270\" y1=\"20\" x2=\"270\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"270\" y=\"62\" text-anchor=\"middle\" class=\"sm\">5</text><line x1=\"275\" y1=\"20\" x2=\"275\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"280\" y1=\"20\" x2=\"280\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"285\" y1=\"20\" x2=\"285\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"290\" y1=\"20\" x2=\"290\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"295\" y1=\"20\" x2=\"295\" y2=\"34\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"305\" y1=\"20\" x2=\"305\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"310\" y1=\"20\" x2=\"310\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"315\" y1=\"20\" x2=\"315\" y2=\"28\" class=\"s-ink\" stroke-width=\"1\"/><line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"42\" class=\"s-ink\" stroke-width=\"1\"/><text x=\"316\" y=\"62\" text-anchor=\"middle\" class=\"sm\">30</text><text x=\"292\" y=\"62\" text-anchor=\"middle\" class=\"sm\">…</text><line x1=\"20\" y1=\"100\" x2=\"318\" y2=\"100\" class=\"s-blue\" stroke-width=\"2.5\" marker-end=\"url(#a-blue)\"/><text x=\"170\" y=\"122\" text-anchor=\"middle\" class=\"f-blue b\">portata: 30 cm</text><line x1=\"20\" y1=\"14\" x2=\"25\" y2=\"14\" class=\"s-red\" stroke-width=\"3\"/><text x=\"32\" y=\"12\" text-anchor=\"start\" class=\"f-red b\">sensibilità: 1 mm</text>"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Il righello di 30 cm: portata 30 cm, sensibilità 1 mm.<br>Bilancia da cucina: portata 5000 g, sensibilità 1 g."
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Materia, corpi e sostanze",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "La <b>materia</b> è tutto ciò che <b>occupa spazio</b> (ha un volume) e <b>ha una massa</b>."
+    },
+    {
+     "t": "p",
+     "x": "Anche l’<b>aria</b> è materia: un tovagliolo dentro un barattolo capovolto nell’acqua resta asciutto, perché l’aria occupa lo spazio."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Corpo",
+      "x": [
+       "Una <b>porzione</b> di materia.",
+       {
+        "stile": "muted",
+        "x": "uno zaino, un sasso, il Sole"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Sostanza",
+      "x": [
+       "Un <b>tipo</b> di materia con proprietà sue.",
+       {
+        "stile": "muted",
+        "x": "acqua, rame, sale, ossigeno"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Massa e peso",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Massa",
+      "x": [
+       "Quanta <b>materia</b> c’è nel corpo.",
+       "Si misura in <b>kg</b>.",
+       "Strumento: <b>bilancia</b> a bracci uguali.",
+       "<b>Non cambia mai</b>, nemmeno sulla Luna."
+      ]
+     },
+     "b": {
+      "titolo": "Peso",
+      "x": [
+       "La <b>forza</b> con cui la Terra ci attira (gravità).",
+       "Si misura in <b>newton (N)</b>.",
+       "Strumento: <b>dinamometro</b> (una molla).",
+       "<b>Cambia</b>: sulla Luna è minore."
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "1 kg-peso ≈ 9,8 N"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Per questo gli astronauti sulla Luna si muovevano a balzi."
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Volume e densità",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Volume</b> = lo spazio che occupa un corpo. È una grandezza <b>derivata</b>. Si misura in <b>m³</b>."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "1 dm³ = 1 litro &nbsp; 1 cm³ = 1 ml"
+    },
+    {
+     "t": "p",
+     "x": "<b>Densità</b> = quanta massa c’è in ogni pezzetto di volume."
+    },
+    {
+     "t": "p",
+     "stile": "big-eq",
+     "x": "d = m : V"
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 200",
+     "alt": "Triangolo della densità",
+     "body": "<polygon points=\"170,10 320,190 20,190\" class=\"t-green s-green\" stroke-width=\"3\"/><line x1=\"80\" y1=\"118\" x2=\"260\" y2=\"118\" class=\"s-green\" stroke-width=\"3\"/><line x1=\"170\" y1=\"118\" x2=\"170\" y2=\"190\" class=\"s-green\" stroke-width=\"3\"/><text x=\"170\" y=\"92\" text-anchor=\"middle\" class=\"huge\">m</text><text x=\"120\" y=\"172\" text-anchor=\"middle\" class=\"huge\">d</text><text x=\"220\" y=\"172\" text-anchor=\"middle\" class=\"huge\">V</text>"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Copri con il dito quello che cerchi: d = m : V, &nbsp;m = d × V, &nbsp;V = m : d."
+    },
+    {
+     "t": "h",
+     "x": "Esempio: la biglia"
+    },
+    {
+     "t": "p",
+     "x": "Massa 20 g. Nel cilindro l’acqua sale da 150 a 158 ml → volume 8 cm³.<br><b>d = 20 : 8 = 2,5 g/cm³</b>"
+    },
+    {
+     "t": "hl",
+     "x": "Il sughero galleggia e la ceramica affonda perché hanno densità diverse."
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Proprietà estensive e intensive",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Estensive",
+      "x": [
+       "<b>Cambiano</b> se cambia la quantità.",
+       {
+        "stile": "muted",
+        "x": "massa, volume"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Intensive",
+      "x": [
+       "<b>Non cambiano</b> con la quantità.",
+       {
+        "stile": "muted",
+        "x": "densità, colore"
+       }
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "Trucco: se ne prendo di più, cambia? Sì → estensiva. No → intensiva."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Esempio con la matita: la lunghezza è estensiva, il colore è intensivo."
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Le trasformazioni della materia",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Fisica",
+      "x": [
+       "<b>Reversibile</b>: si può tornare indietro.",
+       {
+        "stile": "muted",
+        "x": "acqua → vapore → nuvole → pioggia"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Chimica",
+      "x": [
+       "<b>Irreversibile</b>: non si torna indietro. Si chiama anche <b>reazione chimica</b>.",
+       {
+        "stile": "muted",
+        "x": "chiodo di ferro → ruggine"
+       }
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "Posso tornare come prima? Sì → fisica. No → chimica."
+    }
+   ]
+  },
+  {
+   "sezione": "La materia",
+   "titolo": "Allenati: la materia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Prova a rispondere, poi tocca per vedere la soluzione."
+    },
+    {
+     "t": "sol",
+     "d": "“Il peso si misura in kg e la massa in newton.” Vero o falso?",
+     "r": "<b>Falso</b>: è il contrario. La massa si misura in <b>kg</b>, il peso in <b>newton (N)</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Il ferro che diventa ruggine è una trasformazione…",
+     "r": "<b>chimica</b>, cioè <b>irreversibile</b>: la ruggine non torna più ferro."
+    },
+    {
+     "t": "sol",
+     "d": "Un raggio di luce e un’ombra sono materia?",
+     "r": "<b>No</b>: non occupano spazio e non hanno massa. L’aria invece sì, è materia."
+    },
+    {
+     "t": "sol",
+     "d": "Un sasso ha massa 200 g e volume 75 cm³. Densità?",
+     "r": "d = m : V = 200 : 75 ≈ <b>2,67 g/cm³</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Un sasso dello stesso materiale ha massa 400 g. Volume?",
+     "r": "Stesso materiale = <b>stessa densità</b>. La massa è il doppio, quindi anche il volume: <b>150 cm³</b>.<br>(V = m : d = 400 : 2,67 ≈ 150)"
+    }
+   ]
+  },
+  {
+   "sezione": "Sostanze e miscugli",
+   "titolo": "Atomi e molecole",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "La materia è fatta di particelle piccolissime: gli <b>atomi</b>. In natura ne esistono <b>92 tipi</b>, ognuno con nome e simbolo."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Rame Cu, calcio Ca, ossigeno O, elio He. L’idea è nata con Democrito, 2400 anni fa; Dalton l’ha ripresa nel 1700."
+    },
+    {
+     "t": "p",
+     "x": "Gli atomi si uniscono e formano le <b>molecole</b>: la parte più piccola di una sostanza che ne conserva le proprietà."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 185",
+     "alt": "Molecola di acqua",
+     "body": "<circle cx=\"170\" cy=\"70\" r=\"42\" class=\"f-red\"/><text x=\"170\" y=\"80\" text-anchor=\"middle\" class=\"huge f-paper\">O</text><circle cx=\"105\" cy=\"118\" r=\"26\" class=\"t-blue s-blue\" stroke-width=\"3\"/><text x=\"105\" y=\"127\" text-anchor=\"middle\" class=\"big\">H</text><circle cx=\"235\" cy=\"118\" r=\"26\" class=\"t-blue s-blue\" stroke-width=\"3\"/><text x=\"235\" y=\"127\" text-anchor=\"middle\" class=\"big\">H</text><text x=\"170\" y=\"175\" text-anchor=\"middle\" class=\"b\">H₂O = 2 atomi di H + 1 atomo di O</text>"
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Sostanze semplici (elementi)",
+      "x": [
+       "Atomi tutti <b>uguali</b>.",
+       {
+        "stile": "muted",
+        "x": "argento Ag, ossigeno O₂"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Sostanze composte (composti)",
+      "x": [
+       "Atomi <b>diversi</b>.",
+       {
+        "stile": "muted",
+        "x": "acqua H₂O"
+       }
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "x": "<b>Formula chimica</b>: il “codice” di una sostanza, con i simboli degli atomi e quanti sono."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "O₂ &nbsp; H₂O &nbsp; CO₂"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Si leggono: o-due, acca-due-o, ci-o-due."
+    }
+   ]
+  },
+  {
+   "sezione": "Sostanze e miscugli",
+   "titolo": "I miscugli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Un <b>miscuglio</b> è fatto di più sostanze mescolate insieme. Esempi: dentifricio, caffellatte, tè."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 195",
+     "alt": "Miscuglio eterogeneo e omogeneo",
+     "body": "<path d=\"M20,20 V150 Q20,160 30,160 H130 Q140,160 140,150 V20\" fill=\"none\" class=\"s-ink\" stroke-width=\"3\"/><rect x=\"23\" y=\"60\" width=\"114\" height=\"35\" class=\"fill-oil\"/><rect x=\"23\" y=\"95\" width=\"114\" height=\"62\" class=\"t-blue\"/><text x=\"80\" y=\"185\" text-anchor=\"middle\" class=\"f-orange b\">eterogeneo</text><text x=\"80\" y=\"85\" text-anchor=\"middle\" class=\"sm\">olio</text><text x=\"80\" y=\"135\" text-anchor=\"middle\" class=\"sm\">acqua</text><path d=\"M200,20 V150 Q200,160 210,160 H310 Q320,160 320,150 V20\" fill=\"none\" class=\"s-ink\" stroke-width=\"3\"/><rect x=\"203\" y=\"60\" width=\"114\" height=\"97\" class=\"fill-tea\"/><text x=\"260\" y=\"185\" text-anchor=\"middle\" class=\"f-green b\">omogeneo</text><text x=\"260\" y=\"115\" text-anchor=\"middle\" class=\"sm f-paper\">tè</text>"
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Eterogeneo",
+      "x": [
+       "Vedi le parti diverse a <b>occhio nudo</b>.",
+       {
+        "stile": "muted",
+        "x": "rocce, fumo, schiuma, latte"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Omogeneo",
+      "x": [
+       "Sembra <b>tutto uguale</b> in ogni punto.",
+       {
+        "stile": "muted",
+        "x": "aria, tè, caffè, bronzo"
+       }
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "x": "Per separare acqua e olio si usa la loro diversa <b>densità</b>: l’olio sta sopra, l’acqua esce per prima dal foro sotto."
+    }
+   ]
+  },
+  {
+   "sezione": "Sostanze e miscugli",
+   "titolo": "Le soluzioni",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Una <b>soluzione</b> è un miscuglio omogeneo."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 170",
+     "alt": "Soluto più solvente uguale soluzione",
+     "body": "<path d=\"M20,110 Q55,60 90,110 z\" class=\"f-red\"/><text x=\"55\" y=\"140\" text-anchor=\"middle\" class=\"f-red b\">soluto</text><text x=\"55\" y=\"158\" text-anchor=\"middle\" class=\"sm f-muted\">(zucchero)</text><text x=\"112\" y=\"100\" text-anchor=\"middle\" class=\"huge\">+</text><rect x=\"135\" y=\"55\" width=\"70\" height=\"60\" rx=\"6\" class=\"t-blue s-blue\" stroke-width=\"2\"/><text x=\"170\" y=\"140\" text-anchor=\"middle\" class=\"f-blue b\">solvente</text><text x=\"170\" y=\"158\" text-anchor=\"middle\" class=\"sm f-muted\">(acqua)</text><text x=\"225\" y=\"100\" text-anchor=\"middle\" class=\"huge\">=</text><rect x=\"248\" y=\"55\" width=\"80\" height=\"60\" rx=\"6\" class=\"t-red s-red\" stroke-width=\"2\"/><text x=\"288\" y=\"140\" text-anchor=\"middle\" class=\"f-red b\">soluzione</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>Solvente</b>: c’è in quantità maggiore. <b>Soluto</b>: si scioglie dentro."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Acqua del mare: l’acqua è il solvente, i sali sono i soluti."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Diluita",
+      "x": [
+       "Poco soluto."
+      ]
+     },
+     "b": {
+      "titolo": "Concentrata",
+      "x": [
+       "Molto soluto."
+      ]
+     }
+    },
+    {
+     "t": "h",
+     "x": "La concentrazione"
+    },
+    {
+     "t": "p",
+     "x": "25 g di zucchero + 475 g di acqua = 500 g di soluzione."
+    },
+    {
+     "t": "p",
+     "stile": "big-eq",
+     "x": "25 : 500 = 0,05 = 5%"
+    },
+    {
+     "t": "hl",
+     "x": "Satura: il solvente non riesce a sciogliere altro soluto, che resta sul fondo."
+    }
+   ]
+  },
+  {
+   "sezione": "Sostanze e miscugli",
+   "titolo": "Allenati: sostanze e miscugli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Prova a rispondere, poi tocca per vedere la soluzione."
+    },
+    {
+     "t": "sol",
+     "d": "Una roccia è un miscuglio omogeneo o eterogeneo?",
+     "r": "<b>Eterogeneo</b>: si vedono a occhio nudo pezzi diversi."
+    },
+    {
+     "t": "sol",
+     "d": "Omogeneo o eterogeneo? Acqua salata, farina e zucchero, aceto e olio, aria",
+     "r": "Acqua salata: <b>omogeneo</b>. Farina e zucchero: <b>eterogeneo</b>. Aceto e olio: <b>eterogeneo</b>. Aria: <b>omogeneo</b>."
+    },
+    {
+     "t": "sol",
+     "d": "“Il carbonio è un composto chimico.” Vero o falso?",
+     "r": "<b>Falso</b>: il carbonio è un <b>elemento</b>, fatto di un solo tipo di atomo."
+    },
+    {
+     "t": "sol",
+     "d": "40 g di zucchero in 160 g di acqua: soluto e solvente?",
+     "r": "Soluto: <b>zucchero</b>. Solvente: <b>acqua</b> (c’è in quantità maggiore)."
+    },
+    {
+     "t": "sol",
+     "d": "Qual è la concentrazione di questa soluzione?",
+     "r": "1. Soluzione = 40 + 160 = <b>200 g</b><br>2. 40 : 200 = 0,2<br>3. 0,2 = <b>20%</b>"
+    },
+    {
+     "t": "hl",
+     "x": "Concentrazione: dividi per la soluzione INTERA (soluto + solvente), non solo per l’acqua."
+    }
+   ]
+  },
+  {
+   "sezione": "Quaderno",
+   "titolo": "Quaderno: che cos’è la scienza",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Questa parte l’hai già scritta. Sistema solo così:"
+    },
+    {
+     "t": "p",
+     "x": "✏️ “le discipline che <b>studiano</b> la natura” (non “studiamo”)"
+    },
+    {
+     "t": "p",
+     "x": "✏️ <b>Chimica</b> = studia le sostanze e i materiali"
+    },
+    {
+     "t": "p",
+     "x": "✏️ <b>Fisica</b> = studia <b>come</b> si muovono i corpi e come si trasforma l’energia"
+    },
+    {
+     "t": "h",
+     "x": "Dividi in due gruppi"
+    },
+    {
+     "t": "p",
+     "x": "<b>Scienze fisiche</b> (materia non vivente): chimica, fisica, astronomia, scienze della Terra."
+    },
+    {
+     "t": "p",
+     "x": "<b>Scienze biologiche</b> (esseri viventi): zoologia, botanica, microbiologia."
+    },
+    {
+     "t": "riquadro",
+     "x": "Metodo sperimentale → Galileo<br>1 Osservare → 2 Documentarsi →<br>3 Ipotesi → 4 Sperimentare →<br>5 Conclusioni → 6 Condividere"
+    }
+   ]
+  },
+  {
+   "sezione": "Quaderno",
+   "titolo": "Quaderno: misurare le grandezze",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Grandezza fisica</b>: proprietà che si può misurare."
+    },
+    {
+     "t": "p",
+     "x": "<b>Misurare</b>: contare quante volte l’unità di misura sta nella grandezza (l = 16 cm)."
+    },
+    {
+     "t": "p",
+     "x": "<b>Fondamentali</b>: lunghezza (m), massa (kg), tempo (s).<br><b>Derivate</b>: velocità, area, volume."
+    },
+    {
+     "t": "p",
+     "x": "<b>Diretta</b>: con lo strumento. <b>Indiretta</b>: con un calcolo."
+    },
+    {
+     "t": "p",
+     "x": "<b>Media</b>: somma delle misure : numero delle misure."
+    },
+    {
+     "t": "p",
+     "x": "<b>Portata</b>: valore più grande. <b>Sensibilità</b>: valore più piccolo."
+    },
+    {
+     "t": "riquadro",
+     "x": "km → hm → dam → m → dm → cm → mm<br>scendo × 10 &nbsp; salgo : 10"
+    }
+   ]
+  },
+  {
+   "sezione": "Quaderno",
+   "titolo": "Quaderno: la materia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Materia</b>: occupa spazio (volume) e ha una massa."
+    },
+    {
+     "t": "p",
+     "x": "<b>Corpo</b>: porzione di materia. <b>Sostanza</b>: tipo di materia."
+    },
+    {
+     "t": "p",
+     "x": "<b>Massa</b>: kg, bilancia, non cambia mai.<br><b>Peso</b>: newton (N), dinamometro, sulla Luna è minore."
+    },
+    {
+     "t": "p",
+     "x": "<b>Densità</b>: d = m : V"
+    },
+    {
+     "t": "p",
+     "x": "<b>Estensive</b>: massa, volume. <b>Intensive</b>: densità, colore."
+    },
+    {
+     "t": "riquadro",
+     "x": "Fisica = reversibile (acqua → vapore)<br>Chimica = irreversibile (ferro → ruggine)"
+    }
+   ]
+  },
+  {
+   "sezione": "Quaderno",
+   "titolo": "Quaderno: sostanze e miscugli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "La materia è fatta di <b>atomi</b> (92 tipi), che formano le <b>molecole</b>."
+    },
+    {
+     "t": "p",
+     "x": "<b>Elementi</b>: un solo tipo di atomo (Ag). <b>Composti</b>: atomi diversi (H₂O)."
+    },
+    {
+     "t": "p",
+     "x": "<b>Miscuglio</b>: più sostanze mescolate."
+    },
+    {
+     "t": "p",
+     "x": "<b>Eterogeneo</b>: vedi le parti (roccia). <b>Omogeneo</b>: tutto uguale (aria, tè)."
+    },
+    {
+     "t": "p",
+     "x": "<b>Soluzione</b> = soluto + solvente.<br><b>Concentrazione</b> = soluto : soluzione."
+    },
+    {
+     "t": "riquadro",
+     "x": "zucchero + acqua = acqua zuccherata<br>(soluto) &nbsp; (solvente) &nbsp; (soluzione)"
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: il metodo",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa significa la parola “scienza”?",
+     "r": "Viene dal latino <i>scientia</i>, “conoscenza”. Oggi indica le discipline che studiano la natura con il <b>metodo scientifico sperimentale</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Come si dividono le scienze naturali?",
+     "r": "In <b>fisiche</b> (materia non vivente: chimica, fisica, astronomia, scienze della Terra) e <b>biologiche</b> (esseri viventi: zoologia, botanica, microbiologia)."
+    },
+    {
+     "t": "sol",
+     "d": "Perché Galileo è il fondatore della scienza moderna?",
+     "r": "Perché ha introdotto il <b>metodo sperimentale</b>: spiegare i fenomeni con esperimenti, misure e matematica."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono le tappe del metodo scientifico?",
+     "r": "1 Osservare, 2 Documentarsi, 3 Formulare un’ipotesi, 4 Sperimentare, 5 Trarre le conclusioni, 6 Condividere i risultati."
+    },
+    {
+     "t": "sol",
+     "d": "Qual è la parte più innovativa del metodo?",
+     "r": "Gli <b>esperimenti</b>, con misure che chiunque può ripetere."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa succede se l’ipotesi è sbagliata?",
+     "r": "Si <b>cambia l’ipotesi</b> e si ricomincia dalla tappa 3."
+    },
+    {
+     "t": "sol",
+     "d": "Perché è importante condividere i risultati?",
+     "r": "Così gli altri scienziati possono <b>capire</b>, <b>ripetere</b> l’esperimento e <b>verificare</b> le conclusioni."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: le misure",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una grandezza fisica? Fai un esempio.",
+     "r": "Una proprietà che si può <b>misurare</b>: lunghezza, massa, tempo, temperatura. La bellezza no."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra grandezza fondamentale e derivata?",
+     "r": "La <b>fondamentale</b> si misura da sola (lunghezza). La <b>derivata</b> si ottiene combinando le fondamentali (velocità = lunghezza : tempo)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa significa misurare?",
+     "r": "Confrontare la grandezza con l’<b>unità di misura</b> e contare quante volte ci sta."
+    },
+    {
+     "t": "sol",
+     "d": "Misura diretta o indiretta: l’area di un banco?",
+     "r": "<b>Indiretta</b>: si calcola base × altezza."
+    },
+    {
+     "t": "sol",
+     "d": "Calcola la media di 13 s, 12 s, 11 s.",
+     "r": "13 + 12 + 11 = 36 → 36 : 3 = <b>12 s</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il Sistema Internazionale?",
+     "r": "Il sistema di unità di misura usato in <b>tutto il mondo</b>, con 7 grandezze fondamentali (metro, kilogrammo, secondo…)."
+    },
+    {
+     "t": "sol",
+     "d": "2,5 m = … cm &nbsp; 3 km = … m &nbsp; 450 mm = … cm",
+     "r": "<b>250 cm</b> &nbsp; <b>3000 m</b> &nbsp; <b>45 cm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Portata e sensibilità del tuo righello?",
+     "r": "Portata: <b>30 cm</b> (o 20 cm). Sensibilità: <b>1 mm</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra strumento analogico e digitale?",
+     "r": "<b>Analogico</b>: scala graduata con tacche. <b>Digitale</b>: schermo con il numero."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: la materia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la materia?",
+     "r": "Tutto ciò che <b>occupa spazio</b> (volume) e <b>ha una massa</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra corpo e sostanza?",
+     "r": "<b>Corpo</b>: una porzione di materia (un sasso). <b>Sostanza</b>: un tipo di materia (il rame)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa differenzia massa e peso?",
+     "r": "Massa: quantità di materia, in <b>kg</b>, non cambia. Peso: forza di gravità, in <b>newton</b>, cambia (sulla Luna è minore)."
+    },
+    {
+     "t": "sol",
+     "d": "Calcola la densità: massa 60 g, volume 20 cm³.",
+     "r": "d = 60 : 20 = <b>3 g/cm³</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Perché il sughero galleggia e la ceramica affonda?",
+     "r": "Perché hanno <b>densità diverse</b>."
+    },
+    {
+     "t": "sol",
+     "d": "In una matita, trova una proprietà estensiva e una intensiva.",
+     "r": "Estensiva: <b>lunghezza</b> o massa. Intensiva: <b>colore</b> o densità."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra trasformazione fisica e chimica?",
+     "r": "<b>Fisica</b>: reversibile (ghiaccio → acqua). <b>Chimica</b>: irreversibile (ferro → ruggine)."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: sostanze e miscugli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Da che cosa è formata la materia?",
+     "r": "Da particelle piccolissime, gli <b>atomi</b>. In natura ce ne sono <b>92 tipi</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una molecola?",
+     "r": "La parte più piccola di una sostanza che ne conserva le proprietà. È fatta di atomi uniti."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra elemento e composto?",
+     "r": "<b>Elemento</b>: un solo tipo di atomo (argento, ossigeno). <b>Composto</b>: atomi diversi (acqua H₂O)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è un miscuglio? Di che tipi?",
+     "r": "Più sostanze mescolate. <b>Eterogeneo</b> (vedi le parti) o <b>omogeneo</b> (sembra tutto uguale)."
+    },
+    {
+     "t": "sol",
+     "d": "Nell’acqua zuccherata, chi è il soluto e chi il solvente?",
+     "r": "Soluto: <b>zucchero</b>. Solvente: <b>acqua</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una soluzione satura?",
+     "r": "Quando il solvente non scioglie più soluto, che resta sul fondo."
+    },
+    {
+     "t": "sol",
+     "d": "10 g di sale in 90 g di acqua: concentrazione?",
+     "r": "Soluzione = 10 + 90 = 100 g → 10 : 100 = <b>10%</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Come separi acqua e olio?",
+     "r": "Sfruttando la diversa <b>densità</b>: l’olio sta sopra, l’acqua esce prima dal foro sotto."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "Misura INDIRETTA = si calcola da altre misure (non “diretta”)."
+    },
+    {
+     "t": "hl",
+     "x": "Il volume è una grandezza DERIVATA."
+    },
+    {
+     "t": "hl",
+     "x": "Nel SI il tempo si misura in SECONDI."
+    },
+    {
+     "t": "hl",
+     "x": "L’ipotesi NON è una spiegazione definitiva: va verificata."
+    },
+    {
+     "t": "hl",
+     "x": "I risultati si condividono DOPO gli esperimenti."
+    },
+    {
+     "t": "hl",
+     "x": "Massa ≠ peso: la massa è in kg, il peso in newton."
+    },
+    {
+     "t": "hl",
+     "x": "Una roccia è un miscuglio ETEROGENEO."
+    },
+    {
+     "t": "hl",
+     "x": "Ferro → ruggine: trasformazione CHIMICA (irreversibile)."
+    },
+    {
+     "t": "hl",
+     "x": "Il carbonio è un ELEMENTO, non un composto."
+    },
+    {
+     "t": "hl",
+     "x": "Concentrazione: dividi per soluto + solvente."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

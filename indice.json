@@ -46,6 +46,36 @@
         "schema": true,
         "verifiche": 0
       }
+    },
+    {
+      "materia": "scienze",
+      "cartella": "metodo-misure-materia",
+      "titolo": "Il metodo della scienza, le misure e la materia",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 0
+      }
+    },
+    {
+      "materia": "musica",
+      "cartella": "suono-pentagramma-note",
+      "titolo": "Il suono, il pentagramma, le note e la loro durata",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 0
+      }
+    },
+    {
+      "materia": "geografia",
+      "cartella": "immagini-clima-ambienti",
+      "titolo": "Le immagini, il clima e gli ambienti d’Italia",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 0
+      }
     }
   ]
 }

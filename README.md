@@ -95,3 +95,4 @@ npm run serve      # http://localhost:8080
   `assets/font/NOTO-MUSIC-LICENSE.txt`.
 - I testi dei ripassi sono scritti con parole proprie: non sono copiati dai
   libri di testo.
+- L’icona dell’app è stata fornita da chi gestisce il progetto.

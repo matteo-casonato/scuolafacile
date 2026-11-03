@@ -1,7 +1,7 @@
 /* Scuola facile — service worker: dopo la prima apertura l'app funziona offline.
    Cambia VERSIONE a ogni pubblicazione per far scaricare i file nuovi. */
 
-const VERSIONE = 'sf-3';
+const VERSIONE = 'sf-4';
 const GUSCIO = `${VERSIONE}-guscio`;
 const CONTENUTI = `${VERSIONE}-contenuti`;
 
@@ -34,6 +34,7 @@ const FILE = [
   'assets/icone/icon-512.png',
   'assets/icone/icon-maskable-512.png',
   'assets/icone/apple-touch-icon.png',
+  'assets/icone/logo.png',
 ];
 
 self.addEventListener('install', e => {

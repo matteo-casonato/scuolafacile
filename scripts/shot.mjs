@@ -35,8 +35,11 @@ for (const tema of ['light', 'dark']) {
       const sl = document.querySelectorAll('.slide');
       sl.forEach((s, j) => s.classList.toggle('nascosta', j !== k));
       document.querySelectorAll('details').forEach(d => { d.open = true; });
-      /* la testata la aggiorna di solito deck.js: qui la sistemiamo a mano */
-      document.body.className = 'c-' + sl[k].dataset.col;
+      /* la testata la aggiorna di solito deck.js: qui la sistemiamo a mano.
+         Solo la classe del colore: le altre tengono in piedi il layout. */
+      ['ink','blue','green','orange','purple','red','teal']
+        .forEach(c => document.body.classList.remove('c-' + c));
+      document.body.classList.add('c-' + sl[k].dataset.col);
       document.getElementById('sec').textContent = sl[k].dataset.sec;
       document.getElementById('count').textContent = `Pagina ${k + 1} di ${sl.length}`;
       document.querySelectorAll('#progress span').forEach((s, j) => s.classList.toggle('now', j === k));

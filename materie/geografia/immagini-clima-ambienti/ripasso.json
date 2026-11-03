@@ -1,0 +1,671 @@
+{
+ "titolo": "Geografia facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "Immagini",
+   "colore": "blue"
+  },
+  {
+   "nome": "Il clima",
+   "colore": "orange"
+  },
+  {
+   "nome": "Climi d’Italia",
+   "colore": "purple"
+  },
+  {
+   "nome": "Ambienti",
+   "colore": "green"
+  },
+  {
+   "nome": "Domande",
+   "colore": "red"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Geografia facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso per la verifica di geografia."
+    },
+    {
+     "t": "h",
+     "x": "Cosa c’è da studiare"
+    },
+    {
+     "t": "check",
+     "x": [
+      "Quali <b>immagini</b> usiamo in geografia (pp. 29–30)",
+      "Che cos’è il <b>clima</b> (pp. 46–47)",
+      "Quali <b>climi</b> abbiamo in Italia (pp. 80–81)",
+      "Quali <b>ambienti naturali</b> abbiamo in Italia (pp. 82–84)"
+     ]
+    },
+    {
+     "t": "h",
+     "x": "Per ogni esercizio fai così"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> la consegna due volte.",
+      "<b>Sottolinea</b> le parole importanti: “un solo”, “non”, “distinti”…",
+      "<b>Disegna</b>, se puoi. Anche un disegno piccolo aiuta."
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Immagini",
+   "titolo": "Le immagini in geografia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Foto</b> e <b>filmati</b> (come i documentari) ci avvicinano a luoghi lontani e ci fanno conoscere popoli e abitudini diverse."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 196",
+     "alt": "Immagini dal basso, dall’alto, dallo spazio",
+     "body": "<rect x=\"10\" y=\"10\" width=\"320\" height=\"50\" rx=\"10\" class=\"t-blue s-blue\" stroke-width=\"2.5\"/><text x=\"24\" y=\"32\" text-anchor=\"start\" class=\"b f-blue\">dal basso</text><text x=\"24\" y=\"51\" text-anchor=\"start\" class=\"sm\">foto panoramica, macro, time-lapse</text><rect x=\"10\" y=\"72\" width=\"320\" height=\"50\" rx=\"10\" class=\"t-green s-green\" stroke-width=\"2.5\"/><text x=\"24\" y=\"94\" text-anchor=\"start\" class=\"b f-green\">dall’alto</text><text x=\"24\" y=\"113\" text-anchor=\"start\" class=\"sm\">foto aeree: aerei, elicotteri, droni</text><rect x=\"10\" y=\"134\" width=\"320\" height=\"50\" rx=\"10\" class=\"t-purple s-purple\" stroke-width=\"2.5\"/><text x=\"24\" y=\"156\" text-anchor=\"start\" class=\"b f-purple\">dallo spazio</text><text x=\"24\" y=\"175\" text-anchor=\"start\" class=\"sm\">immagini satellitari</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Immagini",
+   "titolo": "Dal basso e dall’alto",
+   "blocchi": [
+    {
+     "t": "h",
+     "x": "Dal basso"
+    },
+    {
+     "t": "p",
+     "x": "Si scatta all’altezza del suolo, con macchina fotografica o smartphone."
+    },
+    {
+     "t": "p",
+     "x": "<b>Panoramica</b>: da un punto alto, mostra un territorio ampio.<br><b>Macro</b>: un dettaglio piccolissimo (un insetto, un fiore)."
+    },
+    {
+     "t": "p",
+     "x": "<b>Time-lapse</b>: tante foto dello stesso posto a intervalli regolari, fatte scorrere veloci (circa 25 al secondo) per creare un video."
+    },
+    {
+     "t": "h",
+     "x": "Dall’alto"
+    },
+    {
+     "t": "p",
+     "x": "<b>Foto aeree</b>: da aerei o elicotteri, oppure con il <b>drone</b> (telecomandato, a eliche)."
+    },
+    {
+     "t": "p",
+     "x": "Danno una <b>visione d’insieme</b> e aiutano a controllare l’ambiente: la salute di un bosco, la crescita di una città."
+    }
+   ]
+  },
+  {
+   "sezione": "Immagini",
+   "titolo": "Dallo spazio",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "I <b>satelliti artificiali</b> girano intorno alla Terra e scattano <b>immagini satellitari</b> di zone molto grandi, come tutta l’Italia."
+    },
+    {
+     "t": "h",
+     "x": "Il telerilevamento"
+    },
+    {
+     "t": "p",
+     "x": "Vuol dire raccogliere informazioni sulla Terra <b>a distanza</b>."
+    },
+    {
+     "t": "p",
+     "x": "Si usano palloni aerostatici, aerei o satelliti con telecamere, radar e scanner."
+    },
+    {
+     "t": "hl",
+     "x": "Il satellite riceve i raggi riflessi dalla Terra e manda le informazioni a terra."
+    },
+    {
+     "t": "p",
+     "x": "Serve per: <b>previsioni del tempo</b> (meteorologia), <b>inquinamento</b>, <b>scioglimento dei ghiacci</b>, forma di continenti e isole."
+    }
+   ]
+  },
+  {
+   "sezione": "Il clima",
+   "titolo": "Clima e tempo meteorologico",
+   "blocchi": [
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Tempo meteorologico",
+      "x": [
+       "Il tempo di <b>oggi</b>, di una settimana, di un mese.",
+       {
+        "stile": "muted",
+        "x": "Lo studiano i <b>meteorologi</b>."
+       },
+       "“Oggi a Roma piove.”"
+      ]
+     },
+     "b": {
+      "titolo": "Clima",
+      "x": [
+       "Le condizioni di una zona per <b>almeno 30 anni</b>.",
+       {
+        "stile": "muted",
+        "x": "Lo studiano i <b>climatologi</b>."
+       },
+       "“A Roma gli inverni sono freddi e piovosi.”"
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "Clima ≠ tempo: il clima si ripete per tantissimi anni."
+    }
+   ]
+  },
+  {
+   "sezione": "Il clima",
+   "titolo": "Gli elementi del clima",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Il clima è fatto di 3 <b>elementi</b>:"
+    },
+    {
+     "t": "p",
+     "x": "<b>1. Temperatura</b>: quanto è calda l’aria."
+    },
+    {
+     "t": "p",
+     "x": "<b>2. Umidità e precipitazioni</b>: il vapore acqueo nell’aria, che diventa <b>pioggia</b>, <b>neve</b> o <b>grandine</b>."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Pioggia: goccioline nelle nubi che diventano pesanti e cadono. Neve: cristalli di ghiaccio, se fa molto freddo. Grandine: gocce che gelano dentro la nuvola."
+    },
+    {
+     "t": "p",
+     "x": "<b>3. Pressione atmosferica</b>: il peso dell’aria. Da lei dipendono i <b>venti</b>."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 196",
+     "alt": "Alta e bassa pressione e vento",
+     "body": "<line x1=\"10\" y1=\"150\" x2=\"330\" y2=\"150\" class=\"s-muted\" stroke-width=\"2\"/><line x1=\"80\" y1=\"140\" x2=\"80\" y2=\"40\" class=\"s-orange\" stroke-width=\"8\" marker-end=\"url(#a-orange)\"/><text x=\"80\" y=\"24\" text-anchor=\"middle\" class=\"f-orange b\">aria calda sale</text><text x=\"80\" y=\"170\" text-anchor=\"middle\" class=\"f-orange b\">BASSA pressione</text><text x=\"80\" y=\"188\" text-anchor=\"middle\" class=\"sm\">→ pioggia</text><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"140\" class=\"s-blue\" stroke-width=\"8\" marker-end=\"url(#a-blue)\"/><text x=\"260\" y=\"24\" text-anchor=\"middle\" class=\"f-blue b\">aria fredda scende</text><text x=\"260\" y=\"170\" text-anchor=\"middle\" class=\"f-blue b\">ALTA pressione</text><text x=\"260\" y=\"188\" text-anchor=\"middle\" class=\"sm\">→ sereno</text><line x1=\"235\" y1=\"110\" x2=\"105\" y2=\"110\" class=\"s-green\" stroke-width=\"4\" marker-end=\"url(#a-green)\"/><text x=\"170\" y=\"100\" text-anchor=\"middle\" class=\"f-green b\">vento</text>"
+    },
+    {
+     "t": "hl",
+     "x": "Bassa pressione = pioggia. Alta pressione = sereno."
+    }
+   ]
+  },
+  {
+   "sezione": "Il clima",
+   "titolo": "I fattori del clima",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "I <b>fattori</b> cambiano il clima da un posto all’altro:"
+    },
+    {
+     "t": "p",
+     "x": "<b>Latitudine</b>: distanza dall’Equatore. Più sei vicino, più fa caldo."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 192",
+     "alt": "Effetto della latitudine",
+     "body": "<circle cx=\"230\" cy=\"95\" r=\"70\" class=\"t-blue s-blue\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"95\" x2=\"300\" y2=\"95\" class=\"s-orange\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"230\" y=\"90\" text-anchor=\"middle\" class=\"sm f-orange\">Equatore</text><text x=\"230\" y=\"22\" text-anchor=\"middle\" class=\"sm\">Polo Nord</text><text x=\"230\" y=\"182\" text-anchor=\"middle\" class=\"sm\">Polo Sud</text><line x1=\"20\" y1=\"45\" x2=\"165\" y2=\"45\" class=\"s-orange\" stroke-width=\"4\" marker-end=\"url(#a-orange)\"/><line x1=\"20\" y1=\"95\" x2=\"150\" y2=\"95\" class=\"s-orange\" stroke-width=\"4\" marker-end=\"url(#a-orange)\"/><line x1=\"20\" y1=\"145\" x2=\"165\" y2=\"145\" class=\"s-orange\" stroke-width=\"4\" marker-end=\"url(#a-orange)\"/><text x=\"70\" y=\"88\" text-anchor=\"middle\" class=\"sm b f-red\">raggi diritti: caldo</text><text x=\"70\" y=\"40\" text-anchor=\"middle\" class=\"sm f-blue\">raggi obliqui</text><text x=\"70\" y=\"160\" text-anchor=\"middle\" class=\"sm f-blue\">raggi obliqui</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>Altitudine</b>: altezza sul mare. Più sali, più fa <b>freddo</b>."
+    },
+    {
+     "t": "p",
+     "x": "<b>Mari e grandi laghi</b>: d’estate rinfrescano, d’inverno restituiscono calore. Rendono il clima più <b>mite</b>."
+    },
+    {
+     "t": "p",
+     "x": "<b>Correnti marine calde</b>: rendono più mite il clima delle coste."
+    },
+    {
+     "t": "p",
+     "x": "<b>Rilievi</b>: le montagne fermano le nubi; dall’altra parte il clima è più <b>secco</b>."
+    }
+   ]
+  },
+  {
+   "sezione": "Climi d’Italia",
+   "titolo": "I climi d’Italia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "L’Italia ha un clima <b>temperato</b>, ma con <b>6 aree climatiche</b> diverse."
+    },
+    {
+     "t": "tbl",
+     "righe": [
+      [
+       "<b>Alpina</b>",
+       "la più <b>fredda e nevosa</b>; sotto zero d’inverno, ghiacciai e nevi perenni; estati fresche"
+      ],
+      [
+       "<b>Padana</b>",
+       "<b>continentale</b>: inverni freddi con <b>nebbie</b>, estati calde e <b>afose</b>; neve rara"
+      ],
+      [
+       "<b>Appenninica</b>",
+       "come l’alpina ma meno fredda; nevicate abbondanti"
+      ],
+      [
+       "<b>Ligure-tirrenica</b>",
+       "il Tirreno e gli Appennini la proteggono: inverni <b>miti</b>, estati calde e ventilate"
+      ],
+      [
+       "<b>Adriatica</b>",
+       "più fredda: a nord soffia la <b>bora</b>, vento gelido da nord-est"
+      ],
+      [
+       "<b>Meridionale e insulare</b>",
+       "<b>mediterraneo</b>: inverni miti, estati caldissime e secche (oltre 40 °C), <b>siccità</b>"
+      ]
+     ],
+     "intestazione": [
+      "Area",
+      "Com’è"
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Climi d’Italia",
+   "titolo": "Perché tanti climi?",
+   "blocchi": [
+    {
+     "t": "sym",
+     "simbolo": "↕",
+     "x": "L’Italia è <b>lunga</b>: va dalla latitudine dell’Europa continentale a quella vicina all’Africa."
+    },
+    {
+     "t": "sym",
+     "simbolo": "≈",
+     "x": "È una <b>penisola</b>: il mare intorno rende il clima più mite."
+    },
+    {
+     "t": "sym",
+     "simbolo": "▲",
+     "x": "Ha grandi <b>catene montuose</b>: le <b>Alpi</b> fanno da scudo contro l’aria fredda del nord; gli <b>Appennini</b> fermano le nuvole e l’effetto del mare."
+    },
+    {
+     "t": "hl",
+     "x": "Lunga + penisola + montagne = tanti climi diversi."
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "I 6 ambienti naturali",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "A ogni area climatica corrisponde un <b>ambiente naturale</b>:"
+    },
+    {
+     "t": "tbl",
+     "righe": [
+      [
+       "alpina",
+       "ambiente <b>alpino</b>"
+      ],
+      [
+       "appenninica",
+       "ambiente <b>appenninico</b>"
+      ],
+      [
+       "padana",
+       "ambiente della regione <b>padana</b>"
+      ],
+      [
+       "ligure-tirrenica",
+       "ambiente <b>ligure-tirrenico</b>"
+      ],
+      [
+       "adriatica",
+       "ambiente <b>adriatico</b>"
+      ],
+      [
+       "meridionale e insulare",
+       "ambiente <b>meridionale e insulare</b>"
+      ]
+     ],
+     "intestazione": [
+      "Area climatica",
+      "Ambiente"
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "Ambiente alpino",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "L’ambiente cambia con l’<b>altitudine</b>, a fasce:"
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 358 260",
+     "alt": "Le fasce di vegetazione in montagna",
+     "body": "<polygon points=\"20,250 170,20 320,250\" class=\"t-green s-green\" stroke-width=\"2\"/><polygon points=\"20,250 320,250 287,200 53,200\" class=\"t-green\" /><line x1=\"53\" y1=\"200\" x2=\"287\" y2=\"200\" class=\"s-muted\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><polygon points=\"53,200 287,200 248,140 92,140\" class=\"t-green\" /><line x1=\"92\" y1=\"140\" x2=\"248\" y2=\"140\" class=\"s-muted\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><polygon points=\"92,140 248,140 219,95 121,95\" class=\"t-orange\" /><line x1=\"121\" y1=\"95\" x2=\"219\" y2=\"95\" class=\"s-muted\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><polygon points=\"121,95 219,95 196,60 144,60\" class=\"t-purple\" /><line x1=\"144\" y1=\"60\" x2=\"196\" y2=\"60\" class=\"s-muted\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><polygon points=\"144,60 196,60 170,20 170,20\" class=\"t-blue\" /><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"20\" class=\"s-muted\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><text x=\"170\" y=\"240\" text-anchor=\"middle\" class=\"sm b\">latifoglie</text><text x=\"170\" y=\"180\" text-anchor=\"middle\" class=\"sm b\">conifere</text><text x=\"170\" y=\"125\" text-anchor=\"middle\" class=\"sm b\">pascoli</text><text x=\"170\" y=\"85\" text-anchor=\"middle\" class=\"sm b\">licheni</text><text x=\"170\" y=\"50\" text-anchor=\"middle\" class=\"sm b\">neve</text><text x=\"318\" y=\"205\" text-anchor=\"start\" class=\"sm f-muted\">1000 m</text><text x=\"318\" y=\"145\" text-anchor=\"end\" class=\"sm f-muted\">2000 m</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>Animali</b>: nei boschi cinghiali, cervi, caprioli, lupo, orso; tra i prati le <b>marmotte</b>; tra le rocce <b>stambecco</b> e <b>camoscio</b>. In cielo l’<b>aquila reale</b>."
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "Ambiente appenninico",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Simile all’alpino, ma <b>meno marcato</b> perché gli Appennini sono più bassi."
+    },
+    {
+     "t": "p",
+     "x": "<b>Fino a 1000 m</b>: latifoglie, <b>castagni</b> e <b>querce</b>.<br><b>Più su</b>: foreste miste di <b>abeti bianchi</b> e <b>faggi</b>.<br><b>Oltre 1500–1600 m</b>: prati, sassi e ghiaia."
+    },
+    {
+     "t": "p",
+     "x": "Cambia molto da nord a sud, perché l’Appennino è lunghissimo."
+    },
+    {
+     "t": "p",
+     "x": "<b>Animali</b>: cinghiali, caprioli, lepri, uccelli; più in alto le marmotte."
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "Ambiente padano",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "L’ambiente naturale della Pianura Padana è <b>quasi scomparso</b>."
+    },
+    {
+     "t": "p",
+     "x": "Oggi ci sono <b>campi coltivati</b> (anche il riso), <b>città</b>, <b>zone industriali</b> e <b>strade</b>."
+    },
+    {
+     "t": "p",
+     "x": "Secoli fa era coperta da fitte <b>foreste di latifoglie</b>."
+    },
+    {
+     "t": "hl",
+     "x": "Per vederlo oggi: parchi e aree protette, come il Parco del Delta del Po (Veneto ed Emilia-Romagna)."
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "Ambiente ligure-tirrenico e adriatico",
+   "blocchi": [
+    {
+     "t": "h",
+     "x": "Ligure-tirrenico"
+    },
+    {
+     "t": "p",
+     "x": "La <b>foresta mediterranea</b> è quasi sparita per il <b>disboscamento</b>."
+    },
+    {
+     "t": "p",
+     "x": "Resta la <b>macchia mediterranea</b> sulle coste a picco sul mare."
+    },
+    {
+     "t": "p",
+     "x": "In pianura vicino al mare ci sono <b>pinete piantate dall’uomo</b> (di origine antropica)."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Animali: cinghiali, caprioli, animali piccoli. Piante: agave."
+    },
+    {
+     "t": "h",
+     "x": "Adriatico"
+    },
+    {
+     "t": "p",
+     "x": "Le coste sono molto usate per il <b>turismo balneare</b>: dell’ambiente originario resta poco."
+    },
+    {
+     "t": "p",
+     "x": "Si vede ancora nei parchi, come il <b>Parco del Monte Conero</b> (Marche), con macchia e foresta mediterranea."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Piante: corbezzolo. Uccelli migratori: la pittima."
+    }
+   ]
+  },
+  {
+   "sezione": "Ambienti",
+   "titolo": "Ambiente meridionale e insulare",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "È il vero <b>ambiente mediterraneo</b>: soprattutto <b>macchia mediterranea</b>; dove l’uomo ha sfruttato meno, anche <b>foresta mediterranea</b>."
+    },
+    {
+     "t": "p",
+     "x": "Per il clima <b>caldo e secco</b> ci sono anche piante tipiche del <b>Nord Africa</b> e di zone subtropicali:"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "fichi d’India · palme · banani · agavi · buganville"
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: immagini e clima",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Perché le immagini sono importanti in geografia?",
+     "r": "Ci avvicinano a luoghi lontani e ci fanno conoscere popoli e abitudini diverse."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra foto panoramica e macro?",
+     "r": "<b>Panoramica</b>: un territorio ampio. <b>Macro</b>: un dettaglio piccolissimo."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il time-lapse?",
+     "r": "Tante foto dello stesso posto a intervalli regolari, fatte scorrere veloci per creare un video."
+    },
+    {
+     "t": "sol",
+     "d": "Con che cosa si fanno le foto aeree?",
+     "r": "Con <b>aerei</b>, <b>elicotteri</b> o <b>droni</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il telerilevamento?",
+     "r": "Raccogliere informazioni sulla Terra <b>a distanza</b>, con satelliti, aerei o palloni dotati di telecamere, radar e scanner."
+    },
+    {
+     "t": "sol",
+     "d": "A che cosa servono le immagini satellitari?",
+     "r": "Previsioni del tempo, inquinamento, scioglimento dei ghiacci, forma dei continenti."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra clima e tempo meteorologico?",
+     "r": "<b>Tempo</b>: breve periodo. <b>Clima</b>: almeno <b>30 anni</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono gli elementi del clima?",
+     "r": "<b>Temperatura</b>, <b>umidità e precipitazioni</b>, <b>pressione atmosferica</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che tempo porta l’alta pressione? E la bassa?",
+     "r": "<b>Alta</b>: sereno (aria fredda e secca). <b>Bassa</b>: pioggia (aria calda e umida)."
+    },
+    {
+     "t": "sol",
+     "d": "Come nascono i venti?",
+     "r": "Dalle <b>differenze di pressione</b> tra due zone."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono i fattori del clima?",
+     "r": "<b>Latitudine</b>, <b>altitudine</b>, vicinanza a <b>mari e grandi laghi</b>, <b>correnti marine</b>, <b>rilievi</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Perché in montagna fa più freddo?",
+     "r": "Perché più si sale, più la temperatura scende."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili: Italia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono le 6 aree climatiche italiane?",
+     "r": "<b>Alpina</b>, <b>padana</b>, <b>appenninica</b>, <b>ligure-tirrenica</b>, <b>adriatica</b>, <b>meridionale e insulare</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Perché l’Italia ha tanti climi?",
+     "r": "È <b>lunga</b> in latitudine, è una <b>penisola</b> e ha grandi <b>montagne</b> (Alpi e Appennini)."
+    },
+    {
+     "t": "sol",
+     "d": "Com’è il clima padano?",
+     "r": "<b>Continentale</b>: inverni freddi e nebbiosi, estati calde e afose."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la bora?",
+     "r": "Un <b>vento freddo</b> da nord-est che soffia sulla costa adriatica del nord."
+    },
+    {
+     "t": "sol",
+     "d": "Com’è il clima meridionale e insulare?",
+     "r": "<b>Mediterraneo</b>: inverni miti, estati molto calde e secche, rischio <b>siccità</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Come cambia la vegetazione salendo sulle Alpi?",
+     "r": "Latifoglie → <b>conifere</b> → <b>pascoli</b> (2000 m) → <b>muschi e licheni</b> (2500 m) → neve e ghiacciai."
+    },
+    {
+     "t": "sol",
+     "d": "Quali animali vivono nell’ambiente alpino?",
+     "r": "Camoscio, stambecco, marmotta, aquila reale, cervi, caprioli, lupo, orso."
+    },
+    {
+     "t": "sol",
+     "d": "Perché l’ambiente padano naturale è quasi scomparso?",
+     "r": "Al suo posto ci sono <b>campi</b>, <b>città</b>, <b>industrie</b> e <b>strade</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una pineta di origine antropica?",
+     "r": "Una pineta <b>piantata dall’uomo</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Dove si vede ancora l’ambiente adriatico originario?",
+     "r": "Nei parchi, come il <b>Parco del Monte Conero</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Quali piante tipiche ci sono al sud e nelle isole?",
+     "r": "Fichi d’India, palme, banani, agavi, buganville."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "Clima ≠ tempo: il clima riguarda almeno 30 anni."
+    },
+    {
+     "t": "hl",
+     "x": "Alta pressione = sereno. Bassa pressione = pioggia."
+    },
+    {
+     "t": "hl",
+     "x": "Più si sale di altitudine, più fa FREDDO."
+    },
+    {
+     "t": "hl",
+     "x": "Il mare rende il clima più MITE."
+    },
+    {
+     "t": "hl",
+     "x": "Pinete costiere = piantate dall’uomo (antropiche)."
+    },
+    {
+     "t": "hl",
+     "x": "L’ambiente padano naturale è quasi SCOMPARSO."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

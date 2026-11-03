@@ -1,0 +1,62 @@
+{
+ "centro": "Musica",
+ "sotto": "suono · pentagramma · note · durata",
+ "riquadri": [
+  {
+   "titolo": "Il suono",
+   "colore": "blue",
+   "voci": [
+    "Nasce da una <b>vibrazione</b> → <b>onde sonore</b>",
+    "Aria <b>340</b> m/s · liquidi <b>1500</b> · solidi <b>6000</b>",
+    "Nel <b>vuoto NO</b>",
+    "<b>Suono</b>: vibrazioni regolari, gradevole<br><b>Rumore</b>: irregolari, sgradevole",
+    "Caratteristiche: intensità (dB), altezza (Hz), durata, timbro"
+   ]
+  },
+  {
+   "titolo": "Silenzio e ascolto",
+   "colore": "blue",
+   "voci": [
+    "Il <b>silenzio assoluto</b> sulla Terra non esiste",
+    "<b>Camera anecoica</b>: assorbe il 99,99% dei suoni, max 45 minuti",
+    "<b>Sentire</b> ≠ <b>ascoltare</b> (con attenzione)",
+    "<b>John Cage</b>, <i>4’33”</i> (1952): i musicisti non suonano"
+   ]
+  },
+  {
+   "titolo": "L’orecchio",
+   "colore": "blue",
+   "x": "<p class=\"chain\">padiglione → <b>timpano</b> → <b>martello, incudine, staffa</b> → <b>coclea</b> (impulso nervoso) → nervo acustico → <b>cervello</b></p>"
+  },
+  {
+   "titolo": "Pentagramma e chiavi",
+   "colore": "orange",
+   "voci": [
+    "<b>5 righe</b> e <b>4 spazi</b>, contati dal basso",
+    "Chiave di <b>SOL</b>: 2ª riga · chiave di <b>BASSO</b>: 4ª riga",
+    "Righe: <b>MI SOL SI RE FA</b> · spazi: <b>FA LA DO MI</b>",
+    "Scala: DO RE MI FA SOL LA SI (sale = ascendente, scende = discendente)"
+   ]
+  },
+  {
+   "titolo": "Durata delle note",
+   "colore": "green",
+   "x": "<table class=\"dt\"><tr><td><svg class=\"fig\" viewBox=\"0 0 34 46\" aria-hidden=\"true\"><path d=\"M50 135Q50 172 77.0 200.0Q104 228 150.5 244.0Q197 260 253 260Q310 260 358.0 244.5Q406 229 435.0 201.0Q464 173 464 135Q464 96 436.0 67.5Q408 39 361.5 23.5Q315 8 259 8Q203 8 155.5 23.0Q108 38 79.0 66.5Q50 95 50 135ZM280 28Q314 28 326.5 53.0Q339 78 339 112Q339 147 324.5 176.0Q310 205 286.0 222.5Q262 240 232 240Q198 240 186.5 215.0Q175 190 175 156Q175 122 189.0 93.0Q203 64 226.5 46.0Q250 28 280 28Z\" transform=\"translate(8.0,38.0) scale(0.0400,-0.0400)\" class=\"gl\"/></svg></td><td><b>semibreve</b></td><td>TA-A-A-A</td><td><b>4</b></td></tr><tr><td><svg class=\"fig\" viewBox=\"0 0 34 46\" aria-hidden=\"true\"><path d=\"M323 1009H347V169Q347 137 330.5 106.5Q314 76 286.0 52.0Q258 28 225.0 13.5Q192 -1 159 -1Q111 -1 80.5 21.5Q50 44 50 90Q50 141 78.5 181.5Q107 222 153.0 245.5Q199 269 251 269Q295 269 323 247ZM77 66Q77 56 84.5 48.0Q92 40 105 40Q140 40 192 69Q227 89 255.5 113.5Q284 138 301.0 162.5Q318 187 318 204Q318 215 312.5 222.5Q307 230 293 230Q274 230 247.0 218.0Q220 206 190.5 187.0Q161 168 135.0 145.5Q109 123 93.0 102.0Q77 81 77 66Z\" transform=\"translate(8.0,38.0) scale(0.0400,-0.0400)\" class=\"gl\"/></svg></td><td><b>minima</b></td><td>TA-A</td><td><b>2</b></td></tr><tr><td><svg class=\"fig\" viewBox=\"0 0 34 46\" aria-hidden=\"true\"><path d=\"M350 1009V173Q350 130 321.5 93.0Q293 56 248.0 33.5Q203 11 153 11Q107 11 79.0 34.5Q51 58 51 98Q51 129 69.0 158.0Q87 187 116.5 210.5Q146 234 181.0 247.5Q216 261 250 261Q293 261 324 236V1009Z\" transform=\"translate(8.0,38.0) scale(0.0400,-0.0400)\" class=\"gl\"/></svg></td><td><b>semiminima</b></td><td>TA</td><td><b>1</b></td></tr><tr><td><svg class=\"fig\" viewBox=\"0 0 34 46\" aria-hidden=\"true\"><path d=\"M325 1009H351Q357 968 366.0 936.5Q375 905 392.0 875.5Q409 846 437 812Q467 777 487.0 753.5Q507 730 527 704Q564 658 581.5 609.5Q599 561 599 511Q599 407 511 259H495Q523 318 545.5 377.5Q568 437 568 491Q568 545 540 602Q512 659 461.5 698.0Q411 737 351 741V175Q351 132 323.5 94.5Q296 57 251.0 34.0Q206 11 152 11Q109 11 79.5 33.0Q50 55 50 98Q50 130 67.0 159.5Q84 189 112.0 212.0Q140 235 173.5 248.0Q207 261 241 261Q299 261 325 238Z\" transform=\"translate(8.0,38.0) scale(0.0400,-0.0400)\" class=\"gl\"/></svg></td><td><b>croma</b></td><td>TI</td><td><b>½</b></td></tr></table><ul><li>1 semibreve = 2 minime = 4 semiminime = 8 crome</li><li><b>Pausa</b> = silenzio con la stessa durata</li></ul>"
+  },
+  {
+   "titolo": "Battute",
+   "colore": "purple",
+   "voci": [
+    "<b>Battuta</b>: pezzo di pentagramma tra due <b>stanghette</b>",
+    "<b>Doppia stanghetta</b>: fine del brano",
+    "<b>4/4</b>: 4 battiti in ogni battuta"
+   ]
+  }
+ ],
+ "errori": [
+  "Righe e spazi si contano dal BASSO",
+  "Il suono NON viaggia nel vuoto",
+  "Semibreve = 4 tempi (TA-A-A-A)",
+  "Altezza = acuto/grave, intensità = forte/piano"
+ ]
+}
