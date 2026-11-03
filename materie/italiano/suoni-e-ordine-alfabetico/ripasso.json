@@ -1,0 +1,504 @@
+{
+ "titolo": "Italiano facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "I suoni",
+   "colore": "blue"
+  },
+  {
+   "nome": "Le lettere",
+   "colore": "green"
+  },
+  {
+   "nome": "Le parole",
+   "colore": "orange"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Italiano facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso: dittonghi, trittonghi e iato, digrammi e trigrammi, omografi e ordine alfabetico."
+    },
+    {
+     "t": "h",
+     "x": "Per ogni esercizio fai così"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> la consegna due volte.",
+      "<b>Sottolinea</b> le parole importanti: “tutti”, “non”, “due volte”…",
+      "<b>Dividi</b> la parola a voce alta: sentire le sillabe aiuta."
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "I suoni",
+   "titolo": "Vocali forti e vocali deboli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Per capire dittonghi e iato serve prima questa divisione."
+    },
+    {
+     "t": "sym",
+     "simbolo": "a e o",
+     "piccolo": true,
+     "x": "<b>forti</b>: si sentono bene, tengono la voce"
+    },
+    {
+     "t": "sym",
+     "simbolo": "i u",
+     "piccolo": true,
+     "x": "<b>deboli</b>: si appoggiano a un’altra vocale"
+    },
+    {
+     "t": "hl",
+     "x": "Due vocali forti vicine non stanno mai nella stessa sillaba."
+    }
+   ]
+  },
+  {
+   "sezione": "I suoni",
+   "titolo": "Il dittongo",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Il <b>dittongo</b> è l’unione di due vocali che si pronunciano con una sola emissione di voce: stanno nella <b>stessa sillaba</b>."
+    },
+    {
+     "t": "p",
+     "x": "C’è sempre una vocale <b>debole</b> (i, u) e non è accentata."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "f<b>io</b>-re &nbsp; p<b>ie</b>-de &nbsp; b<b>uo</b>-no"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "c<b>au</b>-sa &nbsp; p<b>oi</b> &nbsp; l<b>ei</b>"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "In <b>guerra</b> e <b>quadro</b> la u si pronuncia: g-u-erra, q-u-adro. Sono dittonghi."
+    },
+    {
+     "t": "hl",
+     "x": "Dittongo = due vocali, una sola sillaba."
+    }
+   ]
+  },
+  {
+   "sezione": "I suoni",
+   "titolo": "Il trittongo",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Il <b>trittongo</b> è l’unione di <b>tre</b> vocali in una sola sillaba: due deboli e una forte."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "m<b>iei</b> &nbsp; s<b>uoi</b> &nbsp; g<b>uai</b>"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "a-<b>iuo</b>-la &nbsp; q<b>uie</b>-to"
+    },
+    {
+     "t": "hl",
+     "x": "Trittongo = tre vocali, una sola sillaba."
+    }
+   ]
+  },
+  {
+   "sezione": "I suoni",
+   "titolo": "Lo iato",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Lo <b>iato</b> è quando due vocali vicine <b>si dividono</b> in due sillabe diverse."
+    },
+    {
+     "t": "h",
+     "x": "Succede in due casi"
+    },
+    {
+     "t": "p",
+     "x": "1. Le vocali sono <b>due forti</b>: le-<b>o</b>-ne, po-<b>e</b>-ta, te-<b>a</b>-tro."
+    },
+    {
+     "t": "p",
+     "x": "2. La <b>i</b> o la <b>u</b> è <b>accentata</b>: pa-<b>u</b>-ra, z<b>i</b>-o, ba-<b>u</b>-le."
+    },
+    {
+     "t": "hl",
+     "x": "Iato = due vocali, due sillabe."
+    }
+   ]
+  },
+  {
+   "sezione": "I suoni",
+   "titolo": "Allenati: dittongo, trittongo o iato?",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "fiume",
+     "r": "<b>Dittongo</b>: fiu-me, la i e la u stanno insieme."
+    },
+    {
+     "t": "sol",
+     "d": "paura",
+     "r": "<b>Iato</b>: pa-u-ra, la u è accentata."
+    },
+    {
+     "t": "sol",
+     "d": "suoi",
+     "r": "<b>Trittongo</b>: tre vocali in una sillaba sola."
+    },
+    {
+     "t": "sol",
+     "d": "oceano",
+     "r": "<b>Iato</b>: o-ce-a-no, la e e la a sono due vocali forti."
+    },
+    {
+     "t": "sol",
+     "d": "guai",
+     "r": "<b>Trittongo</b>: g<b>uai</b>, tre vocali insieme."
+    },
+    {
+     "t": "sol",
+     "d": "maestro",
+     "r": "<b>Iato</b>: ma-e-stro, due vocali forti."
+    }
+   ]
+  },
+  {
+   "sezione": "Le lettere",
+   "titolo": "Digrammi e trigrammi",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Sono gruppi di lettere che insieme fanno <b>un solo suono</b>."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Digramma",
+      "x": [
+       "<b>Due</b> lettere, un suono.",
+       {
+        "stile": "muted",
+        "x": "gn · ch · gh · sc · ci · gi"
+       },
+       {
+        "stile": "muted",
+        "x": "ba<b>gn</b>o, <b>ch</b>iave, pe<b>sc</b>e"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Trigramma",
+      "x": [
+       "<b>Tre</b> lettere, un suono.",
+       {
+        "stile": "muted",
+        "x": "gli · sci"
+       },
+       {
+        "stile": "muted",
+        "x": "fami<b>gli</b>a, <b>sci</b>arpa"
+       }
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "Un solo suono: non si possono dividere in due sillabe."
+    }
+   ]
+  },
+  {
+   "sezione": "Le lettere",
+   "titolo": "Attenzione a sc e a gli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Queste due sono le domande che fanno sbagliare."
+    },
+    {
+     "t": "h",
+     "x": "sc"
+    },
+    {
+     "t": "p",
+     "x": "<b>sc</b> è un digramma solo davanti a <b>e</b> e a <b>i</b>: <b>sc</b>ena, u<b>sc</b>ita."
+    },
+    {
+     "t": "p",
+     "x": "Davanti a <b>a</b>, <b>o</b>, <b>u</b> sono due suoni separati: na-<b>sc</b>o-sto, <b>sc</b>uola."
+    },
+    {
+     "t": "h",
+     "x": "gli"
+    },
+    {
+     "t": "p",
+     "x": "<b>gli</b> è un trigramma quando dopo c’è un’<b>altra vocale</b>: a<b>gli</b>o, fo<b>gli</b>a."
+    },
+    {
+     "t": "hl",
+     "x": "In “nascosto” sc NON è un digramma: dopo c’è la o."
+    }
+   ]
+  },
+  {
+   "sezione": "Le lettere",
+   "titolo": "gn o ni? gli o li?",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Si scrivono quasi uguali ma si sentono diversi. Prova a dirli piano."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "gn e gli",
+      "x": [
+       "Un <b>solo</b> suono.",
+       {
+        "stile": "muted",
+        "x": "ba<b>gn</b>o, compa<b>gn</b>o"
+       },
+       {
+        "stile": "muted",
+        "x": "fi<b>gli</b>o, ma<b>gli</b>a"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "ni e li",
+      "x": [
+       "<b>Due</b> suoni, si sente la i.",
+       {
+        "stile": "muted",
+        "x": "gera<b>ni</b>o, Germa<b>ni</b>a"
+       },
+       {
+        "stile": "muted",
+        "x": "o<b>li</b>o, Ita<b>li</b>a"
+       }
+      ]
+     }
+    },
+    {
+     "t": "hl",
+     "x": "Se senti la i staccata, scrivi ni oppure li."
+    }
+   ]
+  },
+  {
+   "sezione": "Le lettere",
+   "titolo": "Allenati: le lettere",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "In “pesce”, sc è un digramma?",
+     "r": "Sì: dopo c’è la <b>e</b>. Pe-<b>sc</b>e."
+    },
+    {
+     "t": "sol",
+     "d": "E in “scuola”?",
+     "r": "No: dopo c’è la <b>u</b>. Sono due suoni, scuo-la."
+    },
+    {
+     "t": "sol",
+     "d": "“foglia”: digramma o trigramma?",
+     "r": "<b>Trigramma</b> gli, perché dopo c’è la <b>a</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Si scrive geranio o geragno?",
+     "r": "<b>geranio</b>: si sente la i staccata."
+    },
+    {
+     "t": "sol",
+     "d": "Si scrive conchilia o conchiglia?",
+     "r": "<b>conchiglia</b>: un solo suono, gli."
+    }
+   ]
+  },
+  {
+   "sezione": "Le parole",
+   "titolo": "Le parole omografe",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Gli <b>omografi</b> si scrivono uguali ma hanno <b>significato diverso</b>. Cambia il suono della vocale."
+    },
+    {
+     "t": "vs",
+     "a": {
+      "titolo": "Accento aperto",
+      "x": [
+       "<b>è</b> &nbsp; <b>ò</b>",
+       {
+        "stile": "muted",
+        "x": "p<b>è</b>sca (il frutto)"
+       },
+       {
+        "stile": "muted",
+        "x": "b<b>ò</b>tte (i colpi)"
+       }
+      ]
+     },
+     "b": {
+      "titolo": "Accento chiuso",
+      "x": [
+       "<b>é</b> &nbsp; <b>ó</b>",
+       {
+        "stile": "muted",
+        "x": "p<b>é</b>sca (pescare)"
+       },
+       {
+        "stile": "muted",
+        "x": "b<b>ó</b>tte (il contenitore)"
+       }
+      ]
+     }
+    },
+    {
+     "t": "p",
+     "x": "Altri che tornano spesso: v<b>é</b>nti (il numero) e v<b>è</b>nti (il vento), l<b>é</b>gge (la regola) e l<b>è</b>gge (il verbo)."
+    },
+    {
+     "t": "hl",
+     "x": "Per scegliere l’accento, guarda che cosa vuol dire la frase."
+    }
+   ]
+  },
+  {
+   "sezione": "Le parole",
+   "titolo": "L’ordine alfabetico",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Si confrontano le parole <b>lettera per lettera</b>, finché non si trova la prima lettera diversa."
+    },
+    {
+     "t": "passi",
+     "x": [
+      "Guarda la <b>prima</b> lettera.",
+      "Se è uguale, guarda la <b>seconda</b>.",
+      "Vai avanti così finché le lettere sono diverse."
+     ]
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "con<b>t</b>adino · con<b>t</b>are · con<b>t</b>ento"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "cont-adino, cont-are, cont-ento: le prime quattro lettere sono uguali, decide la quinta: a, a, e. Fra contadino e contare decide la sesta: d viene prima di r."
+    },
+    {
+     "t": "hl",
+     "x": "Le parole più lunghe non vanno dopo: conta viene prima di contadino."
+    }
+   ]
+  },
+  {
+   "sezione": "Le parole",
+   "titolo": "Allenati: le parole",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "“Ho mangiato una pesca”: aperto o chiuso?",
+     "r": "<b>pèsca</b>, accento aperto: è il frutto."
+    },
+    {
+     "t": "sol",
+     "d": "“Il nonno va a pesca”?",
+     "r": "<b>pésca</b>, accento chiuso: è il verbo pescare."
+    },
+    {
+     "t": "sol",
+     "d": "Metti in ordine: matita, matassa, matematica",
+     "r": "<b>matassa, matematica, matita</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Viene prima “strada” o “stella”?",
+     "r": "<b>stella</b>: st-e viene prima di st-r."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "Due vocali forti vicine fanno IATO, non dittongo: po-e-ta."
+    },
+    {
+     "t": "hl",
+     "x": "sc è digramma solo davanti a e e a i: in scuola no."
+    },
+    {
+     "t": "hl",
+     "x": "gli è trigramma solo se dopo c’è un’altra vocale."
+    },
+    {
+     "t": "hl",
+     "x": "Se senti la i staccata si scrive ni o li: geranio, olio."
+    },
+    {
+     "t": "hl",
+     "x": "Nell’ordine alfabetico si guarda lettera per lettera, non la lunghezza."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

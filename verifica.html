@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verifica · Scuola facile</title>
+<meta name="theme-color" content="#fbfcfe">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icone/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icone/apple-touch-icon.png">
+<link rel="stylesheet" href="app/build.css">
+</head>
+<body class="c-ink min-h-full">
+
+<header class="solo-schermo sticky top-0 z-10 border-b border-grid bg-bar backdrop-blur">
+  <div class="mx-auto flex max-w-3xl items-center gap-2 px-2 py-2">
+    <a id="indietro" href="index.html" aria-label="Torna agli argomenti"
+       class="grid h-11 w-11 flex-none place-items-center rounded-xl text-ink no-underline">
+      <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+    </a>
+    <h1 id="nome" class="m-0 text-xl font-bold text-[color:var(--c)]">Verifiche</h1>
+    <button id="stampa" type="button" hidden
+      class="ml-auto min-h-11 rounded-xl border-2 border-grid bg-card px-4 font-bold">Stampa</button>
+  </div>
+</header>
+
+<main id="dentro"></main>
+
+<script type="module" src="app/verifica.js"></script>
+<script type="module" src="app/sw-registra.js"></script>
+</body>
+</html>

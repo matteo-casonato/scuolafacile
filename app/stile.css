@@ -374,3 +374,65 @@
   /* su carta il pulsante dell'audio non serve */
   .say,.velocita,.senza-voce{display:none!important}
 }
+
+/* ---------- verifica stampabile ----------
+   Nata per la carta: in A4 deve venire come le prove di grammatica già fatte.
+   Sullo schermo si legge lo stesso, così un genitore la controlla prima di stampare. */
+@layer components {
+  .prova{max-width:760px;margin:0 auto;padding:18px 16px 40px}
+
+  .prova-testa{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;
+    border-bottom:3px solid var(--ink);padding-bottom:10px;margin-bottom:14px;flex-wrap:wrap}
+  .prova-testa h1{font-size:26px;margin:0}
+  .prova-testa .sotto{font-size:15px;color:var(--muted)}
+  .campi{font-size:16px;line-height:2;white-space:nowrap}
+
+  .promemoria{background:var(--hl);color:var(--hl-ink);border-radius:10px;
+    padding:8px 14px;font-size:16px;margin:0 0 16px}
+
+  .esercizio{border:2px solid var(--grid);border-radius:14px;padding:12px 16px 16px;margin:0 0 14px;
+    break-inside:avoid;background:var(--card)}
+  .esercizio h2{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;
+    font-size:18px;margin:0 0 8px;text-decoration:none;color:var(--ink)}
+  .esercizio .numero{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;
+    background:var(--ink);color:var(--paper);font-size:16px;margin-right:8px;flex:none}
+  .esercizio .quanti{font-size:14px;color:var(--muted);font-weight:400;white-space:nowrap}
+  .esercizio .regola{font-size:14px;color:var(--muted);margin:0 0 8px}
+
+  .parole{display:grid;grid-template-columns:repeat(4,1fr);gap:8px 14px;font-size:19px}
+  .parole.cinque{grid-template-columns:repeat(5,1fr)}
+  .prova table{border-collapse:collapse;width:100%}
+  .prova td,.prova th{border:1.3px solid var(--grid);padding:7px 8px;font-size:17px;text-align:left}
+  .prova th{background:color-mix(in srgb, var(--ink) 7%, transparent)}
+  .riga-vuota{display:inline-block;border-bottom:1.3px solid var(--muted);min-width:28mm}
+  .riga-lunga{display:block;border-bottom:1.3px solid var(--muted);height:30px}
+  .frase{margin:6px 0;line-height:2}
+  .gruppo{margin:8px 0 2px;font-size:18px}
+  .nota{font-size:14px;color:var(--muted)}
+
+  .punteggi{width:100%;margin-top:10px}
+  .punteggi td,.punteggi th{text-align:center;font-size:15px;height:30px}
+
+  .soluzioni{break-before:page;margin-top:28px;border-top:3px dashed var(--grid);padding-top:18px}
+  .soluzioni h1{font-size:24px;margin:0 0 10px}
+  .soluzioni h2{font-size:18px;margin:14px 0 2px;text-decoration:none;color:var(--ink)}
+  .soluzioni p{margin:0 0 4px}
+}
+
+@media print{
+  @page{size:A4;margin:13mm 14mm 15mm}
+  .prova{max-width:none;padding:0}
+  .prova-testa h1{font-size:20pt}
+  .esercizio{background:#fff}
+  .solo-schermo{display:none!important}
+  .soluzioni{break-before:page;border-top:none;margin-top:0;padding-top:0}
+}
+
+/* ---------- i pulsanti della scheda di un argomento ---------- */
+@layer components {
+  .azioni{display:grid;grid-template-columns:repeat(var(--quanti,3),1fr);gap:8px;margin-top:12px}
+  .azione{display:grid;place-items:center;min-height:48px;border-radius:12px;
+    font-weight:700;font-size:16px;text-decoration:none;text-align:center;padding:4px 6px;line-height:1.15}
+  .azione.principale{background:var(--c);color:var(--paper);border:2px solid var(--c)}
+  .azione.secondaria{background:var(--card);color:var(--c);border:2px solid var(--grid)}
+}

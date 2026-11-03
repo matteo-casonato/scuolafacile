@@ -21,7 +21,9 @@ pagine, una per foglio.
 ## Come si naviga
 
 **Home** → si sceglie la **materia** → si apre l’**archivio degli argomenti** di
-quella materia → ogni argomento apre il suo **ripasso**.
+quella materia. Ogni argomento ha tre pulsanti: **Ripassa** (le pagine da
+sfogliare), **Stampa** (le stesse pagine in A4) e **Verifiche** (le prove da
+stampare, con le soluzioni su un foglio a parte).
 
 Il titolo di un argomento è l’argomento stesso, per esempio “Insiemi, grafici,
 geometria e piano cartesiano”: non ci sono date.
@@ -32,6 +34,7 @@ geometria e piano cartesiano”: non ci sono date.
 index.html        home: le materie
 materia.html      archivio degli argomenti di una materia
 ripasso.html      il ripasso digitale
+verifica.html     le prove da stampare e le loro soluzioni
 app/
   stile.css       sorgente del CSS (Tailwind v4 + classi semantiche)
   build.css       il CSS pubblicato: si genera, non si modifica a mano
@@ -39,6 +42,8 @@ app/
   materia.js      l’archivio degli argomenti
   deck.js         navigazione, “Ho capito”, progressi
   blocchi.js      rende i blocchi di contenuto
+  esercizi.js     rende gli esercizi di una prova
+  audio.js        la voce del telefono, per le lingue
   icone.js        un disegno per materia
 materie/<materia>/<cartella>/
   meta.json       materia e titolo dell’argomento

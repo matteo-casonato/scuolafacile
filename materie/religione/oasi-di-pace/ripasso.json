@@ -1,0 +1,380 @@
+{
+ "titolo": "Religione facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "Il villaggio",
+   "colore": "teal"
+  },
+  {
+   "nome": "Le parole",
+   "colore": "blue"
+  },
+  {
+   "nome": "Domande",
+   "colore": "green"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Religione facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso per la ricerca su <b>Neve Shalom – Wahat al-Salam</b>, l’Oasi di Pace."
+    },
+    {
+     "t": "h",
+     "x": "Come si fa la ricerca"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> le pagine del ripasso: lì c’è tutto quello che serve.",
+      "<b>Rispondi</b> a una domanda alla volta, con parole tue.",
+      "<b>Aggiungi</b> un disegno o una foto, e in fondo le fonti."
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "Non copiare dagli articoli: scrivi con parole tue."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "Il nome",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Neve Shalom – Wahat al-Salam</b> vuol dire <b>“Oasi di Pace”</b>."
+    },
+    {
+     "t": "p",
+     "x": "È scritto in <b>due lingue</b>: ebraico (Neve Shalom) e arabo (Wahat al-Salam)."
+    },
+    {
+     "t": "p",
+     "x": "Il nome viene dalla Bibbia, dal libro del profeta <b>Isaia</b> (32,18)."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Un’<b>oasi</b> è un luogo verde e con l’acqua in mezzo al deserto: un posto dove riposarsi e stare bene."
+    },
+    {
+     "t": "hl",
+     "x": "Il nome è in due lingue perché nel villaggio si parlano tutte e due."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "Il fondatore",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Il villaggio è stato fondato da <b>padre Bruno Hussar</b>, un frate domenicano."
+    },
+    {
+     "t": "p",
+     "x": "Era nato in <b>Egitto</b>, in una famiglia ebrea, ed è poi diventato cristiano."
+    },
+    {
+     "t": "p",
+     "x": "Ha fondato il villaggio nel <b>1972</b>."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Il suo sogno: un posto dove ebrei e palestinesi potessero vivere insieme, da pari, senza che nessuno dovesse rinunciare a quello che è."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "Dove si trova e chi ci vive",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Il villaggio è in <b>Israele</b>, fra Gerusalemme e Tel Aviv."
+    },
+    {
+     "t": "p",
+     "x": "Ci vivono famiglie <b>ebree</b> e famiglie <b>palestinesi</b>, metà e metà: più di <b>350 persone</b>, in circa 75 case."
+    },
+    {
+     "t": "hl",
+     "x": "Metà e metà: è una scelta, non un caso."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "La scuola",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "È la <b>prima scuola in Israele</b> con bambini ebrei e palestinesi insieme."
+    },
+    {
+     "t": "p",
+     "x": "Si studia in <b>due lingue</b>: ebraico e arabo, fin da piccoli."
+    },
+    {
+     "t": "p",
+     "x": "Oggi ha più di <b>200 bambini</b>, e molti arrivano dai paesi vicini."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Sul modello di questa scuola ne sono nate altre otto in diverse città."
+    },
+    {
+     "t": "hl",
+     "x": "Imparando la lingua dell’altro si impara anche la sua cultura."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "Pregare e dialogare",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Nel villaggio c’è la <b>Scuola per la pace</b>: si impara a parlarsi e ad ascoltarsi, anche quando non si è d’accordo."
+    },
+    {
+     "t": "p",
+     "x": "C’è anche la <b>casa del silenzio</b> (Doumia-Sakina): un posto per pregare o stare in silenzio, aperto a tutte le religioni."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Non c’è una chiesa, né una sinagoga, né una moschea: c’è un posto solo, dove ognuno prega a modo suo."
+    }
+   ]
+  },
+  {
+   "sezione": "Il villaggio",
+   "titolo": "Il villaggio oggi",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Dopo l’inizio della guerra nel <b>2023</b>, dal villaggio <b>non se n’è andato nessuno</b>."
+    },
+    {
+     "t": "p",
+     "x": "La scuola ha riaperto dopo <b>due settimane</b>."
+    },
+    {
+     "t": "hl",
+     "x": "È questa la parte che colpisce di più: hanno continuato."
+    }
+   ]
+  },
+  {
+   "sezione": "Le parole",
+   "titolo": "Parole difficili",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Se una di queste parole ti serve nella ricerca, spiegala con parole tue."
+    },
+    {
+     "t": "tbl",
+     "intestazione": [
+      "Parola",
+      "Che cosa vuol dire"
+     ],
+     "righe": [
+      [
+       "Oasi",
+       "Un luogo verde e con l’acqua in mezzo al deserto."
+      ],
+      [
+       "Domenicano",
+       "Un frate dell’ordine fondato da san Domenico."
+      ],
+      [
+       "Ebrei",
+       "Il popolo che segue la religione ebraica e parla spesso ebraico."
+      ],
+      [
+       "Palestinesi",
+       "Un popolo arabo di quella terra; sono musulmani o cristiani e parlano arabo."
+      ],
+      [
+       "Bilingue",
+       "In due lingue."
+      ],
+      [
+       "Convivenza",
+       "Vivere insieme, rispettandosi."
+      ],
+      [
+       "Dialogo",
+       "Parlarsi e ascoltarsi, anche quando si è diversi."
+      ],
+      [
+       "Pregiudizio",
+       "Un’idea su qualcuno che ci facciamo prima di conoscerlo."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Le parole",
+   "titolo": "Le fonti",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Guardale insieme a un adulto. Le prime due sono le più adatte a te."
+    },
+    {
+     "t": "tbl",
+     "intestazione": [
+      "Dove",
+      "Che cosa ci trovi"
+     ],
+     "righe": [
+      [
+       "avvenire.it",
+       "“I ragazzi dell’Oasi di pace”: ragazzi ebrei e arabi raccontano la loro vita."
+      ],
+      [
+       "avvenire.it",
+       "“Bambini ebrei e palestinesi insieme”: la scuola in due lingue."
+      ],
+      [
+       "rsi.ch",
+       "Due direttori, uno arabo e uno ebreo, che guidano insieme le scuole."
+      ],
+      [
+       "oasidipace.org",
+       "Il sito italiano che sostiene il villaggio, nato nel 1991."
+      ],
+      [
+       "wasns.org",
+       "Il sito ufficiale, in inglese: utile per le foto."
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "C’è anche un libro: <i>Respirare il futuro</i> di Giulia Ceccutti, con le storie di chi vive nel villaggio."
+    },
+    {
+     "t": "hl",
+     "x": "In fondo alla ricerca scrivi quali fonti hai usato."
+    }
+   ]
+  },
+  {
+   "sezione": "Domande",
+   "titolo": "Domande possibili",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa vuol dire il nome del villaggio?",
+     "r": "<b>Oasi di Pace</b>, scritto in ebraico (Neve Shalom) e in arabo (Wahat al-Salam)."
+    },
+    {
+     "t": "sol",
+     "d": "Da dove viene il nome?",
+     "r": "Dalla <b>Bibbia</b>, dal libro del profeta <b>Isaia</b> (32,18)."
+    },
+    {
+     "t": "sol",
+     "d": "Chi ha fondato il villaggio e quando?",
+     "r": "<b>Padre Bruno Hussar</b>, un frate domenicano, nel <b>1972</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Dove si trova il villaggio?",
+     "r": "In <b>Israele</b>, fra Gerusalemme e Tel Aviv."
+    },
+    {
+     "t": "sol",
+     "d": "Chi ci vive?",
+     "r": "Famiglie <b>ebree</b> e <b>palestinesi</b>, metà e metà: più di 350 persone."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa ha di speciale la scuola?",
+     "r": "È la <b>prima in Israele</b> con bambini ebrei e palestinesi insieme, e si studia in <b>due lingue</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la casa del silenzio?",
+     "r": "Un posto per <b>pregare o stare in silenzio</b>, aperto a tutte le religioni."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la Scuola per la pace?",
+     "r": "Un luogo dove si impara a <b>parlarsi e ascoltarsi</b>, anche quando non si è d’accordo."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa è successo dopo il 2023?",
+     "r": "È cominciata la guerra, ma dal villaggio <b>non se n’è andato nessuno</b> e la scuola ha riaperto dopo due settimane."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa ci insegna questo villaggio?",
+     "r": "Che vivere insieme si può: bisogna <b>conoscersi</b> e <b>parlarsi</b>, invece di fermarsi ai pregiudizi."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "Non copiare i testi degli articoli: si scrive con parole proprie."
+    },
+    {
+     "t": "hl",
+     "x": "I nomi vanno scritti giusti: Neve Shalom, Wahat al-Salam, Bruno Hussar."
+    },
+    {
+     "t": "hl",
+     "x": "Bruno Hussar era nato in una famiglia ebrea, poi è diventato cristiano."
+    },
+    {
+     "t": "hl",
+     "x": "Il villaggio è stato fondato nel 1972, non dopo la guerra del 2023."
+    },
+    {
+     "t": "hl",
+     "x": "In fondo alla ricerca vanno sempre scritte le fonti."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "centro": "Oasi di Pace",
+ "sotto": "Neve Shalom – Wahat al-Salam",
+ "riquadri": [
+  {
+   "titolo": "Il nome",
+   "colore": "teal",
+   "voci": [
+    "Vuol dire <b>Oasi di Pace</b>",
+    "Ebraico: <b>Neve Shalom</b> · arabo: <b>Wahat al-Salam</b>",
+    "Viene dalla Bibbia, profeta <b>Isaia</b> (32,18)"
+   ]
+  },
+  {
+   "titolo": "Il fondatore",
+   "colore": "purple",
+   "voci": [
+    "<b>Padre Bruno Hussar</b>, frate domenicano",
+    "Nato in Egitto in una famiglia ebrea, poi cristiano",
+    "Fonda il villaggio nel <b>1972</b>"
+   ]
+  },
+  {
+   "titolo": "Dove e chi",
+   "colore": "blue",
+   "voci": [
+    "In <b>Israele</b>, fra Gerusalemme e Tel Aviv",
+    "Famiglie <b>ebree</b> e <b>palestinesi</b>, metà e metà",
+    "Più di <b>350 persone</b>, circa 75 case"
+   ]
+  },
+  {
+   "titolo": "La scuola",
+   "colore": "green",
+   "voci": [
+    "La <b>prima</b> in Israele con bambini ebrei e palestinesi insieme",
+    "Si studia in <b>due lingue</b>: ebraico e arabo",
+    "Più di <b>200 bambini</b>, altre 8 scuole nate dal suo modello"
+   ]
+  },
+  {
+   "titolo": "Pregare e dialogare",
+   "colore": "orange",
+   "voci": [
+    "<b>Scuola per la pace</b>: si impara a parlarsi e ascoltarsi",
+    "<b>Casa del silenzio</b> (Doumia-Sakina), aperta a tutte le religioni"
+   ]
+  },
+  {
+   "titolo": "Oggi",
+   "colore": "teal",
+   "voci": [
+    "Dopo il <b>2023</b> non se n’è andato nessuno",
+    "La scuola ha riaperto dopo <b>due settimane</b>"
+   ]
+  }
+ ],
+ "errori": [
+  "Non copiare gli articoli: parole proprie",
+  "Fondato nel 1972, non dopo il 2023",
+  "Hussar: famiglia ebrea, poi cristiano",
+  "In fondo vanno sempre le fonti"
+ ]
+}

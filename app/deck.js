@@ -30,7 +30,8 @@ async function leggi(base, file, obbligatorio) {
 }
 
 async function avvia() {
-  const v = new URLSearchParams(location.search).get('v');
+  const q = new URLSearchParams(location.search);
+  const v = q.get('v');
   if (!v || !/^[a-z]+\/[a-z0-9-]+$/.test(v)) {
     return avviso('Non so quale ripasso aprire.');
   }
@@ -175,6 +176,9 @@ async function avvia() {
   cur = start;
   mostra(slides[start], true);
   vai(start, 0);
+
+  /* Arrivando dal pulsante Stampa della scheda, si apre subito la stampa. */
+  if (q.get('stampa')) setTimeout(() => window.print(), 300);
 }
 
 avvia();

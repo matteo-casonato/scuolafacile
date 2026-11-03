@@ -1,0 +1,270 @@
+{
+ "titolo": "Verifica di grammatica – prova 4",
+ "sotto": "Livello difficile · parole lunghe e trabocchetti",
+ "livello": "difficile",
+ "promemoria": "<b>Attenzione:</b> questa prova è più difficile. Leggi ogni consegna <b>due volte</b>, vai piano e controlla alla fine.",
+ "esercizi": [
+  {
+   "tipo": "parole",
+   "colonne": 4,
+   "punti": 10,
+   "consegna": "Cerchia <b>tutti</b> i dittonghi. Attenzione: alcune parole ne hanno <b>due</b>.",
+   "parole": [
+    "guerriero",
+    "pianoforte",
+    "fuoriuscita",
+    "quaderno",
+    "autunno",
+    "piuttosto",
+    "neutrale",
+    "suocera"
+   ],
+   "titoloSoluzione": "Dittonghi",
+   "soluzione": "g<b>ue</b>rr<b>ie</b>ro (2) · p<b>ia</b>noforte · f<b>uo</b>r<b>iu</b>scita (2) · q<b>ua</b>derno · <b>au</b>tunno · p<b>iu</b>ttosto · n<b>eu</b>trale · s<b>uo</b>cera"
+  },
+  {
+   "tipo": "tabella",
+   "punti": 10,
+   "colonne": [
+    "Dittongo",
+    "Trittongo",
+    "Iato"
+   ],
+   "consegna": "Dittongo, trittongo o iato? Attenzione: alcune parole hanno <b>più di una</b> risposta.",
+   "righe": [
+    "inquietudine",
+    "paesaggio",
+    "creatura",
+    "maiolica",
+    "seguiate",
+    "riunione",
+    "aiuole",
+    "tuoni",
+    "coalizione",
+    "museo"
+   ],
+   "titoloSoluzione": "Dittongo, trittongo o iato",
+   "soluzione": "<b>Dittongo:</b> maiolica, tuoni · <b>Trittongo:</b> inquietudine (uie), seguiate (uia), aiuole (iuo) · <b>Iato:</b> paesaggio, creatura, museo · <b>Iato + dittongo:</b> riunione (ri-u / io), coalizione (co-a / io)"
+  },
+  {
+   "tipo": "righe",
+   "punti": 8,
+   "consegna": "Dividi in sillabe queste parole lunghe.",
+   "righe": [
+    "inquietudine",
+    "biglietteria",
+    "sciagurato",
+    "paleontologo",
+    "acquario",
+    "aeroplano",
+    "ingegneria",
+    "cerniera"
+   ],
+   "titoloSoluzione": "Sillabe",
+   "soluzione": "in-quie-tu-di-ne · bi-gliet-te-ri-a · scia-gu-ra-to · pa-le-on-to-lo-go · ac-qua-rio · a-e-ro-pla-no · in-ge-gne-ri-a · cer-nie-ra"
+  },
+  {
+   "tipo": "testo",
+   "punti": 8,
+   "consegna": "Leggi la frase e scrivi nella tabella i <b>digrammi</b> e i <b>trigrammi</b> che trovi.",
+   "regola": "Attenzione: “sc” è un digramma solo davanti a e oppure i. “gli” è un trigramma solo se dopo c’è un’altra vocale.",
+   "x": "Lo gnomo, nascosto nel cespuglio, guardava le chiocciole e le sciarpe del coniglio, sceso sotto la pioggia.",
+   "colonne": [
+    "Digrammi (sono 5)",
+    "Trigrammi (sono 3)"
+   ],
+   "altezza": "22mm",
+   "titoloSoluzione": "Digrammi e trigrammi",
+   "soluzione": "<b>Digrammi:</b> gn (gnomo), ch e ci (chiocciole), sc (sceso), gi (pioggia) · <b>Trigrammi:</b> gli (cespuglio), sci (sciarpe), gli (coniglio)",
+   "trabocchetto": "in “nascosto” sc non è un digramma, perché dopo c’è la o."
+  },
+  {
+   "tipo": "completa",
+   "punti": 8,
+   "largo": "11mm",
+   "consegna": "Completa con <b>gn</b> o <b>ni</b>, <b>gli</b> o <b>li</b>.",
+   "buchi": [
+    [
+     "compa",
+     "ia"
+    ],
+    [
+     "giardi",
+     "ere"
+    ],
+    [
+     "conchi",
+     "a"
+    ],
+    [
+     "Ita",
+     "ano"
+    ],
+    [
+     "meravi",
+     "oso"
+    ],
+    [
+     "inse",
+     "amento"
+    ],
+    [
+     "Giu",
+     "a"
+    ],
+    [
+     "ra",
+     "atela"
+    ]
+   ],
+   "titoloSoluzione": "gn/ni, gli/li",
+   "soluzione": "compagnia · giardiniere · conchiglia · Italiano · meraviglioso · insegnamento · Giulia · ragnatela"
+  },
+  {
+   "tipo": "frasi",
+   "punti": 12,
+   "largo": "26mm",
+   "consegna": "Omografi doppi: in ogni frase la stessa parola compare <b>due volte</b> con significato diverso. Scrivila con l’accento giusto.",
+   "regola": "Accento aperto: è, ò · accento chiuso: é, ó.",
+   "frasi": [
+    {
+     "pezzi": [
+      "Mio nonno, un uomo molto",
+      "(colto), ha",
+      "(colto) le ciliegie."
+     ]
+    },
+    {
+     "pezzi": [
+      "In montagna soffiavano",
+      "(venti) fortissimi, a",
+      "(venti) chilometri all’ora."
+     ]
+    },
+    {
+     "pezzi": [
+      "In cantina c’è una",
+      "(botte) piena di vino che ha preso tante",
+      "(botte) durante il trasloco."
+     ]
+    },
+    {
+     "pezzi": [
+      "Dopo la",
+      "(pesca) al lago, abbiamo mangiato una",
+      "(pesca) matura."
+     ]
+    },
+    {
+     "pezzi": [
+      "La maestra",
+      "(legge) ad alta voce una",
+      "(legge) sul rispetto degli animali."
+     ]
+    },
+    {
+     "pezzi": [
+      "Se",
+      "(fosse) bel tempo, il cane scaverebbe altre",
+      "(fosse) in giardino."
+     ]
+    }
+   ],
+   "titoloSoluzione": "Omografi doppi",
+   "soluzione": "cólto / còlto · vènti / vénti · bótte / bòtte · pésca / pèsca · lègge / légge · fòsse / fósse"
+  },
+  {
+   "tipo": "gruppi",
+   "punti": 12,
+   "righe": 2,
+   "consegna": "Metti in ordine alfabetico. Le parole hanno tante lettere uguali all’inizio: guarda bene!",
+   "regola": "Confronta le parole lettera per lettera, finché non trovi la prima lettera diversa.",
+   "gruppi": [
+    [
+     "continente",
+     "contadino",
+     "contare",
+     "contorno",
+     "contratto",
+     "contento"
+    ],
+    [
+     "presidente",
+     "prestito",
+     "presepe",
+     "pressione",
+     "prezzo",
+     "preghiera"
+    ],
+    [
+     "internazionale",
+     "intervallo",
+     "interessante",
+     "interno",
+     "interrogazione",
+     "intervista"
+    ],
+    [
+     "campanile",
+     "campanello",
+     "campeggio",
+     "campione",
+     "camminare",
+     "cammello"
+    ]
+   ],
+   "titoloSoluzione": "Ordine alfabetico",
+   "soluzione": "contadino, contare, contento, continente, contorno, contratto<br>preghiera, presepe, presidente, pressione, prestito, prezzo<br>interessante, internazionale, interno, interrogazione, intervallo, intervista<br>cammello, camminare, campanello, campanile, campeggio, campione"
+  },
+  {
+   "tipo": "gruppi",
+   "punti": 6,
+   "righe": 2,
+   "consegna": "Trova l’errore: questa lista <b>non</b> è in ordine alfabetico. Riscrivila nell’ordine giusto.",
+   "gruppi": [
+    [
+     "matematica",
+     "materiale",
+     "matita",
+     "maturità",
+     "matassa",
+     "materasso"
+    ]
+   ],
+   "titoloSoluzione": "Trova l’errore",
+   "soluzione": "matassa, matematica, materasso, materiale, matita, maturità"
+  }
+ ],
+ "voto": [
+  [
+   68,
+   74,
+   "10"
+  ],
+  [
+   61,
+   67,
+   "9"
+  ],
+  [
+   54,
+   60,
+   "8"
+  ],
+  [
+   46,
+   53,
+   "7"
+  ],
+  [
+   39,
+   45,
+   "6"
+  ],
+  [
+   0,
+   38,
+   "da ripassare"
+  ]
+ ]
+}

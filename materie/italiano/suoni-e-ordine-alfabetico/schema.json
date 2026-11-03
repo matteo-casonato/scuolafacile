@@ -1,0 +1,64 @@
+{
+ "centro": "Italiano",
+ "sotto": "suoni · lettere · parole · ordine alfabetico",
+ "riquadri": [
+  {
+   "titolo": "Vocali",
+   "colore": "blue",
+   "voci": [
+    "<b>Forti</b>: a e o · <b>deboli</b>: i u",
+    "Due forti vicine → sillabe diverse"
+   ]
+  },
+  {
+   "titolo": "Dittongo e trittongo",
+   "colore": "blue",
+   "voci": [
+    "<b>Dittongo</b>: 2 vocali, 1 sillaba · fio-re, p<b>ie</b>-de",
+    "<b>Trittongo</b>: 3 vocali, 1 sillaba · m<b>iei</b>, s<b>uoi</b>, g<b>uai</b>",
+    "Serve una vocale debole non accentata"
+   ]
+  },
+  {
+   "titolo": "Iato",
+   "colore": "purple",
+   "voci": [
+    "2 vocali, <b>2 sillabe</b>",
+    "Due forti: le-o-ne, po-e-ta",
+    "i o u <b>accentata</b>: pa-u-ra, zi-o"
+   ]
+  },
+  {
+   "titolo": "Digrammi e trigrammi",
+   "colore": "green",
+   "voci": [
+    "<b>Digrammi</b>: gn ch gh sc ci gi",
+    "<b>Trigrammi</b>: gli sci",
+    "<b>sc</b> solo davanti a e, i · <b>gli</b> solo se dopo c’è una vocale"
+   ]
+  },
+  {
+   "titolo": "gn/ni e gli/li",
+   "colore": "green",
+   "voci": [
+    "Un suono solo: ba<b>gn</b>o, fi<b>gli</b>o",
+    "Si sente la i: gera<b>ni</b>o, o<b>li</b>o"
+   ]
+  },
+  {
+   "titolo": "Omografi e alfabeto",
+   "colore": "orange",
+   "voci": [
+    "Aperto <b>è ò</b>: pèsca (frutto), bòtte (colpi)",
+    "Chiuso <b>é ó</b>: pésca (pescare), bótte (contenitore)",
+    "Alfabeto: <b>lettera per lettera</b>, non per lunghezza"
+   ]
+  }
+ ],
+ "errori": [
+  "Due vocali forti vicine fanno IATO, non dittongo",
+  "sc è digramma solo davanti a e e a i",
+  "Se senti la i staccata si scrive ni o li",
+  "Nell’ordine alfabetico non conta la lunghezza"
+ ]
+}

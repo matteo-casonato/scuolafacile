@@ -19,8 +19,19 @@ for (const m of indice.materie) {
     const metaFile = join(d, 'meta.json');
     if (!existsSync(metaFile)) continue;
     const meta = JSON.parse(readFileSync(metaFile, 'utf8'));
-    const prove = existsSync(join(d, 'verifiche'))
-      ? readdirSync(join(d, 'verifiche')).filter(f => f.endsWith('.json')).length : 0;
+    const prove = [];
+    if (existsSync(join(d, 'verifiche'))) {
+      for (const f of readdirSync(join(d, 'verifiche')).filter(x => x.endsWith('.json')).sort()) {
+        const p = JSON.parse(readFileSync(join(d, 'verifiche', f), 'utf8'));
+        prove.push({
+          file: f,
+          titolo: p.titolo,
+          sotto: p.sotto || '',
+          esercizi: (p.esercizi || []).length,
+          punti: (p.esercizi || []).reduce((a, e) => a + (e.punti || 0), 0),
+        });
+      }
+    }
     argomenti.push({
       materia: m.id,
       cartella,
@@ -28,8 +39,9 @@ for (const m of indice.materie) {
       ha: {
         ripasso: existsSync(join(d, 'ripasso.json')),
         schema: existsSync(join(d, 'schema.json')),
-        verifiche: prove,
+        verifiche: prove.length,
       },
+      prove,
     });
   }
 }

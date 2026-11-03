@@ -45,7 +45,8 @@
         "ripasso": true,
         "schema": true,
         "verifiche": 0
-      }
+      },
+      "prove": []
     },
     {
       "materia": "scienze",
@@ -55,7 +56,8 @@
         "ripasso": true,
         "schema": true,
         "verifiche": 0
-      }
+      },
+      "prove": []
     },
     {
       "materia": "musica",
@@ -65,7 +67,8 @@
         "ripasso": true,
         "schema": true,
         "verifiche": 0
-      }
+      },
+      "prove": []
     },
     {
       "materia": "geografia",
@@ -75,7 +78,8 @@
         "ripasso": true,
         "schema": true,
         "verifiche": 0
-      }
+      },
+      "prove": []
     },
     {
       "materia": "tedesco",
@@ -85,7 +89,67 @@
         "ripasso": true,
         "schema": true,
         "verifiche": 0
-      }
+      },
+      "prove": []
+    },
+    {
+      "materia": "italiano",
+      "cartella": "suoni-e-ordine-alfabetico",
+      "titolo": "I suoni delle parole e l’ordine alfabetico",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 4
+      },
+      "prove": [
+        {
+          "file": "1-normale.json",
+          "titolo": "Verifica di grammatica – prova 1",
+          "sotto": "Dittonghi, trittonghi, iato · digrammi e trigrammi · omografi · ordine alfabetico",
+          "esercizi": 7,
+          "punti": 60
+        },
+        {
+          "file": "2-normale.json",
+          "titolo": "Verifica di grammatica – prova 2",
+          "sotto": "Dittonghi, trittonghi, iato · digrammi e trigrammi · omografi · ordine alfabetico",
+          "esercizi": 7,
+          "punti": 60
+        },
+        {
+          "file": "3-normale.json",
+          "titolo": "Verifica di grammatica – prova 3",
+          "sotto": "Dittonghi, trittonghi, iato · digrammi e trigrammi · omografi · ordine alfabetico",
+          "esercizi": 7,
+          "punti": 60
+        },
+        {
+          "file": "4-difficile.json",
+          "titolo": "Verifica di grammatica – prova 4",
+          "sotto": "Livello difficile · parole lunghe e trabocchetti",
+          "esercizi": 8,
+          "punti": 74
+        }
+      ]
+    },
+    {
+      "materia": "religione",
+      "cartella": "oasi-di-pace",
+      "titolo": "Neve Shalom – Wahat al-Salam, l’Oasi di Pace",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 1
+      },
+      "prove": [
+        {
+          "file": "1-scheda-ricerca.json",
+          "titolo": "Scheda della ricerca",
+          "sotto": "Neve Shalom – Wahat al-Salam, l’Oasi di Pace",
+          "esercizi": 7,
+          "punti": 0
+        }
+      ]
     }
   ]
 }

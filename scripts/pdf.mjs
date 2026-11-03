@@ -1,6 +1,7 @@
 /* Scuola facile — PDF da stampare.
    Uso: npm run pdf -- matematica/insiemi-grafici-geometria
-   Produce _lavoro/pdf/Ripasso_<materia>.pdf (una pagina del deck per foglio). */
+   Produce il PDF del ripasso (una pagina del deck per foglio) e quello di
+   ogni prova, dentro _lavoro/pdf/. */
 
 import { chromium } from 'playwright';
 import { mkdirSync } from 'node:fs';
@@ -38,6 +39,30 @@ await page.pdf({
                   '<span class="pageNumber"></span> / <span class="totalPages"></span></div>',
 });
 
+console.log('fatto:', file);
+
+/* e tutte le prove da stampare di questo argomento */
+const indice = JSON.parse(
+  await (await fetch(`http://localhost:${PORTA}/indice.json`)).text());
+const [, cartella] = v.split('/');
+const arg = (indice.argomenti || []).find(a => a.materia === materia && a.cartella === cartella);
+for (const prova of (arg && arg.prove) || []) {
+  const pg = await browser.newPage({ colorScheme: 'light' });
+  await pg.goto(`http://localhost:${PORTA}/verifica.html?v=${v}&n=${encodeURIComponent(prova.file)}`);
+  await pg.waitForSelector('.prova');
+  await pg.emulateMedia({ media: 'print' });
+  const nome = `${out}${materia}_${prova.file.replace(/\.json$/, '')}.pdf`;
+  await pg.pdf({
+    path: nome, format: 'A4', printBackground: true,
+    margin: { top: '13mm', bottom: '15mm', left: '14mm', right: '14mm' },
+    displayHeaderFooter: true,
+    headerTemplate: '<span></span>',
+    footerTemplate: '<div style="font-size:8px;color:#888;width:100%;text-align:center">' +
+                    '<span class="pageNumber"></span> / <span class="totalPages"></span></div>',
+  });
+  await pg.close();
+  console.log('fatto:', nome);
+}
+
 await browser.close();
 server.kill();
-console.log('fatto:', file);

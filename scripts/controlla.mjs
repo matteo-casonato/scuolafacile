@@ -165,9 +165,9 @@ function verifica(dove, v) {
   v.esercizi.forEach((e, i) => {
     const d = `${dove} es ${i + 1}`;
     if (!e.consegna) err(d, 'manca la consegna');
-    if (typeof e.punti !== 'number') err(d, 'mancano i punti');
-    else totale += e.punti;
-    if (!e.soluzione) err(d, 'manca la soluzione');
+    if (!v.senzaPunti && typeof e.punti !== 'number') err(d, 'mancano i punti');
+    else totale += e.punti || 0;
+    if (!v.senzaPunti && !e.soluzione) err(d, 'manca la soluzione');
     testo(d, e.consegna || '');
     testo(d, e.regola || '');
     testo(d, e.soluzione || '');

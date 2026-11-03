@@ -4,29 +4,31 @@
 import { icona } from './icone.js';
 import { progresso, barra } from './progressi.js';
 
-const CHIP = 'rounded-full border border-grid px-2.5 py-0.5 text-sm text-muted';
-
-function chips(ha = {}) {
-  const c = [];
-  if (ha.ripasso) c.push('ripasso');
-  if (ha.schema) c.push('schema in una pagina');
-  if (ha.verifiche) c.push(ha.verifiche === 1 ? '1 prova da stampare' : `${ha.verifiche} prove da stampare`);
-  if (!c.length) return '';
-  return `<div class="mt-3 flex flex-wrap gap-1.5">${
-    c.map(x => `<span class="${CHIP}">${x}</span>`).join('')}</div>`;
-}
-
+/* Il titolo è testo, non un pulsante: i pulsanti sono quelli sotto,
+   uno per cosa che si può fare con questo argomento. */
 function scheda(a) {
+  const v = `${a.materia}/${a.cartella}`;
   const p = progresso(a.materia, a.cartella);
   const avanzamento = p && p.fatte
     ? `<span class="mt-2 block text-sm text-muted">${
         p.fatte === 1 ? '1 pagina' : `${p.fatte} pagine`} su ${p.pagine} già ripassate</span>`
     : '';
-  return `<a href="ripasso.html?v=${a.materia}/${a.cartella}"
-    class="block rounded-2xl border-2 border-[color:var(--c)] bg-card p-4 text-ink no-underline">
-    <span class="block text-xl leading-tight font-bold text-[color:var(--c)]">${a.titolo}</span>
-    ${barra(p)}${avanzamento}${chips(a.ha)}
-  </a>`;
+
+  const prove = (a.ha && a.ha.verifiche) || 0;
+  const azioni = [
+    `<a class="azione principale" href="ripasso.html?v=${v}">Ripassa</a>`,
+    `<a class="azione secondaria" href="ripasso.html?v=${v}&amp;stampa=1">Stampa</a>`,
+  ];
+  if (prove) {
+    azioni.push(`<a class="azione secondaria" href="verifica.html?v=${v}">${
+      prove === 1 ? 'Verifica' : 'Verifiche'}</a>`);
+  }
+
+  return `<div class="rounded-2xl border-2 border-[color:var(--c)] bg-card p-4">
+    <h2 class="m-0 text-xl leading-tight font-bold text-[color:var(--c)]">${a.titolo}</h2>
+    ${barra(p)}${avanzamento}
+    <div class="azioni" style="--quanti:${azioni.length}">${azioni.join('')}</div>
+  </div>`;
 }
 
 async function avvia() {

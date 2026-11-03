@@ -1,0 +1,50 @@
+{
+ "titolo": "Scheda della ricerca",
+ "sotto": "Neve Shalom – Wahat al-Salam, l’Oasi di Pace",
+ "senzaPunti": true,
+ "promemoria": "<b>Per ogni passo</b> rispondi con 2 o 3 frasi tue. Puoi aggiungere un disegno o una foto stampata.",
+ "esercizi": [
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 1 – Il nome</b><br>Che cosa vuol dire il nome? · Da quale libro della Bibbia viene?",
+   "righe": 7
+  },
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 2 – Il fondatore</b><br>Chi era padre Bruno Hussar? · Quale sogno aveva?",
+   "righe": 10
+  },
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 3 – Il villaggio</b><br>Dove si trova il villaggio? · Chi ci vive?",
+   "righe": 10
+  },
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 4 – La scuola</b><br>In quali lingue si studia? · Che cosa imparano i bambini gli uni dagli altri?",
+   "righe": 10
+  },
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 5 – Pregare e dialogare</b><br>Che cos’è la casa del silenzio? · Come fanno persone di religioni diverse a stare insieme?",
+   "righe": 10
+  },
+  {
+   "tipo": "libero",
+   "consegna": "<b>Passo 6 – Il mio pensiero</b><br>Che cosa ci insegna questo villaggio sull’accettazione e sul rispetto? · Che cosa potresti fare anche tu, a scuola o con gli amici?",
+   "righe": 9
+  },
+  {
+   "tipo": "spunta",
+   "consegna": "Controllo finale",
+   "x": [
+    "Ho risposto a tutti e 6 i passi.",
+    "Ho scritto con parole mie, senza copiare dagli articoli.",
+    "Ho scritto bene i nomi: Neve Shalom, Wahat al-Salam, Bruno Hussar.",
+    "Ho messo un titolo e il mio nome.",
+    "Ho aggiunto almeno un disegno o una foto.",
+    "In fondo ho scritto le fonti che ho usato."
+   ]
+  }
+ ]
+}

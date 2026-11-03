@@ -1,0 +1,280 @@
+{
+ "titolo": "Verifica di grammatica – prova 3",
+ "sotto": "Dittonghi, trittonghi, iato · digrammi e trigrammi · omografi · ordine alfabetico",
+ "livello": "normale",
+ "promemoria": "<b>Prima di iniziare:</b> leggi ogni consegna <b>due volte</b> e sottolinea le parole importanti. Fai un esercizio alla volta.",
+ "esercizi": [
+  {
+   "tipo": "parole",
+   "colonne": 4,
+   "punti": 8,
+   "consegna": "Cerchia il dittongo in ogni parola.",
+   "regola": "Il dittongo è l’unione di due vocali che si pronunciano con una sola emissione di voce.",
+   "parole": [
+    "ieri",
+    "suono",
+    "guado",
+    "pausa",
+    "voi",
+    "mai",
+    "neutro",
+    "piuma"
+   ],
+   "titoloSoluzione": "Dittonghi",
+   "soluzione": "<b>ie</b>ri · s<b>uo</b>no · g<b>ua</b>do · p<b>au</b>sa · v<b>oi</b> · m<b>ai</b> · n<b>eu</b>tro · p<b>iu</b>ma"
+  },
+  {
+   "tipo": "tabella",
+   "punti": 10,
+   "colonne": [
+    "Dittongo",
+    "Trittongo",
+    "Iato"
+   ],
+   "consegna": "Dittongo, trittongo o iato? Metti una X nella colonna giusta.",
+   "regola": "Trittongo = tre vocali in una sola sillaba. Iato = due vocali vicine che si dividono in due sillabe.",
+   "righe": [
+    "vuoi",
+    "museo",
+    "maiale",
+    "paese",
+    "puoi",
+    "fiato",
+    "Luigi",
+    "nuovo",
+    "beato",
+    "chiaro"
+   ],
+   "titoloSoluzione": "Dittongo, trittongo o iato",
+   "soluzione": "<b>Dittongo:</b> maiale, fiato, nuovo, chiaro · <b>Trittongo:</b> vuoi (uoi), puoi (uoi) · <b>Iato:</b> museo, paese, Luigi, beato"
+  },
+  {
+   "tipo": "righe",
+   "punti": 6,
+   "consegna": "Dividi in sillabe.",
+   "righe": [
+    "uovo",
+    "museo",
+    "figlia",
+    "sciocco",
+    "Europa",
+    "giardino"
+   ],
+   "titoloSoluzione": "Sillabe",
+   "soluzione": "uo-vo · mu-se-o · fi-glia · scioc-co · Eu-ro-pa · giar-di-no"
+  },
+  {
+   "tipo": "parole",
+   "colonne": 5,
+   "punti": 10,
+   "consegna": "Sottolinea i <b>digrammi</b> e cerchia i <b>trigrammi</b>.",
+   "regola": "Digramma = due lettere per un solo suono (gn, ch, gh, sc, ci, gi…). Trigramma = tre lettere per un solo suono (gli, sci).",
+   "parole": [
+    "montagna",
+    "anche",
+    "funghi",
+    "uscita",
+    "biglietto",
+    "ascia",
+    "giostra",
+    "camicia",
+    "cuscino",
+    "paglia"
+   ],
+   "titoloSoluzione": "Digrammi e trigrammi",
+   "soluzione": "<b>Digrammi:</b> monta<u>gn</u>a · an<u>ch</u>e · fun<u>gh</u>i · u<u>sc</u>ita · <u>gi</u>ostra · cami<u>ci</u>a · cu<u>sc</u>ino<br><b>Trigrammi:</b> bi(gli)etto · a(sci)a · pa(gli)a"
+  },
+  {
+   "tipo": "completa",
+   "punti": 8,
+   "consegna": "Completa con <b>gn</b> o <b>ni</b>, <b>gli</b> o <b>li</b>.",
+   "buchi": [
+    [
+     "casta",
+     "a"
+    ],
+    [
+     "sve",
+     "a"
+    ],
+    [
+     "mi",
+     "one"
+    ],
+    [
+     "Germa",
+     "a"
+    ],
+    [
+     "lava",
+     "a"
+    ],
+    [
+     "vani",
+     "a"
+    ],
+    [
+     "Emi",
+     "a"
+    ],
+    [
+     "campa",
+     "a"
+    ]
+   ],
+   "titoloSoluzione": "gn/ni, gli/li",
+   "soluzione": "castagna · sveglia · milione · Germania · lavagna · vaniglia · Emilia · campagna"
+  },
+  {
+   "tipo": "frasi",
+   "punti": 10,
+   "largo": "26mm",
+   "consegna": "Parole omografe: scrivi la parola con l’accento giusto (<b>è/é</b> oppure <b>ò/ó</b>).",
+   "regola": "Gli omografi si scrivono uguali ma hanno significato diverso. Cambia il suono della vocale: aperto (è, ò) o chiuso (é, ó).",
+   "frasi": [
+    {
+     "pezzi": [
+      "Abito in",
+      "Italia, al numero 5."
+     ],
+     "nota": "corso"
+    },
+    {
+     "pezzi": [
+      "Napoleone era nato in Corsica: era",
+      "."
+     ],
+     "nota": "corso"
+    },
+    {
+     "pezzi": [
+      "Voglio bene al mio cane: provo tanto",
+      "per lui."
+     ],
+     "nota": "affetto"
+    },
+    {
+     "pezzi": [
+      "Prima di fare il panino, io",
+      "il salame."
+     ],
+     "nota": "affetto"
+    },
+    {
+     "pezzi": [
+      "A merenda ho mangiato una",
+      "gialla."
+     ],
+     "nota": "pesca"
+    },
+    {
+     "pezzi": [
+      "Il nonno va a",
+      "sul fiume."
+     ],
+     "nota": "pesca"
+    },
+    {
+     "pezzi": [
+      "Nella classe ci sono",
+      "alunni."
+     ],
+     "nota": "venti"
+    },
+    {
+     "pezzi": [
+      "Sulle montagne soffiano",
+      "gelidi."
+     ],
+     "nota": "venti"
+    },
+    {
+     "pezzi": [
+      "Il codice della strada è una",
+      "da rispettare."
+     ],
+     "nota": "legge"
+    },
+    {
+     "pezzi": [
+      "La mamma",
+      "un libro prima di dormire."
+     ],
+     "nota": "legge"
+    }
+   ],
+   "titoloSoluzione": "Omografi",
+   "soluzione": "córso (strada) · còrso (della Corsica) · affètto (sentimento) · affétto (affettare) · pèsca (frutto) · pésca (pescare) · vénti (numero) · vènti (vento) · légge (regola) · lègge (leggere)"
+  },
+  {
+   "tipo": "gruppi",
+   "punti": 8,
+   "consegna": "Metti in ordine alfabetico.",
+   "regola": "Se la prima lettera è uguale, guarda la seconda. Se anche la seconda è uguale, guarda la terza, e così via.",
+   "gruppi": [
+    [
+     "fiore",
+     "fiume",
+     "fico",
+     "filo",
+     "fiaba"
+    ],
+    [
+     "gatto",
+     "gallo",
+     "gamba",
+     "gara",
+     "gabbia"
+    ],
+    [
+     "orso",
+     "orologio",
+     "orto",
+     "ora",
+     "orecchio"
+    ],
+    [
+     "cartone",
+     "cartolina",
+     "cartello",
+     "carta",
+     "cartoleria"
+    ]
+   ],
+   "titoloSoluzione": "Ordine alfabetico",
+   "soluzione": "fiaba, fico, filo, fiore, fiume<br>gabbia, gallo, gamba, gara, gatto<br>ora, orecchio, orologio, orso, orto<br>carta, cartello, cartoleria, cartolina, cartone"
+  }
+ ],
+ "voto": [
+  [
+   55,
+   60,
+   "10"
+  ],
+  [
+   49,
+   54,
+   "9"
+  ],
+  [
+   43,
+   48,
+   "8"
+  ],
+  [
+   37,
+   42,
+   "7"
+  ],
+  [
+   31,
+   36,
+   "6"
+  ],
+  [
+   0,
+   30,
+   "da ripassare"
+  ]
+ ]
+}
