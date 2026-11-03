@@ -10,6 +10,24 @@ Per ogni verifica offre tre cose:
 Sito statico in JavaScript vanilla: niente framework, niente backend.
 Si installa sul telefono (PWA) e funziona offline dopo la prima apertura.
 
+L’app è online qui: **https://matteo-casonato.github.io/scuolafacile/**
+
+## Come si installa sul telefono
+
+Una volta installata, l’icona sta fra le altre app e il ripasso funziona
+anche senza rete.
+
+**Android (Chrome)**
+1. Apri l’indirizzo qui sopra con Chrome.
+2. Tocca i tre puntini in alto a destra.
+3. Scegli **Installa app** (o “Aggiungi a schermata Home”).
+4. Apri l’app una volta con la rete accesa: così scarica tutto.
+
+**iPhone (Safari)**
+1. Apri l’indirizzo con Safari.
+2. Tocca il quadrato con la freccia in basso.
+3. Scegli **Aggiungi a Home**.
+
 ## Come si usa
 
 Apri la home, scegli la materia e la verifica. Nel ripasso si va avanti e
@@ -89,8 +107,11 @@ npm run serve      # http://localhost:8080
 | `npm run pdf -- <materia>/<cartella>` | il PDF del ripasso, una pagina per foglio |
 | `node scripts/fedelta.mjs <ripasso.json> <originale.html>` | controlla che migrando non sia cambiato un testo |
 
-> Prima di pubblicare: ricompila il CSS e **alza `VERSIONE` in `sw.js`**,
-> altrimenti chi ha già l’app installata continua a vedere la versione vecchia.
+> Prima di pubblicare: ricompila il CSS (`npm run css`), rigenera l’indice
+> (`npm run indice`), passa i controlli (`npm run controlla`) e **alza
+> `VERSIONE` in `sw.js`**, altrimenti chi ha già l’app installata continua a
+> vedere la versione vecchia. Poi basta un `git push`: GitHub Pages pubblica
+> da solo il ramo `main`.
 
 ## Licenze
 
