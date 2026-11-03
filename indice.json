@@ -76,6 +76,16 @@
         "schema": true,
         "verifiche": 0
       }
+    },
+    {
+      "materia": "tedesco",
+      "cartella": "verbi-wohnen-sein",
+      "titolo": "I verbi wohnen e sein",
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 0
+      }
     }
   ]
 }

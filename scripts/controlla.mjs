@@ -44,6 +44,24 @@ function blocco(dove, b, i) {
   if (b.t === 'html') avv(d, 'blocco "html": da convertire in un blocco vero');
   if (b.colore && !COLORI.has(b.colore)) err(d, `colore sconosciuto "${b.colore}"`);
 
+  if (b.t === 'coniugazione' || b.t === 'pronuncia' || b.t === 'voce') {
+    if (!b.lingua) err(d, 'manca "lingua" (per esempio "de-DE")');
+    else if (!/^[a-z]{2}(-[A-Z]{2})?$/.test(b.lingua)) err(d, `lingua "${b.lingua}" scritta male`);
+  }
+  if (b.t === 'coniugazione') {
+    if (!(b.righe || []).length) err(d, 'nessuna riga');
+    (b.righe || []).forEach((r, k) => {
+      if (!r.p) err(d, `riga ${k + 1}: manca il pronome "p"`);
+      if (!r.radice) err(d, `riga ${k + 1}: manca "radice"`);
+      if (!r.dice) avv(d, `riga ${k + 1}: manca "dice", la pronuncia scritta all’italiana`);
+    });
+  }
+  if (b.t === 'pronuncia') {
+    (b.regole || []).forEach((r, k) => {
+      if (!r.lettere || !r.esempio) err(d, `regola ${k + 1}: mancano "lettere" o "esempio"`);
+    });
+  }
+
   if (b.t === 'gioco') {
     const TIPI_GIOCO = ['scelta', 'ascolta', 'note'];
     if (!TIPI_GIOCO.includes(b.tipo)) return err(d, `gioco sconosciuto "${b.tipo}"`);

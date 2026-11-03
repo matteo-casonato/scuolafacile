@@ -3,6 +3,7 @@
 
 import { renderBlocchi } from './blocchi.js';
 import { montaGiochi } from './giochi/giochi.js';
+import { montaAudio } from './audio.js';
 
 const $ = sel => document.querySelector(sel);
 
@@ -127,6 +128,7 @@ async function avvia() {
     sl.classList.remove('in-next', 'in-prev');
     if (dir) { void sl.offsetWidth; sl.classList.add(dir > 0 ? 'in-next' : 'in-prev'); }
     montaGiochi(sl);
+    montaAudio(sl);
     tinge(sl.dataset.col);
     secEl.textContent = sl.dataset.sec;
     countEl.textContent = `Pagina ${cur + 1} di ${n}`;

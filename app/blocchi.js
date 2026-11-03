@@ -2,6 +2,8 @@
    Un blocco è un oggetto con "t" (tipo). Vedi FORMATO.md.
    I testi possono contenere solo i tag inline ammessi da scripts/controlla.mjs. */
 
+import { controlloVelocita, avvisoVoce } from './audio.js';
+
 /* I marker delle frecce, usati dai disegni con marker-start / marker-end. */
 const COLORI_MARKER = ['blue', 'green', 'orange', 'purple', 'red', 'ink'];
 export const SVG_DEFS =
@@ -91,6 +93,43 @@ const TIPI = {
     `<div class="ici">${i.svg}<span class="cap">${i.cap}</span></div>`).join('') + '</div>',
 
   why: b => b.x.map(i => `<div class="why"><span>${i.segno}</span><div>${i.x}</div></div>`).join(''),
+
+  /* Coniugazione di un verbo, con la pronuncia scritta all'italiana e l'audio.
+     La desinenza va in rosso: è la parte che cambia. */
+  coniugazione: b => {
+    const lingua = attr(b.lingua || 'it-IT');
+    const righe = (b.righe || []).map(r => {
+      const parola = `${r.radice || ''}${r.fine || ''}`;
+      const detto = `${(r.p || '').split('/')[0]} ${parola}`.trim();
+      return `<tr>
+        <td style="width:34%"><span class="de">${r.p}</span><span class="ph">${r.pron || ''}</span></td>
+        <td><span class="de">${r.radice || ''}${r.fine ? `<span class="end">${r.fine}</span>` : ''}</span>` +
+        `<span class="ph">${r.dice || ''}</span><span class="it">${r.it || ''}</span></td>
+        <td style="width:52px"><button class="say" type="button" data-say="${attr(detto)}" ` +
+        `data-lingua="${lingua}" aria-label="Ascolta ${attr(detto)}">🔊</button></td>
+      </tr>`;
+    }).join('');
+    return `<table class="conj">${righe}</table>`;
+  },
+
+  /* Regole di lettura: la lettera, la regola, un esempio da ascoltare. */
+  pronuncia: b => {
+    const lingua = attr(b.lingua || 'it-IT');
+    return (b.regole || []).map(r =>
+      `<div class="regola"><span class="lettere">${r.lettere}</span>` +
+      `<div class="dentro">${r.x}<br><b>${r.esempio}</b> ` +
+      `<span class="muted">→ ${r.dice || ''}</span></div>` +
+      `<button class="say" type="button" data-say="${attr(r.esempio)}" data-lingua="${lingua}" ` +
+      `aria-label="Ascolta ${attr(r.esempio)}">🔊</button></div>`
+    ).join('');
+  },
+
+  /* Le desinenze in fila, per vedere a colpo d'occhio cosa cambia. */
+  desinenze: b => `<div class="desinenze">${
+    b.x.map(d => `<span>${d}</span>`).join('')}</div>`,
+
+  /* I due pulsanti Normale / Lenta, più l'avviso se la voce non c'è. */
+  voce: b => controlloVelocita() + avvisoVoce(b.lingua || 'it-IT'),
 
   /* Il gioco lo monta app/giochi/*.js: qui si lascia solo il posto. */
   gioco: b => `<div class="gioco" data-gioco="${attr(b.tipo)}" data-dati="${attr(JSON.stringify(b))}"></div>`,

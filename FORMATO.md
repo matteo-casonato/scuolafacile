@@ -268,3 +268,36 @@ oppure `"basso"`. `da` e `a` sono i gradi: **0 è la riga più in basso**, 1 il
 primo spazio, 2 la seconda riga, e così via; i numeri negativi e quelli sopra 8
 escono dal pentagramma e prendono i tagli addizionali. I sette pulsanti restano
 sempre nello stesso ordine, da Do a Si: cercarli ogni volta stanca.
+
+## Le lingue
+
+Tre blocchi per le pagine con l’audio. La voce è quella del telefono: la
+velocità scelta vale per tutta la sessione, e se la lingua non è installata
+compare un avviso giallo. In stampa i pulsanti 🔊 spariscono.
+
+```json
+{ "t": "voce", "lingua": "de-DE" }
+
+{ "t": "coniugazione", "lingua": "de-DE", "verbo": "wohnen",
+  "righe": [
+    { "p": "ich", "pron": "isc", "radice": "wohn", "fine": "e",
+      "dice": "VÓ-ne", "it": "io abito" }
+  ] }
+
+{ "t": "pronuncia", "lingua": "de-DE",
+  "regole": [
+    { "lettere": "W", "x": "si legge V", "esempio": "wohnen", "dice": "VÓ-nen" }
+  ] }
+
+{ "t": "desinenze", "x": ["-e", "-st", "-t", "-en", "-t", "-en"] }
+```
+
+`voce` mette i due pulsanti **Normale** e **Lenta** più l’avviso: va messo una
+volta sola, in cima alla pagina che ha l’audio.
+
+In `coniugazione`: `p` è il pronome, `pron` come si legge il pronome, `radice`
+la parte che non cambia, `fine` la desinenza (che esce in **rosso**), `dice`
+come si legge il verbo e `it` la traduzione. Il pulsante 🔊 legge il pronome
+più il verbo; se il pronome ha delle barre (`er/sie/es/man`) viene letto solo
+il primo. Per un verbo irregolare si lascia `fine` vuota e si scrive tutta la
+forma in `radice`.

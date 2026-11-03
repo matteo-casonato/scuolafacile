@@ -1,0 +1,72 @@
+{
+ "centro": "Tedesco",
+ "sotto": "wohnen · sein · come si legge",
+ "riquadri": [
+  {
+   "titolo": "wohnen = abitare",
+   "colore": "blue",
+   "voci": [
+    "<b>ich</b> wohne",
+    "<b>du</b> wohnst",
+    "<b>er</b> wohnt",
+    "<b>wir</b> wohnen",
+    "<b>ihr</b> wohnt",
+    "<b>sie</b> wohnen"
+   ]
+  },
+  {
+   "titolo": "sein = essere",
+   "colore": "purple",
+   "voci": [
+    "<b>ich</b> bin",
+    "<b>du</b> bist",
+    "<b>er</b> ist",
+    "<b>wir</b> sind",
+    "<b>ihr</b> seid",
+    "<b>sie</b> sind"
+   ]
+  },
+  {
+   "titolo": "Le desinenze",
+   "colore": "orange",
+   "voci": [
+    "La radice <b>wohn-</b> non cambia mai",
+    "<b>-e · -st · -t · -en · -t · -en</b>",
+    "Trucco: “E – ST – T, EN – T – EN”"
+   ]
+  },
+  {
+   "titolo": "Come si leggono le lettere",
+   "colore": "green",
+   "voci": [
+    "<b>W</b> si legge V · <i>wohnen</i> → VÓ-nen",
+    "<b>EI</b> si legge AI · <i>seid</i> → SAIT",
+    "<b>IE</b> si legge I lunga · <i>sie</i> → SI"
+   ]
+  },
+  {
+   "titolo": "Dentro e in fondo alla parola",
+   "colore": "green",
+   "voci": [
+    "<b>H</b> dopo una vocale non si legge: la allunga · <i>wohnt</i> → VONT",
+    "<b>D</b> alla fine si legge T · <i>sind</i> → SINT",
+    "<b>ich</b> si dice ISC, “ch” dolce",
+    "L’accento sta quasi sempre sulla <b>prima sillaba</b>"
+   ]
+  },
+  {
+   "titolo": "Sie e man",
+   "colore": "blue",
+   "voci": [
+    "<b>Sie</b> maiuscolo = cortesia (Lei / Voi), si coniuga come “sie”",
+    "<b>man</b> = impersonale (“si dice”), si coniuga come “er”"
+   ]
+  }
+ ],
+ "errori": [
+  "sein è irregolare, non si fa con wohn- più la desinenza",
+  "er wohnt e ihr wohnt hanno la stessa fine: -t",
+  "D alla fine si legge T: sind → SINT",
+  "W si legge V, non U"
+ ]
+}

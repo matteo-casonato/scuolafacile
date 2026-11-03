@@ -1,0 +1,528 @@
+{
+ "titolo": "Tedesco facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "I verbi",
+   "colore": "blue"
+  },
+  {
+   "nome": "Come si legge",
+   "colore": "purple"
+  },
+  {
+   "nome": "Allenati",
+   "colore": "green"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Tedesco facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso: i verbi <b>wohnen</b> e <b>sein</b>, e come si leggono."
+    },
+    {
+     "t": "p",
+     "x": "Tocca 🔊 per sentire la pronuncia. Sotto ogni parola c’è come si legge."
+    },
+    {
+     "t": "h",
+     "x": "Per ogni esercizio fai così"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> la consegna due volte.",
+      "<b>Sottolinea</b> le parole importanti: “un solo”, “non”, “distinti”…",
+      "<b>Disegna</b>, se puoi. Anche un disegno piccolo aiuta."
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "I verbi",
+   "titolo": "wohnen = abitare",
+   "blocchi": [
+    {
+     "t": "voce",
+     "lingua": "de-DE"
+    },
+    {
+     "t": "coniugazione",
+     "lingua": "de-DE",
+     "verbo": "wohnen",
+     "righe": [
+      {
+       "p": "ich",
+       "pron": "isc",
+       "radice": "wohn",
+       "fine": "e",
+       "dice": "VÓ-ne",
+       "it": "io abito"
+      },
+      {
+       "p": "du",
+       "pron": "du",
+       "radice": "wohn",
+       "fine": "st",
+       "dice": "VONST",
+       "it": "tu abiti"
+      },
+      {
+       "p": "er/sie/es/man",
+       "pron": "er",
+       "radice": "wohn",
+       "fine": "t",
+       "dice": "VONT",
+       "it": "lui/lei/esso abita"
+      },
+      {
+       "p": "wir",
+       "pron": "vir",
+       "radice": "wohn",
+       "fine": "en",
+       "dice": "VÓ-nen",
+       "it": "noi abitiamo"
+      },
+      {
+       "p": "ihr",
+       "pron": "ir",
+       "radice": "wohn",
+       "fine": "t",
+       "dice": "VONT",
+       "it": "voi abitate"
+      },
+      {
+       "p": "sie/Sie",
+       "pron": "si",
+       "radice": "wohn",
+       "fine": "en",
+       "dice": "VÓ-nen",
+       "it": "essi abitano / Lei abita"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "x": "La parte che resta uguale è <b>wohn-</b>. Cambia solo la <b class=\"f-red\">fine</b>:"
+    },
+    {
+     "t": "desinenze",
+     "x": [
+      "-e",
+      "-st",
+      "-t",
+      "-en",
+      "-t",
+      "-en"
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "Trucco: “E – ST – T, EN – T – EN”"
+    }
+   ]
+  },
+  {
+   "sezione": "I verbi",
+   "titolo": "sein = essere",
+   "blocchi": [
+    {
+     "t": "voce",
+     "lingua": "de-DE"
+    },
+    {
+     "t": "coniugazione",
+     "lingua": "de-DE",
+     "verbo": "sein",
+     "righe": [
+      {
+       "p": "ich",
+       "pron": "isc",
+       "radice": "bin",
+       "fine": "",
+       "dice": "BIN",
+       "it": "io sono"
+      },
+      {
+       "p": "du",
+       "pron": "du",
+       "radice": "bist",
+       "fine": "",
+       "dice": "BIST",
+       "it": "tu sei"
+      },
+      {
+       "p": "er/sie/es/man",
+       "pron": "er",
+       "radice": "ist",
+       "fine": "",
+       "dice": "IST",
+       "it": "lui/lei/esso è"
+      },
+      {
+       "p": "wir",
+       "pron": "vir",
+       "radice": "sind",
+       "fine": "",
+       "dice": "SINT",
+       "it": "noi siamo"
+      },
+      {
+       "p": "ihr",
+       "pron": "ir",
+       "radice": "seid",
+       "fine": "",
+       "dice": "SAIT",
+       "it": "voi siete"
+      },
+      {
+       "p": "sie/Sie",
+       "pron": "si",
+       "radice": "sind",
+       "fine": "",
+       "dice": "SINT",
+       "it": "essi sono / Lei è"
+      }
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "sein è irregolare: va imparato a memoria."
+    }
+   ]
+  },
+  {
+   "sezione": "I verbi",
+   "titolo": "Da ricordare",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "<b>Sie</b> con la S maiuscola = forma di <b>cortesia</b> (Lei / Voi). Si coniuga come “sie” (essi)."
+    },
+    {
+     "t": "p",
+     "x": "<b>man</b> = pronome impersonale, come “si dice”, “si fa”. Si coniuga come “er”: <i>man wohnt</i>, <i>man ist</i>."
+    }
+   ]
+  },
+  {
+   "sezione": "Come si legge",
+   "titolo": "Come si legge",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Poche regole, tocca 🔊 per sentire gli esempi."
+    },
+    {
+     "t": "voce",
+     "lingua": "de-DE"
+    },
+    {
+     "t": "pronuncia",
+     "lingua": "de-DE",
+     "regole": [
+      {
+       "lettere": "W",
+       "x": "si legge V",
+       "esempio": "wohnen",
+       "dice": "VÓ-nen"
+      },
+      {
+       "lettere": "EI",
+       "x": "si legge AI",
+       "esempio": "seid",
+       "dice": "SAIT"
+      },
+      {
+       "lettere": "IE",
+       "x": "si legge I lunga",
+       "esempio": "sie",
+       "dice": "SI"
+      },
+      {
+       "lettere": "H",
+       "x": "dopo una vocale non si legge: la allunga",
+       "esempio": "wohnt",
+       "dice": "VONT"
+      },
+      {
+       "lettere": "D",
+       "x": "alla fine di parola si legge T",
+       "esempio": "sind",
+       "dice": "SINT"
+      },
+      {
+       "lettere": "ICH",
+       "x": "“ch” dolce, quasi come “sci”",
+       "esempio": "ich",
+       "dice": "ISC"
+      }
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "In tedesco l’accento è quasi sempre sulla prima sillaba: <b>WOH</b>-nen."
+    }
+   ]
+  },
+  {
+   "sezione": "Allenati",
+   "titolo": "Gioco: il verbo giusto",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Scegli la forma giusta del verbo."
+    },
+    {
+     "t": "gioco",
+     "tipo": "scelta",
+     "record": "tedesco-verbi",
+     "totale": 10,
+     "consegna": "Scegli la forma giusta",
+     "elenco": [
+      {
+       "d": "ich",
+       "r": "wohne",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohnst",
+        "wohnt",
+        "wohnen"
+       ]
+      },
+      {
+       "d": "du",
+       "r": "wohnst",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohne",
+        "wohnt",
+        "wohnen"
+       ]
+      },
+      {
+       "d": "er",
+       "r": "wohnt",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohne",
+        "wohnst",
+        "wohnen"
+       ]
+      },
+      {
+       "d": "wir",
+       "r": "wohnen",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+       ]
+      },
+      {
+       "d": "ihr",
+       "r": "wohnt",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohne",
+        "wohnst",
+        "wohnen"
+       ]
+      },
+      {
+       "d": "sie",
+       "r": "wohnen",
+       "consegna": "Scegli la forma giusta del verbo wohnen",
+       "sbagliate": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+       ]
+      },
+      {
+       "d": "ich",
+       "r": "bin",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bist",
+        "ist",
+        "sind",
+        "seid"
+       ]
+      },
+      {
+       "d": "du",
+       "r": "bist",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bin",
+        "ist",
+        "sind",
+        "seid"
+       ]
+      },
+      {
+       "d": "er",
+       "r": "ist",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bin",
+        "bist",
+        "sind",
+        "seid"
+       ]
+      },
+      {
+       "d": "wir",
+       "r": "sind",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bin",
+        "bist",
+        "ist",
+        "seid"
+       ]
+      },
+      {
+       "d": "ihr",
+       "r": "seid",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bin",
+        "bist",
+        "ist",
+        "sind"
+       ]
+      },
+      {
+       "d": "sie",
+       "r": "sind",
+       "consegna": "Scegli la forma giusta del verbo sein",
+       "sbagliate": [
+        "bin",
+        "bist",
+        "ist",
+        "seid"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Allenati",
+   "titolo": "Gioco: ascolta e scegli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Ascolta e tocca quello che hai sentito."
+    },
+    {
+     "t": "gioco",
+     "tipo": "ascolta",
+     "lingua": "de-DE",
+     "record": "tedesco-ascolto",
+     "totale": 10,
+     "voci": [
+      {
+       "testo": "ich wohne",
+       "it": "io abito"
+      },
+      {
+       "testo": "du wohnst",
+       "it": "tu abiti"
+      },
+      {
+       "testo": "er wohnt",
+       "it": "lui/lei/esso abita"
+      },
+      {
+       "testo": "wir wohnen",
+       "it": "noi abitiamo"
+      },
+      {
+       "testo": "ihr wohnt",
+       "it": "voi abitate"
+      },
+      {
+       "testo": "sie wohnen",
+       "it": "essi abitano / Lei abita"
+      },
+      {
+       "testo": "ich bin",
+       "it": "io sono"
+      },
+      {
+       "testo": "du bist",
+       "it": "tu sei"
+      },
+      {
+       "testo": "er ist",
+       "it": "lui/lei/esso è"
+      },
+      {
+       "testo": "wir sind",
+       "it": "noi siamo"
+      },
+      {
+       "testo": "ihr seid",
+       "it": "voi siete"
+      },
+      {
+       "testo": "sie sind",
+       "it": "essi sono / Lei è"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "sein è irregolare: NON si fa con wohn- più la desinenza."
+    },
+    {
+     "t": "hl",
+     "x": "er wohnt e ihr wohnt hanno la stessa fine: -t."
+    },
+    {
+     "t": "hl",
+     "x": "sie (essi) e Sie (Lei) si coniugano uguale: wohnen, sind."
+    },
+    {
+     "t": "hl",
+     "x": "D alla fine di parola si legge T: sind si dice SINT."
+    },
+    {
+     "t": "hl",
+     "x": "W si legge V: wohnen si dice VÓ-nen, non UO-nen."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

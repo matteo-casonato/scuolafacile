@@ -1,7 +1,7 @@
 /* Scuola facile — service worker: dopo la prima apertura l'app funziona offline.
    Cambia VERSIONE a ogni pubblicazione per far scaricare i file nuovi. */
 
-const VERSIONE = 'sf-4';
+const VERSIONE = 'sf-5';
 const GUSCIO = `${VERSIONE}-guscio`;
 const CONTENUTI = `${VERSIONE}-contenuti`;
 
@@ -17,6 +17,7 @@ const FILE = [
   'app/materia.js',
   'app/deck.js',
   'app/blocchi.js',
+  'app/audio.js',
   'app/icone.js',
   'app/progressi.js',
   'app/sw-registra.js',

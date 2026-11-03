@@ -343,3 +343,34 @@
   .gioco{display:none}
   .slide:has(.gioco){display:none!important;break-after:auto}
 }
+
+/* ---------- lingue: coniugazioni e pronuncia ---------- */
+@layer components {
+  .conj{width:100%;border-collapse:collapse;margin:0 0 4px}
+  .conj td{padding:8px 4px;border-bottom:1px solid var(--grid);vertical-align:middle}
+  .conj tr:last-child td{border-bottom:none}
+  .de{font-weight:700;font-size:21px}
+  .end{color:var(--red)}
+  .ph{color:var(--muted);font-size:15px;display:block;line-height:1.2}
+  .it{font-size:15px;color:var(--muted);display:block}
+
+  .say{width:44px;height:44px;border-radius:50%;border:2px solid var(--c);background:var(--card);
+    color:var(--c);font-size:20px;cursor:pointer;flex:none}
+  .say:active{transform:scale(.94)}
+
+  .regola{display:flex;gap:12px;align-items:center;margin:10px 0}
+  .regola .lettere{font-weight:700;font-size:22px;min-width:76px;text-align:center;color:var(--c);flex:none}
+  .regola .dentro{flex:1}
+
+  .desinenze{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 14px}
+  .desinenze span{background:var(--card);border:2px solid var(--red);color:var(--red);
+    font-weight:700;border-radius:10px;padding:4px 10px;font-size:20px}
+
+  .senza-voce{display:none}
+  .senza-voce.serve{display:table}
+}
+
+@media print{
+  /* su carta il pulsante dell'audio non serve */
+  .say,.velocita,.senza-voce{display:none!important}
+}
