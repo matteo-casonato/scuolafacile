@@ -1,0 +1,15 @@
+# foto di libro, quaderno, agenda: non vanno mai online
+/_input/
+
+# materiale di partenza e brief, da rivedere prima di pubblicare
+/CLAUDE.md
+/LEGGIMI.md
+/PROPOSTA.md
+/contenuti-attuali/
+/sorgenti-generatori/
+/scuolafacile.zip
+
+# strumenti
+/node_modules/
+/_lavoro/
+.DS_Store

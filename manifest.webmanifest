@@ -1,0 +1,17 @@
+{
+  "name": "Scuola facile",
+  "short_name": "Scuola facile",
+  "description": "Ripasso per le verifiche: pagine da sfogliare, schemi e prove da stampare.",
+  "lang": "it",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfcfe",
+  "theme_color": "#fbfcfe",
+  "icons": [
+    { "src": "assets/icone/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icone/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icone/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

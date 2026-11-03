@@ -1,0 +1,17 @@
+{
+  "name": "scuolafacile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scuola facile — webapp di ripasso per le verifiche",
+  "scripts": {
+    "controlla": "node scripts/controlla.mjs",
+    "foto": "node scripts/shot.mjs",
+    "pdf": "node scripts/pdf.mjs",
+    "indice": "node scripts/indice.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1"
+  }
+}

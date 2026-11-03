@@ -1,0 +1,73 @@
+{
+ "centro": "Matematica",
+ "sotto": "insiemi · grafici · geometria · piano cartesiano",
+ "riquadri": [
+  {
+   "titolo": "Insiemi",
+   "colore": "blue",
+   "voci": [
+    "Insieme = maiuscola (A), elemento = minuscola (a)",
+    "<b>∈</b> appartiene · <b>∉</b> non appartiene",
+    "Uguali · finito · infinito · <b>vuoto ∅</b>",
+    "Si scrive per <b>elencazione</b>, <b>caratteristica</b> {x | …} (| = tale che), <b>Eulero-Venn</b>"
+   ]
+  },
+  {
+   "titolo": "Operazioni",
+   "colore": "blue",
+   "voci": [
+    "<b>B ⊂ A</b>: B è sottoinsieme di A · <b>⊄</b> non è incluso",
+    "Impropri: A stesso e ∅ · tutti gli altri propri",
+    "<b>∩</b> intersezione: in comune",
+    "<b>∪</b> unione: tutti, una volta sola",
+    "<b>Disgiunti</b>: A ∩ B = ∅"
+   ]
+  },
+  {
+   "titolo": "Grafici",
+   "colore": "green",
+   "voci": [
+    "<b>Ideogramma</b>: un disegno ripetuto",
+    "<b>Barre</b> · <b>areogramma</b> (torta)",
+    "<b>Diagramma cartesiano</b>: punti uniti da una <b>spezzata</b>"
+   ]
+  },
+  {
+   "titolo": "Geometria",
+   "colore": "orange",
+   "voci": [
+    "<b>Punto</b> (0 dim., A) · <b>retta</b> (1, r) · <b>piano</b> (2, α) · <b>spazio</b> (3)",
+    "Dimensioni: lunghezza, larghezza, altezza",
+    "Linee aperte/chiuse, semplici/intrecciate",
+    "Un punto divide la retta in 2 <b>semirette</b>; una retta divide il piano in 2 <b>semipiani</b>"
+   ]
+  },
+  {
+   "titolo": "Assiomi",
+   "colore": "purple",
+   "voci": [
+    "Per <b>1 punto</b>: infinite rette",
+    "Per <b>2 punti</b>: una sola retta",
+    "Retta con 2 punti nel piano: <b>tutta</b> nel piano",
+    "Per <b>una retta</b>: infiniti piani",
+    "Per <b>3 punti non allineati</b>: un solo piano"
+   ]
+  },
+  {
+   "titolo": "Piano cartesiano",
+   "colore": "blue",
+   "voci": [
+    "Asse <b>x</b> (ascisse) e asse <b>y</b> (ordinate), origine O (0 ; 0)",
+    "P (x ; y): <b>prima cammino, poi salgo</b>",
+    "Sull’asse y: x = 0 · sull’asse x: y = 0",
+    "Stessa ascissa: riga verticale · stessa ordinata: orizzontale"
+   ]
+  }
+ ],
+ "errori": [
+  "Il piano ha due DIMENSIONI, non “lati”",
+  "3 punti allineati: infiniti piani · non allineati: uno",
+  "Se scambi i numeri ottieni un ALTRO punto",
+  "Origine della semiretta = il punto"
+ ]
+}

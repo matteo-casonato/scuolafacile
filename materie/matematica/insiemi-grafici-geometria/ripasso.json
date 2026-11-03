@@ -1,0 +1,759 @@
+{
+ "titolo": "Matematica facile",
+ "sezioni": [
+  {
+   "nome": "Si parte",
+   "colore": "ink"
+  },
+  {
+   "nome": "Insiemi",
+   "colore": "blue"
+  },
+  {
+   "nome": "Grafici",
+   "colore": "green"
+  },
+  {
+   "nome": "Geometria",
+   "colore": "orange"
+  },
+  {
+   "nome": "Assiomi",
+   "colore": "purple"
+  },
+  {
+   "nome": "Piano cartesiano",
+   "colore": "blue"
+  },
+  {
+   "nome": "Ripasso",
+   "colore": "red"
+  }
+ ],
+ "pagine": [
+  {
+   "sezione": "Si parte",
+   "titolo": "Matematica facile",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "lead",
+     "x": "Ripasso: insiemi, grafici, geometria e piano cartesiano."
+    },
+    {
+     "t": "h",
+     "x": "Per ogni esercizio fai così"
+    },
+    {
+     "t": "passi",
+     "x": [
+      "<b>Leggi</b> la consegna due volte.",
+      "<b>Sottolinea</b> le parole importanti: “un solo”, “non”, “distinti”…",
+      "<b>Disegna</b>, se puoi. Anche un disegno piccolo aiuta."
+     ]
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "Che cos’è un insieme",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Un <b>insieme</b> è un gruppo di cose, dette elementi. Devi poter dire con certezza se una cosa sta dentro o no."
+    },
+    {
+     "t": "p",
+     "x": "✓ “Le capitali europee” è un insieme.<br>✗ “I quadri belli” non è un insieme: belli per chi?"
+    },
+    {
+     "t": "p",
+     "x": "Insieme: lettera maiuscola (A). Elemento: lettera minuscola (a)."
+    },
+    {
+     "t": "sym",
+     "simbolo": "∈",
+     "x": "<b>appartiene</b>: sta dentro"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∉",
+     "x": "<b>non appartiene</b>: sta fuori"
+    },
+    {
+     "t": "p",
+     "x": "A = lettere di “luna” → l ∈ A &nbsp; f ∉ A"
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "Tipi di insiemi",
+   "blocchi": [
+    {
+     "t": "sym",
+     "simbolo": "=",
+     "x": "<b>Uguali</b>: hanno gli stessi elementi. L’ordine non conta.<br><span class=\"muted\">{cavallo, orso, lupo} = {orso, lupo, cavallo}</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "123",
+     "x": "<b>Finito</b>: si possono contare gli elementi.<br><span class=\"muted\">Le note musicali: sono 7.</span>",
+     "piccolo": true
+    },
+    {
+     "t": "sym",
+     "simbolo": "∞",
+     "x": "<b>Infinito</b>: gli elementi non finiscono mai.<br><span class=\"muted\">I punti di una retta.</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∅",
+     "x": "<b>Vuoto</b>: non ha elementi.<br><span class=\"muted\">I gatti con le ali.</span>"
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "3 modi per rappresentare un insieme",
+   "blocchi": [
+    {
+     "t": "h",
+     "x": "1. Per elencazione"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A = {do, re, mi, fa, sol, la, si}"
+    },
+    {
+     "t": "h",
+     "x": "2. Per caratteristica"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A = {x <span class=\"f-red\">|</span> x è una nota musicale}"
+    },
+    {
+     "t": "p",
+     "x": "La sbarretta | si legge “<b class=\"f-red\">tale che</b>”."
+    },
+    {
+     "t": "h",
+     "x": "3. Con il diagramma di Eulero-Venn"
+    },
+    {
+     "t": "p",
+     "x": "Una linea chiusa con dentro gli elementi, ognuno con un puntino."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 165",
+     "alt": "Diagramma delle note, sa è fuori",
+     "body": "<ellipse cx=\"140\" cy=\"90\" rx=\"120\" ry=\"62\" class=\"t-blue s-blue\" stroke-width=\"3\"/><text x=\"28\" y=\"22\" text-anchor=\"middle\" class=\"f-blue big\">A</text><circle cx=\"50\" cy=\"70\" r=\"3.5\" class=\"f-ink\"/><text x=\"58\" y=\"75\" text-anchor=\"start\" class=\"b\">do</text><circle cx=\"110\" cy=\"55\" r=\"3.5\" class=\"f-ink\"/><text x=\"118\" y=\"60\" text-anchor=\"start\" class=\"b\">re</text><circle cx=\"175\" cy=\"65\" r=\"3.5\" class=\"f-ink\"/><text x=\"183\" y=\"70\" text-anchor=\"start\" class=\"b\">mi</text><circle cx=\"70\" cy=\"115\" r=\"3.5\" class=\"f-ink\"/><text x=\"78\" y=\"120\" text-anchor=\"start\" class=\"b\">fa</text><circle cx=\"130\" cy=\"125\" r=\"3.5\" class=\"f-ink\"/><text x=\"138\" y=\"130\" text-anchor=\"start\" class=\"b\">sol</text><circle cx=\"190\" cy=\"107\" r=\"3.5\" class=\"f-ink\"/><text x=\"198\" y=\"112\" text-anchor=\"start\" class=\"b\">la</text><circle cx=\"110\" cy=\"93\" r=\"3.5\" class=\"f-ink\"/><text x=\"118\" y=\"98\" text-anchor=\"start\" class=\"b\">si</text><circle cx=\"285\" cy=\"92\" r=\"3.5\" class=\"f-ink\"/><text x=\"293\" y=\"97\" text-anchor=\"start\" class=\"b\">sa</text><text x=\"298\" y=\"125\" text-anchor=\"middle\" class=\"f-red sm\">fuori</text>"
+    },
+    {
+     "t": "hl",
+     "x": "Chi sta fuori dalla linea non appartiene all’insieme: sa ∉ A."
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "Dalla caratteristica all’elenco",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "La regola si scrive dopo la sbarretta <b>|</b>, che si legge “tale che”."
+    },
+    {
+     "t": "h",
+     "x": "Esempio 1"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A = {x | x è una vocale}"
+    },
+    {
+     "t": "p",
+     "x": "Si legge: “gli x <b>tali che</b> x è una vocale”."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A = {a, e, i, o, u}"
+    },
+    {
+     "t": "h",
+     "x": "Esempio 2"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "B = {x | x è un colore<br>del semaforo}"
+    },
+    {
+     "t": "p",
+     "x": "Si legge: “gli x <b>tali che</b> x è un colore del semaforo”."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "B = {rosso, giallo, verde}"
+    },
+    {
+     "t": "h",
+     "x": "Esempio 3"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "C = {x | x è un numero dispari<br>minore di 10}"
+    },
+    {
+     "t": "p",
+     "x": "Si legge: “gli x <b>tali che</b> x è un numero dispari minore di 10”."
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "C = {1, 3, 5, 7, 9}"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "A volte trovi scritto x ∈ ℕ: vuol dire solo “x è un numero naturale”, cioè un numero senza virgola: 0, 1, 2, 3…"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Per esempio, C si può scrivere anche così:<br>C = {x ∈ ℕ | x è dispari e minore di 10}"
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "I sottoinsiemi",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "B è <b>sottoinsieme</b> di A se ogni elemento di B è anche in A."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 170",
+     "alt": "B dentro A",
+     "body": "<ellipse cx=\"160\" cy=\"90\" rx=\"145\" ry=\"70\" class=\"t-orange s-orange\" stroke-width=\"3\"/><text x=\"22\" y=\"26\" text-anchor=\"middle\" class=\"f-orange big\">A</text><circle cx=\"35\" cy=\"80\" r=\"3.5\" class=\"f-ink\"/><text x=\"43\" y=\"85\" text-anchor=\"start\" class=\"b\">3</text><circle cx=\"70\" cy=\"120\" r=\"3.5\" class=\"f-ink\"/><text x=\"78\" y=\"125\" text-anchor=\"start\" class=\"b\">5</text><circle cx=\"120\" cy=\"40\" r=\"3.5\" class=\"f-ink\"/><text x=\"128\" y=\"45\" text-anchor=\"start\" class=\"b\">1</text><ellipse cx=\"215\" cy=\"98\" rx=\"62\" ry=\"38\" class=\"t-blue s-blue\" stroke-width=\"3\"/><text x=\"205\" y=\"52\" text-anchor=\"middle\" class=\"f-blue big\">B</text><circle cx=\"190\" cy=\"87\" r=\"3.5\" class=\"f-ink\"/><text x=\"198\" y=\"92\" text-anchor=\"start\" class=\"b\">4</text><circle cx=\"230\" cy=\"105\" r=\"3.5\" class=\"f-ink\"/><text x=\"238\" y=\"110\" text-anchor=\"start\" class=\"b\">2</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>B ⊂ A</b> si legge “B è incluso in A”."
+    },
+    {
+     "t": "p",
+     "x": "<b>⊄</b> si legge “non è incluso”:<br>{s, a, l, t, o} ⊄ {s, a, l, i, r, e}<br><span class=\"muted\">perché t e o non ci sono.</span>"
+    },
+    {
+     "t": "h",
+     "x": "Propri e impropri"
+    },
+    {
+     "t": "p",
+     "x": "Impropri: l’insieme stesso e il vuoto ∅. Propri: tutti gli altri."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "A = {m, a, i} ha 8 sottoinsiemi.<br>Impropri: {m, a, i} e ∅.<br>Propri: {m}, {a}, {i}, {m, a}, {m, i}, {a, i}."
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "Intersezione e unione",
+   "blocchi": [
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A = {1, 2, 4, 5}<br>B = {2, 4, 6, 8}"
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 180",
+     "alt": "A e B con 2 e 4 in comune",
+     "body": "<circle cx=\"115\" cy=\"95\" r=\"78\" class=\"t-blue s-blue\" stroke-width=\"3\"/><circle cx=\"205\" cy=\"95\" r=\"78\" class=\"t-orange s-orange\" stroke-width=\"3\"/><text x=\"38\" y=\"24\" text-anchor=\"middle\" class=\"f-blue big\">A</text><text x=\"282\" y=\"24\" text-anchor=\"middle\" class=\"f-orange big\">B</text><text x=\"78\" y=\"85\" text-anchor=\"middle\" class=\"b\">1</text><text x=\"78\" y=\"120\" text-anchor=\"middle\" class=\"b\">5</text><text x=\"160\" y=\"85\" text-anchor=\"middle\" class=\"f-red b\">2</text><text x=\"160\" y=\"120\" text-anchor=\"middle\" class=\"f-red b\">4</text><text x=\"242\" y=\"85\" text-anchor=\"middle\" class=\"b\">6</text><text x=\"242\" y=\"120\" text-anchor=\"middle\" class=\"b\">8</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-red\">∩ Intersezione</b>: gli elementi in comune, nella parte centrale.<br>A ∩ B = {2, 4}"
+    },
+    {
+     "t": "p",
+     "x": "<b>∪ Unione</b>: tutti gli elementi, presi una sola volta.<br>A ∪ B = {1, 2, 4, 5, 6, 8}"
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "Insiemi disgiunti",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Due insiemi sono <b>disgiunti</b> se non hanno niente in comune. Si disegnano separati."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 135",
+     "alt": "Insiemi separati",
+     "body": "<ellipse cx=\"85\" cy=\"75\" rx=\"70\" ry=\"48\" class=\"t-blue s-blue\" stroke-width=\"3\"/><text x=\"15\" y=\"22\" text-anchor=\"middle\" class=\"f-blue big\">A</text><circle cx=\"50\" cy=\"60\" r=\"3.5\" class=\"f-ink\"/><text x=\"58\" y=\"65\" text-anchor=\"start\" class=\"b\">1</text><circle cx=\"95\" cy=\"60\" r=\"3.5\" class=\"f-ink\"/><text x=\"103\" y=\"65\" text-anchor=\"start\" class=\"b\">3</text><circle cx=\"50\" cy=\"93\" r=\"3.5\" class=\"f-ink\"/><text x=\"58\" y=\"98\" text-anchor=\"start\" class=\"b\">5</text><circle cx=\"95\" cy=\"93\" r=\"3.5\" class=\"f-ink\"/><text x=\"103\" y=\"98\" text-anchor=\"start\" class=\"b\">7</text><ellipse cx=\"245\" cy=\"75\" rx=\"72\" ry=\"48\" class=\"t-orange s-orange\" stroke-width=\"3\"/><text x=\"300\" y=\"22\" text-anchor=\"middle\" class=\"f-orange big\">B</text><circle cx=\"200\" cy=\"60\" r=\"3.5\" class=\"f-ink\"/><text x=\"208\" y=\"65\" text-anchor=\"start\" class=\"b\">2</text><circle cx=\"240\" cy=\"55\" r=\"3.5\" class=\"f-ink\"/><text x=\"248\" y=\"60\" text-anchor=\"start\" class=\"b\">4</text><circle cx=\"280\" cy=\"65\" r=\"3.5\" class=\"f-ink\"/><text x=\"288\" y=\"70\" text-anchor=\"start\" class=\"b\">6</text><circle cx=\"215\" cy=\"95\" r=\"3.5\" class=\"f-ink\"/><text x=\"223\" y=\"100\" text-anchor=\"start\" class=\"b\">8</text><circle cx=\"260\" cy=\"95\" r=\"3.5\" class=\"f-ink\"/><text x=\"268\" y=\"100\" text-anchor=\"start\" class=\"b\">10</text>"
+    },
+    {
+     "t": "p",
+     "stile": "formula",
+     "x": "A ∩ B = ∅"
+    },
+    {
+     "t": "hl",
+     "x": "Disgiunti = intersezione vuota."
+    }
+   ]
+  },
+  {
+   "sezione": "Insiemi",
+   "titolo": "I simboli degli insiemi",
+   "blocchi": [
+    {
+     "t": "sym",
+     "simbolo": "{ }",
+     "x": "<b>parentesi graffe</b>: racchiudono gli elementi<br><span class=\"muted\">A = {1, 2, 3}</span>",
+     "style": "white-space:nowrap;font-size:38px"
+    },
+    {
+     "t": "sym",
+     "simbolo": "|",
+     "x": "<b>tale che</b><br><span class=\"muted\">{x | x è una nota musicale}</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∈",
+     "x": "<b>appartiene</b> a<br><span class=\"muted\">l ∈ A</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∉",
+     "x": "<b>non appartiene</b> a<br><span class=\"muted\">f ∉ A</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "⊂",
+     "x": "<b>è incluso</b> in (sottoinsieme)<br><span class=\"muted\">B ⊂ A</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "⊄",
+     "x": "<b>non è incluso</b> in<br><span class=\"muted\">C ⊄ A</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∩",
+     "x": "<b>intersezione</b>: gli elementi in comune<br><span class=\"muted\">A ∩ B</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∪",
+     "x": "<b>unione</b>: tutti gli elementi<br><span class=\"muted\">A ∪ B</span>"
+    },
+    {
+     "t": "sym",
+     "simbolo": "∅",
+     "x": "<b>insieme vuoto</b><br><span class=\"muted\">A ∩ B = ∅</span>"
+    }
+   ]
+  },
+  {
+   "sezione": "Grafici",
+   "titolo": "L’ideogramma",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Litri di latte al mese di 4 famiglie: A 18, B 20, C 32, D 10."
+    },
+    {
+     "t": "p",
+     "x": "Si usa un disegno, l’<b>unità grafica</b>, e lo si ripete."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 170",
+     "alt": "Ideogramma del latte",
+     "body": "<text x=\"10\" y=\"38\" text-anchor=\"start\" class=\"b\">A</text><rect x=\"34\" y=\"18\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"39\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"60\" y=\"18\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"65\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"86\" y=\"18\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"91\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"112\" y=\"18\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"117\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"138\" y=\"31\" width=\"18\" height=\"13\" rx=\"3\" class=\"f-blue\"/><text x=\"320\" y=\"38\" text-anchor=\"end\" class=\"f-blue b\">18 l</text><text x=\"10\" y=\"76\" text-anchor=\"start\" class=\"b\">B</text><rect x=\"34\" y=\"56\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"39\" y=\"53\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"60\" y=\"56\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"65\" y=\"53\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"86\" y=\"56\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"91\" y=\"53\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"112\" y=\"56\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"117\" y=\"53\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"138\" y=\"56\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"143\" y=\"53\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><text x=\"320\" y=\"76\" text-anchor=\"end\" class=\"f-blue b\">20 l</text><text x=\"10\" y=\"114\" text-anchor=\"start\" class=\"b\">C</text><rect x=\"34\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"39\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"60\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"65\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"86\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"91\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"112\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"117\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"138\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"143\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"164\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"169\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"190\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"195\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"216\" y=\"94\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"221\" y=\"91\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><text x=\"320\" y=\"114\" text-anchor=\"end\" class=\"f-blue b\">32 l</text><text x=\"10\" y=\"152\" text-anchor=\"start\" class=\"b\">D</text><rect x=\"34\" y=\"132\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"39\" y=\"129\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"60\" y=\"132\" width=\"18\" height=\"26\" rx=\"3\" class=\"f-blue\"/><rect x=\"65\" y=\"129\" width=\"8\" height=\"5\" rx=\"1\" class=\"f-blue\"/><rect x=\"86\" y=\"145\" width=\"18\" height=\"13\" rx=\"3\" class=\"f-blue\"/><text x=\"320\" y=\"152\" text-anchor=\"end\" class=\"f-blue b\">10 l</text>"
+    },
+    {
+     "t": "p",
+     "x": "Qui un cartone intero = 4 litri, mezzo cartone = 2 litri."
+    }
+   ]
+  },
+  {
+   "sezione": "Grafici",
+   "titolo": "Barre e torta",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Stessi dati del latte, disegnati in due modi."
+    },
+    {
+     "t": "h",
+     "x": "Diagramma a barre"
+    },
+    {
+     "t": "p",
+     "x": "Più grande è il dato, più è alta la barra."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 175",
+     "alt": "Diagramma a barre",
+     "body": "<line x1=\"30\" y1=\"150\" x2=\"310\" y2=\"150\" class=\"s-muted\" stroke-width=\"2\"/><rect x=\"50\" y=\"78\" width=\"40\" height=\"72\" class=\"f-blue\" fill-opacity=\".8\"/><text x=\"70\" y=\"72\" text-anchor=\"middle\" class=\"b\">18</text><text x=\"70\" y=\"168\" text-anchor=\"middle\" class=\"b\">A</text><rect x=\"115\" y=\"70\" width=\"40\" height=\"80\" class=\"f-orange\" fill-opacity=\".8\"/><text x=\"135\" y=\"64\" text-anchor=\"middle\" class=\"b\">20</text><text x=\"135\" y=\"168\" text-anchor=\"middle\" class=\"b\">B</text><rect x=\"180\" y=\"22\" width=\"40\" height=\"128\" class=\"f-red\" fill-opacity=\".8\"/><text x=\"200\" y=\"16\" text-anchor=\"middle\" class=\"b\">32</text><text x=\"200\" y=\"168\" text-anchor=\"middle\" class=\"b\">C</text><rect x=\"245\" y=\"110\" width=\"40\" height=\"40\" class=\"f-green\" fill-opacity=\".8\"/><text x=\"265\" y=\"104\" text-anchor=\"middle\" class=\"b\">10</text><text x=\"265\" y=\"168\" text-anchor=\"middle\" class=\"b\">D</text>"
+    },
+    {
+     "t": "h",
+     "x": "Areogramma (a torta)"
+    },
+    {
+     "t": "p",
+     "x": "Più grande è il dato, più è grande la fetta."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 340 170",
+     "alt": "Areogramma",
+     "body": "<path d=\"M100,85 L100.0,13.0 A72,72 0 0 1 171.1,73.7 z\" class=\"f-blue\" fill-opacity=\".8\" stroke=\"var(--paper)\" stroke-width=\"2\"/><text x=\"128.99136087745939\" y=\"56.05547769561462\" text-anchor=\"middle\" class=\"b\">18</text><path d=\"M100,85 L171.1,73.7 A72,72 0 0 1 111.3,156.1 z\" class=\"f-orange\" fill-opacity=\".8\" stroke=\"var(--paper)\" stroke-width=\"2\"/><text x=\"136.11451862889766\" y=\"116.238733662336\" text-anchor=\"middle\" class=\"b\">20</text><path d=\"M100,85 L111.3,156.1 A72,72 0 0 1 49.1,34.1 z\" class=\"f-red\" fill-opacity=\".8\" stroke=\"var(--paper)\" stroke-width=\"2\"/><text x=\"60.22546876023126\" y=\"110.26613590837337\" text-anchor=\"middle\" class=\"b\">32</text><path d=\"M100,85 L49.1,34.1 A72,72 0 0 1 100.0,13.0 z\" class=\"f-green\" fill-opacity=\".8\" stroke=\"var(--paper)\" stroke-width=\"2\"/><text x=\"82.91701157922236\" y=\"48.75801766869617\" text-anchor=\"middle\" class=\"b\">10</text><rect x=\"215\" y=\"35\" width=\"18\" height=\"18\" class=\"f-blue\" fill-opacity=\".8\"/><text x=\"242\" y=\"50\" text-anchor=\"start\" class=\"\">famiglia A</text><rect x=\"215\" y=\"65\" width=\"18\" height=\"18\" class=\"f-orange\" fill-opacity=\".8\"/><text x=\"242\" y=\"80\" text-anchor=\"start\" class=\"\">famiglia B</text><rect x=\"215\" y=\"95\" width=\"18\" height=\"18\" class=\"f-red\" fill-opacity=\".8\"/><text x=\"242\" y=\"110\" text-anchor=\"start\" class=\"\">famiglia C</text><rect x=\"215\" y=\"125\" width=\"18\" height=\"18\" class=\"f-green\" fill-opacity=\".8\"/><text x=\"242\" y=\"140\" text-anchor=\"start\" class=\"\">famiglia D</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Grafici",
+   "titolo": "Il diagramma cartesiano",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "I dati diventano punti, uniti da una linea: la <b>spezzata</b>. Mostra come cambia una cosa nel tempo."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 245",
+     "alt": "Peso del cane: spezzata",
+     "body": "<line x1=\"34\" y1=\"200\" x2=\"294.0\" y2=\"200\" class=\"s-grid\"/><line x1=\"34\" y1=\"180\" x2=\"294.0\" y2=\"180\" class=\"s-grid\"/><line x1=\"34\" y1=\"160\" x2=\"294.0\" y2=\"160\" class=\"s-grid\"/><line x1=\"34\" y1=\"140\" x2=\"294.0\" y2=\"140\" class=\"s-grid\"/><line x1=\"34\" y1=\"120\" x2=\"294.0\" y2=\"120\" class=\"s-grid\"/><line x1=\"34\" y1=\"100\" x2=\"294.0\" y2=\"100\" class=\"s-grid\"/><line x1=\"34\" y1=\"80\" x2=\"294.0\" y2=\"80\" class=\"s-grid\"/><line x1=\"34\" y1=\"60\" x2=\"294.0\" y2=\"60\" class=\"s-grid\"/><line x1=\"34\" y1=\"40\" x2=\"294.0\" y2=\"40\" class=\"s-grid\"/><line x1=\"34\" y1=\"200\" x2=\"306.0\" y2=\"200\" class=\"s-blue\" stroke-width=\"3\" marker-end=\"url(#a-blue)\"/><line x1=\"34\" y1=\"200\" x2=\"34\" y2=\"15\" class=\"s-green\" stroke-width=\"3\" marker-end=\"url(#a-green)\"/><text x=\"22\" y=\"185\" text-anchor=\"middle\" class=\"f-green sm\">1</text><text x=\"22\" y=\"165\" text-anchor=\"middle\" class=\"f-green sm\">2</text><text x=\"22\" y=\"145\" text-anchor=\"middle\" class=\"f-green sm\">3</text><text x=\"22\" y=\"125\" text-anchor=\"middle\" class=\"f-green sm\">4</text><text x=\"22\" y=\"105\" text-anchor=\"middle\" class=\"f-green sm\">5</text><text x=\"22\" y=\"85\" text-anchor=\"middle\" class=\"f-green sm\">6</text><text x=\"22\" y=\"65\" text-anchor=\"middle\" class=\"f-green sm\">7</text><text x=\"22\" y=\"45\" text-anchor=\"middle\" class=\"f-green sm\">8</text><text x=\"74\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">1ª</text><text x=\"114\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">2ª</text><text x=\"154\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">3ª</text><text x=\"194\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">4ª</text><text x=\"234\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">5ª</text><text x=\"274\" y=\"218\" text-anchor=\"middle\" class=\"f-blue sm\">6ª</text><text x=\"174.0\" y=\"238\" text-anchor=\"middle\" class=\"f-blue sm\">settimana</text><text x=\"38\" y=\"12\" text-anchor=\"start\" class=\"f-green sm\">peso (kg)</text><polyline points=\"74,140 114,120 154,120 194,100 234,60 274,60\" class=\"s-purple\" stroke-width=\"3.5\"/><circle cx=\"74\" cy=\"140\" r=\"5\" class=\"f-purple\"/><circle cx=\"114\" cy=\"120\" r=\"5\" class=\"f-purple\"/><circle cx=\"154\" cy=\"120\" r=\"5\" class=\"f-purple\"/><circle cx=\"194\" cy=\"100\" r=\"5\" class=\"f-purple\"/><circle cx=\"234\" cy=\"60\" r=\"5\" class=\"f-purple\"/><circle cx=\"274\" cy=\"60\" r=\"5\" class=\"f-purple\"/>"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Peso del cane: dalla 3ª alla 5ª settimana cresce di 3 kg, poi resta a 7 kg."
+    }
+   ]
+  },
+  {
+   "sezione": "Geometria",
+   "titolo": "Gli enti fondamentali",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Sono 3: <b>punto</b>, <b>retta</b> e <b>piano</b>."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 140",
+     "alt": "Punto, retta, piano",
+     "body": "<circle cx=\"45\" cy=\"60\" r=\"7\" class=\"f-red\"/><text x=\"45\" y=\"40\" text-anchor=\"middle\" class=\"f-red b\">A</text><text x=\"45\" y=\"110\" text-anchor=\"middle\" class=\"b\">punto</text><text x=\"45\" y=\"128\" text-anchor=\"middle\" class=\"f-muted sm\">0 dim.</text><line x1=\"95\" y1=\"60\" x2=\"175\" y2=\"60\" class=\"s-blue\" stroke-width=\"3.5\" stroke-dasharray=\"0\" /><line x1=\"80\" y1=\"60\" x2=\"95\" y2=\"60\" class=\"s-blue\" stroke-width=\"3.5\" stroke-dasharray=\"4 4\"/><line x1=\"175\" y1=\"60\" x2=\"190\" y2=\"60\" class=\"s-blue\" stroke-width=\"3.5\" stroke-dasharray=\"4 4\"/><text x=\"170\" y=\"50\" text-anchor=\"middle\" class=\"f-blue b\">r</text><text x=\"135\" y=\"110\" text-anchor=\"middle\" class=\"b\">retta</text><text x=\"135\" y=\"128\" text-anchor=\"middle\" class=\"f-muted sm\">1 dim.</text><polygon points=\"215,80 300,80 320,40 235,40\" class=\"t-green s-green\" stroke-width=\"3\"/><text x=\"228\" y=\"74\" text-anchor=\"start\" class=\"f-green b\">α</text><text x=\"268\" y=\"110\" text-anchor=\"middle\" class=\"b\">piano</text><text x=\"268\" y=\"128\" text-anchor=\"middle\" class=\"f-muted sm\">2 dim.</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>Punto</b>: nessuna dimensione. Lettera maiuscola: A."
+    },
+    {
+     "t": "p",
+     "x": "<b>Retta</b>: non ha né inizio né fine. 1 <u>dimensione</u>: la <u>lunghezza</u>. Lettera minuscola: r."
+    },
+    {
+     "t": "p",
+     "x": "<b>Piano</b>: illimitato. 2 <u>dimensioni</u>: la <u>lunghezza</u> e la <u>larghezza</u>. Lettera greca: α (alfa), β (beta), γ (gamma)."
+    },
+    {
+     "t": "h",
+     "x": "E in più: lo spazio"
+    },
+    {
+     "t": "p",
+     "x": "3 <u>dimensioni</u>: la <u>lunghezza</u>, la <u>larghezza</u> e l’<u>altezza</u>."
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "I solidi (un dado, una scatola) stanno nello spazio e hanno anche loro 3 dimensioni."
+    },
+    {
+     "t": "hl",
+     "x": "Si dice “il piano ha due dimensioni”, non “due lati”."
+    }
+   ]
+  },
+  {
+   "sezione": "Geometria",
+   "titolo": "Le linee",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Una linea ha una sola <u>dimensione</u>: la <u>lunghezza</u>. Si indica con una lettera minuscola."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 200",
+     "alt": "Quattro tipi di linee",
+     "body": "<polyline points=\"20.0,50.0 23.7,45.4 27.3,41.1 31.0,37.3 34.7,34.1 38.3,31.7 42.0,30.4 45.7,30.0 49.3,30.7 53.0,32.5 56.7,35.1 60.3,38.6 64.0,42.6 67.7,47.1 71.3,51.7 75.0,56.2 78.7,60.4 82.3,64.0 86.0,66.9 89.7,68.9 93.3,69.9 97.0,69.8 100.7,68.7 104.3,66.7 108.0,63.7 111.7,60.0 115.3,55.8 119.0,51.3 122.7,46.7 126.3,42.2 130.0,38.2\" class=\"s-blue\" stroke-width=\"3\"/><polyline points=\"180.0,29.5 187.8,28.4 195.4,28.2 202.5,29.0 208.8,30.7 214.2,33.3 218.6,36.5 221.8,40.3 223.8,44.4 224.6,48.8 224.2,53.2 222.8,57.4 220.5,61.2 217.4,64.5 213.8,67.1 210.0,69.0 206.2,70.0 202.6,70.1 199.5,69.4 197.2,67.8 195.8,65.4 195.4,62.5 196.2,59.0 198.2,55.1 201.4,51.1 205.8,47.1 211.2,43.2 217.5,39.7 224.6,36.7 232.2,34.3 240.0,32.6 247.8,31.7 255.4,31.5 262.5,32.2 268.8,33.7 274.2,35.8 278.6,38.6 281.8,41.8 283.8,45.3 284.6,49.0 284.2,52.7 282.8,56.2 280.5,59.4 277.4,62.2 273.8,64.4 270.0,65.9 266.2,66.7 262.6,66.8 259.5,66.2 257.2,64.8 255.8,62.9 255.4,60.4 256.2,57.5 258.2,54.3 261.4,50.9 265.8,47.6 271.2,44.4 277.5,41.5 284.6,39.0 292.2,37.0 300.0,35.6\" class=\"s-orange\" stroke-width=\"3\"/><path d=\"M60,130 C20,110 30,160 70,165 C110,170 120,140 100,125 C85,115 90,135 60,130 z\" fill=\"none\" class=\"s-green\" stroke-width=\"3\"/><polygon points=\"240.0,145.0 244.7,139.6 249.4,134.4 254.0,129.5 258.5,124.9 263.0,120.8 267.2,117.3 271.3,114.5 275.3,112.5 279.0,111.2 282.4,110.8 285.6,111.2 288.5,112.5 291.2,114.5 293.5,117.3 295.4,120.8 297.1,124.9 298.3,129.5 299.3,134.4 299.8,139.6 300.0,145.0 299.8,150.4 299.3,155.6 298.3,160.5 297.1,165.1 295.4,169.2 293.5,172.7 291.2,175.5 288.5,177.5 285.6,178.8 282.4,179.2 279.0,178.8 275.3,177.5 271.3,175.5 267.2,172.7 263.0,169.2 258.5,165.1 254.0,160.5 249.4,155.6 244.7,150.4 240.0,145.0 235.3,139.6 230.6,134.4 226.0,129.5 221.5,124.9 217.0,120.8 212.8,117.3 208.7,114.5 204.7,112.5 201.0,111.2 197.6,110.8 194.4,111.2 191.5,112.5 188.8,114.5 186.5,117.3 184.6,120.8 182.9,124.9 181.7,129.5 180.7,134.4 180.2,139.6 180.0,145.0 180.2,150.4 180.7,155.6 181.7,160.5 182.9,165.1 184.6,169.2 186.5,172.7 188.8,175.5 191.5,177.5 194.4,178.8 197.6,179.2 201.0,178.8 204.7,177.5 208.7,175.5 212.8,172.7 217.0,169.2 221.5,165.1 226.0,160.5 230.6,155.6 235.3,150.4 240.0,145.0\" fill=\"none\" class=\"s-purple\" stroke-width=\"3\"/><text x=\"75\" y=\"92\" text-anchor=\"middle\" class=\"f-blue sm\">aperta semplice</text><text x=\"240\" y=\"92\" text-anchor=\"middle\" class=\"f-orange sm\">aperta intrecciata</text><text x=\"75\" y=\"192\" text-anchor=\"middle\" class=\"f-green sm\">chiusa semplice</text><text x=\"240\" y=\"192\" text-anchor=\"middle\" class=\"f-purple sm\">chiusa intrecciata</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b>Aperta</b>: ha due estremi.<br><b>Chiusa</b>: torna al punto di partenza.<br><b>Semplice</b>: non si incrocia.<br><b>Intrecciata</b>: si incrocia."
+    },
+    {
+     "t": "h",
+     "x": "Punti allineati"
+    },
+    {
+     "t": "p",
+     "x": "Tre o più punti sono allineati se stanno sulla stessa retta."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 55",
+     "alt": "Tre punti allineati",
+     "body": "<line x1=\"10\" y1=\"40\" x2=\"310\" y2=\"40\" class=\"s-blue\" stroke-width=\"3\"/><text x=\"302\" y=\"30\" text-anchor=\"middle\" class=\"f-blue b\">r</text><circle cx=\"60\" cy=\"40\" r=\"6\" class=\"f-red\"/><text x=\"60\" y=\"25\" text-anchor=\"middle\" class=\"f-red b\">A</text><circle cx=\"160\" cy=\"40\" r=\"6\" class=\"f-red\"/><text x=\"160\" y=\"25\" text-anchor=\"middle\" class=\"f-red b\">B</text><circle cx=\"260\" cy=\"40\" r=\"6\" class=\"f-red\"/><text x=\"260\" y=\"25\" text-anchor=\"middle\" class=\"f-red b\">C</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Geometria",
+   "titolo": "Semiretta e semipiano",
+   "blocchi": [
+    {
+     "t": "h",
+     "x": "Semiretta"
+    },
+    {
+     "t": "p",
+     "x": "Un punto O divide la retta in <b>2 semirette</b>. O è l’origine. Ogni semiretta ha un inizio ma non una fine."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 90",
+     "alt": "Il punto A divide la retta in due semirette",
+     "body": "<line x1=\"15\" y1=\"40\" x2=\"160\" y2=\"40\" class=\"s-blue\" stroke-width=\"5\" marker-start=\"url(#a-blue)\"/><line x1=\"160\" y1=\"40\" x2=\"305\" y2=\"40\" class=\"s-orange\" stroke-width=\"5\" marker-end=\"url(#a-orange)\"/><circle cx=\"160\" cy=\"40\" r=\"8\" class=\"f-red\"/><text x=\"160\" y=\"22\" text-anchor=\"middle\" class=\"f-red big\">O</text><text x=\"85\" y=\"75\" text-anchor=\"middle\" class=\"f-blue b\">semiretta 1</text><text x=\"235\" y=\"75\" text-anchor=\"middle\" class=\"f-orange b\">semiretta 2</text>"
+    },
+    {
+     "t": "h",
+     "x": "Semipiano"
+    },
+    {
+     "t": "p",
+     "x": "Una retta r divide il piano in <b>2 semipiani</b>. La retta r è l’origine dei semipiani."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 330 170",
+     "alt": "Una retta divide il piano in due semipiani",
+     "body": "<polygon points=\"20,140 250,140 310,30 80,30\" class=\"t-orange s-orange\" stroke-width=\"3\"/><polygon points=\"20,140 250,140 80,30\" class=\"t-purple\" /><line x1=\"70\" y1=\"20\" x2=\"262\" y2=\"150\" class=\"s-red\" stroke-width=\"4\"/><text x=\"268\" y=\"160\" text-anchor=\"start\" class=\"f-red b\">r</text><text x=\"115\" y=\"120\" text-anchor=\"middle\" class=\"f-purple b\">semipiano 1</text><text x=\"220\" y=\"65\" text-anchor=\"middle\" class=\"f-orange b\">semipiano 2</text><text x=\"40\" y=\"132\" text-anchor=\"middle\" class=\"b\">α</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Assiomi",
+   "titolo": "Gli assiomi (1 e 2)",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Un <b>assioma</b> è una frase che si accetta come vera perché è evidente. Li ha introdotti Euclide."
+    },
+    {
+     "t": "h",
+     "x": "Assioma 1"
+    },
+    {
+     "t": "p",
+     "x": "Per un punto passano <b>infinite</b> rette. Formano un fascio di rette."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 140",
+     "alt": "Infinite rette passano per un punto",
+     "body": "<line x1=\"30\" y1=\"70\" x2=\"290\" y2=\"70\" class=\"s-blue\" stroke-width=\"2.5\"/><line x1=\"47\" y1=\"40\" x2=\"273\" y2=\"100\" class=\"s-green\" stroke-width=\"2.5\"/><line x1=\"95\" y1=\"18\" x2=\"225\" y2=\"122\" class=\"s-orange\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"10\" x2=\"160\" y2=\"130\" class=\"s-purple\" stroke-width=\"2.5\"/><line x1=\"225\" y1=\"18\" x2=\"95\" y2=\"122\" class=\"s-red\" stroke-width=\"2.5\"/><line x1=\"273\" y1=\"40\" x2=\"47\" y2=\"100\" class=\"s-muted\" stroke-width=\"2.5\"/><circle cx=\"160\" cy=\"70\" r=\"7\" class=\"f-ink\"/><text x=\"175\" y=\"95\" text-anchor=\"middle\" class=\"b\">P</text>"
+    },
+    {
+     "t": "h",
+     "x": "Assioma 2"
+    },
+    {
+     "t": "p",
+     "x": "Per due punti distinti passa <b>una e una sola</b> retta."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 125",
+     "alt": "Una sola retta per due punti",
+     "body": "<line x1=\"15\" y1=\"105\" x2=\"305\" y2=\"30\" class=\"s-blue\" stroke-width=\"4\"/><circle cx=\"90\" cy=\"85.60344827586206\" r=\"7\" class=\"f-red\"/><text x=\"90\" y=\"71.60344827586206\" text-anchor=\"middle\" class=\"f-red b\">A</text><circle cx=\"230\" cy=\"49.39655172413793\" r=\"7\" class=\"f-red\"/><text x=\"230\" y=\"35.39655172413793\" text-anchor=\"middle\" class=\"f-red b\">B</text>"
+    }
+   ]
+  },
+  {
+   "sezione": "Assiomi",
+   "titolo": "Gli assiomi (3, 4 e 5)",
+   "blocchi": [
+    {
+     "t": "h",
+     "x": "Assioma 3"
+    },
+    {
+     "t": "p",
+     "x": "Se una retta ha 2 punti sul piano, sta <b>tutta</b> sul piano."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 150",
+     "alt": "Una retta con due punti nel piano sta tutta nel piano",
+     "body": "<polygon points=\"20,135 230,135 300,25 90,25\" class=\"t-green s-green\" stroke-width=\"3\"/><line x1=\"70\" y1=\"110\" x2=\"255\" y2=\"55\" class=\"s-blue\" stroke-width=\"4\"/><circle cx=\"120\" cy=\"95\" r=\"7\" class=\"f-red\"/><circle cx=\"205\" cy=\"70\" r=\"7\" class=\"f-red\"/>"
+    },
+    {
+     "t": "h",
+     "x": "Assioma 4"
+    },
+    {
+     "t": "p",
+     "x": "Per due punti (o per una retta) passano <b>infiniti</b> piani: un fascio di piani."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 180",
+     "alt": "Infiniti piani passano per una retta",
+     "body": "<polygon points=\"160,20 276,12 276,152 160,160\" class=\"t-blue s-blue\" stroke-width=\"2\"/><polygon points=\"160,20 211,-7 211,133 160,160\" class=\"t-green s-green\" stroke-width=\"2\"/><polygon points=\"160,20 109,-7 109,133 160,160\" class=\"t-orange s-orange\" stroke-width=\"2\"/><polygon points=\"160,20 44,12 44,152 160,160\" class=\"t-purple s-purple\" stroke-width=\"2\"/><line x1=\"160\" y1=\"5\" x2=\"160\" y2=\"175\" class=\"s-red\" stroke-width=\"5\"/><text x=\"172\" y=\"18\" text-anchor=\"start\" class=\"f-red b\">r</text>"
+    },
+    {
+     "t": "h",
+     "x": "Assioma 5"
+    },
+    {
+     "t": "p",
+     "x": "Per tre punti non allineati passa <b>uno e un solo</b> piano."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 320 150",
+     "alt": "Un solo piano per tre punti non allineati",
+     "body": "<polygon points=\"20,135 230,135 300,25 90,25\" class=\"t-purple s-purple\" stroke-width=\"3\"/><circle cx=\"95\" cy=\"110\" r=\"7\" class=\"f-red\"/><text x=\"111\" y=\"115\" text-anchor=\"start\" class=\"f-red b\">A</text><circle cx=\"200\" cy=\"105\" r=\"7\" class=\"f-red\"/><text x=\"216\" y=\"110\" text-anchor=\"start\" class=\"f-red b\">B</text><circle cx=\"175\" cy=\"50\" r=\"7\" class=\"f-red\"/><text x=\"191\" y=\"55\" text-anchor=\"start\" class=\"f-red b\">C</text>"
+    },
+    {
+     "t": "p",
+     "stile": "muted",
+     "x": "Come uno sgabello a 3 gambe: non traballa mai."
+    },
+    {
+     "t": "h",
+     "x": "Non confonderti!",
+     "colore": "red"
+    },
+    {
+     "t": "hl",
+     "x": "3 punti allineati (sulla stessa retta): infiniti piani."
+    },
+    {
+     "t": "hl",
+     "x": "3 punti non allineati (a triangolo): un solo piano."
+    }
+   ]
+  },
+  {
+   "sezione": "Piano cartesiano",
+   "titolo": "Il piano cartesiano",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Serve a trovare la posizione di un punto con <b>due numeri</b>."
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-blue\">Asse x</b>: asse delle ascisse, orizzontale.<br><b class=\"f-green\">Asse y</b>: asse delle ordinate, verticale.<br>Si incontrano nell’origine O."
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 334 260",
+     "alt": "Punto P di coordinate 2 e 5",
+     "body": "<line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"20\" class=\"s-grid\"/><line x1=\"64\" y1=\"230\" x2=\"64\" y2=\"20\" class=\"s-grid\"/><line x1=\"94\" y1=\"230\" x2=\"94\" y2=\"20\" class=\"s-grid\"/><line x1=\"124\" y1=\"230\" x2=\"124\" y2=\"20\" class=\"s-grid\"/><line x1=\"154\" y1=\"230\" x2=\"154\" y2=\"20\" class=\"s-grid\"/><line x1=\"184\" y1=\"230\" x2=\"184\" y2=\"20\" class=\"s-grid\"/><line x1=\"214\" y1=\"230\" x2=\"214\" y2=\"20\" class=\"s-grid\"/><line x1=\"244\" y1=\"230\" x2=\"244\" y2=\"20\" class=\"s-grid\"/><line x1=\"274\" y1=\"230\" x2=\"274\" y2=\"20\" class=\"s-grid\"/><line x1=\"304\" y1=\"230\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"34\" y1=\"230\" x2=\"304\" y2=\"230\" class=\"s-grid\"/><line x1=\"34\" y1=\"200\" x2=\"304\" y2=\"200\" class=\"s-grid\"/><line x1=\"34\" y1=\"170\" x2=\"304\" y2=\"170\" class=\"s-grid\"/><line x1=\"34\" y1=\"140\" x2=\"304\" y2=\"140\" class=\"s-grid\"/><line x1=\"34\" y1=\"110\" x2=\"304\" y2=\"110\" class=\"s-grid\"/><line x1=\"34\" y1=\"80\" x2=\"304\" y2=\"80\" class=\"s-grid\"/><line x1=\"34\" y1=\"50\" x2=\"304\" y2=\"50\" class=\"s-grid\"/><line x1=\"34\" y1=\"20\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"94\" y1=\"230\" x2=\"94\" y2=\"80\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"34\" y1=\"80\" x2=\"94\" y2=\"80\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"34\" y1=\"230\" x2=\"318\" y2=\"230\" class=\"s-blue\" stroke-width=\"3\" marker-end=\"url(#a-blue)\"/><line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"6\" class=\"s-green\" stroke-width=\"3\" marker-end=\"url(#a-green)\"/><text x=\"318\" y=\"252\" text-anchor=\"middle\" class=\"f-blue b\">x</text><text x=\"16\" y=\"14\" text-anchor=\"middle\" class=\"f-green b\">y</text><text x=\"22\" y=\"250\" text-anchor=\"middle\" class=\"b\">O</text><text x=\"64\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">1</text><text x=\"94\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">2</text><text x=\"124\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">3</text><text x=\"154\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">4</text><text x=\"184\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">5</text><text x=\"214\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">6</text><text x=\"244\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">7</text><text x=\"274\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">8</text><text x=\"304\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">9</text><text x=\"20\" y=\"205\" text-anchor=\"middle\" class=\"f-green sm\">1</text><text x=\"20\" y=\"175\" text-anchor=\"middle\" class=\"f-green sm\">2</text><text x=\"20\" y=\"145\" text-anchor=\"middle\" class=\"f-green sm\">3</text><text x=\"20\" y=\"115\" text-anchor=\"middle\" class=\"f-green sm\">4</text><text x=\"20\" y=\"85\" text-anchor=\"middle\" class=\"f-green sm\">5</text><text x=\"20\" y=\"55\" text-anchor=\"middle\" class=\"f-green sm\">6</text><text x=\"20\" y=\"25\" text-anchor=\"middle\" class=\"f-green sm\">7</text><circle cx=\"94\" cy=\"80\" r=\"6\" class=\"f-red\"/><text x=\"103\" y=\"71\" text-anchor=\"start\" class=\"f-red b\">P (2 ; 5)</text>"
+    },
+    {
+     "t": "p",
+     "x": "2 è l’<b>ascissa</b>, 5 è l’<b>ordinata</b>. Insieme sono le coordinate."
+    },
+    {
+     "t": "hl",
+     "x": "Prima cammino sulla x, poi salgo sulla y."
+    }
+   ]
+  },
+  {
+   "sezione": "Piano cartesiano",
+   "titolo": "Attenzione all’ordine",
+   "blocchi": [
+    {
+     "t": "svg",
+     "viewBox": "0 0 334 260",
+     "alt": "Punti A, B, C, D",
+     "body": "<line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"20\" class=\"s-grid\"/><line x1=\"64\" y1=\"230\" x2=\"64\" y2=\"20\" class=\"s-grid\"/><line x1=\"94\" y1=\"230\" x2=\"94\" y2=\"20\" class=\"s-grid\"/><line x1=\"124\" y1=\"230\" x2=\"124\" y2=\"20\" class=\"s-grid\"/><line x1=\"154\" y1=\"230\" x2=\"154\" y2=\"20\" class=\"s-grid\"/><line x1=\"184\" y1=\"230\" x2=\"184\" y2=\"20\" class=\"s-grid\"/><line x1=\"214\" y1=\"230\" x2=\"214\" y2=\"20\" class=\"s-grid\"/><line x1=\"244\" y1=\"230\" x2=\"244\" y2=\"20\" class=\"s-grid\"/><line x1=\"274\" y1=\"230\" x2=\"274\" y2=\"20\" class=\"s-grid\"/><line x1=\"304\" y1=\"230\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"34\" y1=\"230\" x2=\"304\" y2=\"230\" class=\"s-grid\"/><line x1=\"34\" y1=\"200\" x2=\"304\" y2=\"200\" class=\"s-grid\"/><line x1=\"34\" y1=\"170\" x2=\"304\" y2=\"170\" class=\"s-grid\"/><line x1=\"34\" y1=\"140\" x2=\"304\" y2=\"140\" class=\"s-grid\"/><line x1=\"34\" y1=\"110\" x2=\"304\" y2=\"110\" class=\"s-grid\"/><line x1=\"34\" y1=\"80\" x2=\"304\" y2=\"80\" class=\"s-grid\"/><line x1=\"34\" y1=\"50\" x2=\"304\" y2=\"50\" class=\"s-grid\"/><line x1=\"34\" y1=\"20\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"214\" y1=\"230\" x2=\"214\" y2=\"140\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"34\" y1=\"140\" x2=\"214\" y2=\"140\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"124\" y1=\"230\" x2=\"124\" y2=\"50\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"34\" y1=\"50\" x2=\"124\" y2=\"50\" class=\"s-muted\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"34\" y1=\"230\" x2=\"318\" y2=\"230\" class=\"s-blue\" stroke-width=\"3\" marker-end=\"url(#a-blue)\"/><line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"6\" class=\"s-green\" stroke-width=\"3\" marker-end=\"url(#a-green)\"/><text x=\"318\" y=\"252\" text-anchor=\"middle\" class=\"f-blue b\">x</text><text x=\"16\" y=\"14\" text-anchor=\"middle\" class=\"f-green b\">y</text><text x=\"22\" y=\"250\" text-anchor=\"middle\" class=\"b\">O</text><text x=\"64\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">1</text><text x=\"94\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">2</text><text x=\"124\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">3</text><text x=\"154\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">4</text><text x=\"184\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">5</text><text x=\"214\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">6</text><text x=\"244\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">7</text><text x=\"274\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">8</text><text x=\"304\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">9</text><text x=\"20\" y=\"205\" text-anchor=\"middle\" class=\"f-green sm\">1</text><text x=\"20\" y=\"175\" text-anchor=\"middle\" class=\"f-green sm\">2</text><text x=\"20\" y=\"145\" text-anchor=\"middle\" class=\"f-green sm\">3</text><text x=\"20\" y=\"115\" text-anchor=\"middle\" class=\"f-green sm\">4</text><text x=\"20\" y=\"85\" text-anchor=\"middle\" class=\"f-green sm\">5</text><text x=\"20\" y=\"55\" text-anchor=\"middle\" class=\"f-green sm\">6</text><text x=\"20\" y=\"25\" text-anchor=\"middle\" class=\"f-green sm\">7</text><circle cx=\"214\" cy=\"140\" r=\"6\" class=\"f-red\"/><text x=\"223\" y=\"131\" text-anchor=\"start\" class=\"f-red b\">A (6 ; 3)</text><circle cx=\"124\" cy=\"50\" r=\"6\" class=\"f-purple\"/><text x=\"133\" y=\"41\" text-anchor=\"start\" class=\"f-purple b\">B (3 ; 6)</text><circle cx=\"34\" cy=\"20\" r=\"6\" class=\"f-green\"/><text x=\"43\" y=\"11\" text-anchor=\"start\" class=\"f-green b\">D (0 ; 7)</text><circle cx=\"94\" cy=\"230\" r=\"6\" class=\"f-orange\"/><text x=\"103\" y=\"221\" text-anchor=\"start\" class=\"f-orange b\">C (2 ; 0)</text>"
+    },
+    {
+     "t": "p",
+     "x": "Se scambi i numeri, ottieni un <b>altro punto</b>: A (6 ; 3) e B (3 ; 6) sono diversi."
+    },
+    {
+     "t": "p",
+     "x": "D (0 ; 7): <b>non ti sposti a destra</b>, sali soltanto di 7. Per questo finisce sull’asse y."
+    },
+    {
+     "t": "p",
+     "x": "C (2 ; 0): <b>cammini</b> di 2 e <b>non sali</b>. Per questo resta sull’asse x."
+    },
+    {
+     "t": "p",
+     "x": "L’origine è O (0 ; 0)."
+    },
+    {
+     "t": "h",
+     "x": "Stesso primo numero o stesso secondo numero"
+    },
+    {
+     "t": "svg",
+     "viewBox": "0 0 334 260",
+     "alt": "Punti sulla stessa retta verticale e sulla stessa retta orizzontale",
+     "body": "<line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"20\" class=\"s-grid\"/><line x1=\"64\" y1=\"230\" x2=\"64\" y2=\"20\" class=\"s-grid\"/><line x1=\"94\" y1=\"230\" x2=\"94\" y2=\"20\" class=\"s-grid\"/><line x1=\"124\" y1=\"230\" x2=\"124\" y2=\"20\" class=\"s-grid\"/><line x1=\"154\" y1=\"230\" x2=\"154\" y2=\"20\" class=\"s-grid\"/><line x1=\"184\" y1=\"230\" x2=\"184\" y2=\"20\" class=\"s-grid\"/><line x1=\"214\" y1=\"230\" x2=\"214\" y2=\"20\" class=\"s-grid\"/><line x1=\"244\" y1=\"230\" x2=\"244\" y2=\"20\" class=\"s-grid\"/><line x1=\"274\" y1=\"230\" x2=\"274\" y2=\"20\" class=\"s-grid\"/><line x1=\"304\" y1=\"230\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"34\" y1=\"230\" x2=\"304\" y2=\"230\" class=\"s-grid\"/><line x1=\"34\" y1=\"200\" x2=\"304\" y2=\"200\" class=\"s-grid\"/><line x1=\"34\" y1=\"170\" x2=\"304\" y2=\"170\" class=\"s-grid\"/><line x1=\"34\" y1=\"140\" x2=\"304\" y2=\"140\" class=\"s-grid\"/><line x1=\"34\" y1=\"110\" x2=\"304\" y2=\"110\" class=\"s-grid\"/><line x1=\"34\" y1=\"80\" x2=\"304\" y2=\"80\" class=\"s-grid\"/><line x1=\"34\" y1=\"50\" x2=\"304\" y2=\"50\" class=\"s-grid\"/><line x1=\"34\" y1=\"20\" x2=\"304\" y2=\"20\" class=\"s-grid\"/><line x1=\"94\" y1=\"230\" x2=\"94\" y2=\"20\" class=\"s-orange\" stroke-width=\"3\" stroke-dasharray=\"8 5\"/><line x1=\"34\" y1=\"140\" x2=\"304\" y2=\"140\" class=\"s-purple\" stroke-width=\"3\" stroke-dasharray=\"8 5\"/><line x1=\"34\" y1=\"230\" x2=\"318\" y2=\"230\" class=\"s-blue\" stroke-width=\"3\" marker-end=\"url(#a-blue)\"/><line x1=\"34\" y1=\"230\" x2=\"34\" y2=\"6\" class=\"s-green\" stroke-width=\"3\" marker-end=\"url(#a-green)\"/><text x=\"318\" y=\"252\" text-anchor=\"middle\" class=\"f-blue b\">x</text><text x=\"16\" y=\"14\" text-anchor=\"middle\" class=\"f-green b\">y</text><text x=\"22\" y=\"250\" text-anchor=\"middle\" class=\"b\">O</text><text x=\"64\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">1</text><text x=\"94\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">2</text><text x=\"124\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">3</text><text x=\"154\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">4</text><text x=\"184\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">5</text><text x=\"214\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">6</text><text x=\"244\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">7</text><text x=\"274\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">8</text><text x=\"304\" y=\"250\" text-anchor=\"middle\" class=\"f-blue sm\">9</text><text x=\"20\" y=\"205\" text-anchor=\"middle\" class=\"f-green sm\">1</text><text x=\"20\" y=\"175\" text-anchor=\"middle\" class=\"f-green sm\">2</text><text x=\"20\" y=\"145\" text-anchor=\"middle\" class=\"f-green sm\">3</text><text x=\"20\" y=\"115\" text-anchor=\"middle\" class=\"f-green sm\">4</text><text x=\"20\" y=\"85\" text-anchor=\"middle\" class=\"f-green sm\">5</text><text x=\"20\" y=\"55\" text-anchor=\"middle\" class=\"f-green sm\">6</text><text x=\"20\" y=\"25\" text-anchor=\"middle\" class=\"f-green sm\">7</text><circle cx=\"94\" cy=\"200\" r=\"6\" class=\"f-orange\"/><text x=\"103\" y=\"191\" text-anchor=\"start\" class=\"f-orange b\">(2 ; 1)</text><circle cx=\"94\" cy=\"80\" r=\"6\" class=\"f-orange\"/><text x=\"103\" y=\"71\" text-anchor=\"start\" class=\"f-orange b\">(2 ; 5)</text><circle cx=\"154\" cy=\"140\" r=\"6\" class=\"f-purple\"/><text x=\"163\" y=\"131\" text-anchor=\"start\" class=\"f-purple b\">(4 ; 3)</text><circle cx=\"244\" cy=\"140\" r=\"6\" class=\"f-purple\"/><text x=\"253\" y=\"131\" text-anchor=\"start\" class=\"f-purple b\">(7 ; 3)</text>"
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-orange\">Stesso primo numero:</b> (2 ; 1) e (2 ; 5) camminano tutti e due di 2, poi salgono di quantità diverse. Finiscono <b>uno sopra l’altro</b>, su una retta verticale."
+    },
+    {
+     "t": "p",
+     "x": "<b class=\"f-purple\">Stesso secondo numero:</b> (4 ; 3) e (7 ; 3) salgono tutti e due di 3, ma camminano di quantità diverse. Finiscono <b>uno accanto all’altro</b>, su una retta orizzontale."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  }
+ ]
+}

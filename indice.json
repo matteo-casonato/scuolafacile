@@ -1,0 +1,52 @@
+{
+  "materie": [
+    {
+      "id": "matematica",
+      "nome": "Matematica",
+      "colore": "blue"
+    },
+    {
+      "id": "scienze",
+      "nome": "Scienze",
+      "colore": "green"
+    },
+    {
+      "id": "musica",
+      "nome": "Musica",
+      "colore": "purple"
+    },
+    {
+      "id": "geografia",
+      "nome": "Geografia",
+      "colore": "orange"
+    },
+    {
+      "id": "tedesco",
+      "nome": "Tedesco",
+      "colore": "red"
+    },
+    {
+      "id": "italiano",
+      "nome": "Italiano",
+      "colore": "ink"
+    },
+    {
+      "id": "religione",
+      "nome": "Religione",
+      "colore": "teal"
+    }
+  ],
+  "verifiche": [
+    {
+      "materia": "matematica",
+      "cartella": "insiemi-grafici-geometria",
+      "titolo": "Insiemi, grafici, geometria e piano cartesiano",
+      "data": null,
+      "ha": {
+        "ripasso": true,
+        "schema": true,
+        "verifiche": 0
+      }
+    }
+  ]
+}

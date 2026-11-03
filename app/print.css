@@ -1,0 +1,24 @@
+/* Scuola facile — stampa. Tema sempre chiaro, una pagina del deck per foglio. */
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{
+  --paper:#ffffff; --grid:#d7dee9; --ink:#1d2a44; --muted:#4f5b72; --bar:#ffffff;
+  --blue:#2858c8; --green:#1b7f52; --orange:#c95a14; --purple:#7038bd; --red:#c62f2f;
+  --hl:#fff0a0; --hl-ink:#1d2a44; --card:#ffffff; --red-s:#fdeaea;
+  color-scheme:light; padding:0;
+}
+@page{size:A4;margin:14mm 14mm 16mm}
+html,body{height:auto}
+body{display:block;background:#fff;background-image:none;font-size:13pt;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact}
+body::before,header,nav,.got,.solo-schermo{display:none!important}
+main{overflow:visible;position:static}
+.slide,.slide[hidden]{display:block!important;position:static;overflow:visible;padding:0;
+  animation:none!important;break-after:page}
+.slide:last-child{break-after:auto}
+.inner{max-width:none}
+h2{font-size:22pt;margin-top:0}
+svg{max-width:120mm;break-inside:avoid}
+.vs,.sol,.hl,.tblwrap,.sym,.steps li,.check li,.mp-k{break-inside:avoid}
+.sol summary{color:var(--c)}
+.sol[open]>summary::marker,.sol>summary::marker{content:""}
+.tblwrap{overflow:visible}
+.hl{transform:none}
