@@ -82,6 +82,7 @@ npm run serve      # http://localhost:8080
 | `npm run indice` | rigenera `indice.json` leggendo le cartelle di `materie/` |
 | `npm run foto -- <materia>/<cartella>` | screenshot a 390 px, tema chiaro e scuro |
 | `npm run pdf -- <materia>/<cartella>` | il PDF del ripasso, una pagina per foglio |
+| `node scripts/fedelta.mjs <ripasso.json> <originale.html>` | controlla che migrando non sia cambiato un testo |
 
 > Prima di pubblicare: ricompila il CSS e **alza `VERSIONE` in `sw.js`**,
 > altrimenti chi ha già l’app installata continua a vedere la versione vecchia.
