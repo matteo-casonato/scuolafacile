@@ -126,6 +126,7 @@ async function avvia() {
     sl.scrollTop = 0;
     sl.classList.remove('in-next', 'in-prev');
     if (dir) { void sl.offsetWidth; sl.classList.add(dir > 0 ? 'in-next' : 'in-prev'); }
+    montaGiochi(sl);
     tinge(sl.dataset.col);
     secEl.textContent = sl.dataset.sec;
     countEl.textContent = `Pagina ${cur + 1} di ${n}`;
@@ -166,7 +167,6 @@ async function avvia() {
     aperte = [];
   });
 
-  montaGiochi(deck);
   dipingiGot();
   const start = Math.min(Math.max(stato.i | 0, 0), n - 1);
   mostra(slides[0], false);

@@ -209,3 +209,62 @@ Tipi di esercizio: `parole` (griglia), `tabella` (parole per colonne da spuntare
 griglia dei punti e totale li calcola lo script: nei dati non si ripetono.
 Le soluzioni stanno nello stesso file e finiscono su una pagina separata da
 staccare, con i trabocchetti spiegati e il voto a fasce.
+
+## I giochi
+
+Un gioco è un blocco come gli altri: `{ "t": "gioco", "tipo": … }`. Si monta
+solo quando la pagina viene aperta davvero, e in stampa sparisce.
+
+Tutti e tre fanno 10 domande (`totale`), danno la risposta subito, mostrano i
+pallini verdi e rossi mentre si va avanti e finiscono con le stelle. Con
+`record` si dà un nome alla chiave del punteggio migliore, che resta sul
+telefono; senza, il record non si salva.
+
+### Scelta multipla
+
+```json
+{ "t": "gioco", "tipo": "scelta", "record": "musica-durate", "totale": 10,
+  "consegna": "Quanto dura questa figura?",
+  "elenco": [
+    { "d": "semibreve", "r": "4 tempi" },
+    { "d": "minima", "r": "2 tempi" },
+    { "d": "Quante righe ha il pentagramma?", "r": "5",
+      "consegna": "Rispondi.", "sbagliate": ["4", "6", "7"] }
+  ] }
+```
+
+Le domande si pescano a caso dall’`elenco`, mescolato, così non si ripetono
+subito. Le due risposte sbagliate vengono da `sbagliate`; se manca, si prendono
+dalle risposte delle altre domande. `consegna` vale per tutto il mazzo e si può
+riscrivere dentro una singola domanda, quando il mazzo mette insieme domande di
+tipo diverso. Servono almeno 3 domande.
+
+### Ascolta e scegli
+
+```json
+{ "t": "gioco", "tipo": "ascolta", "lingua": "de-DE", "record": "tedesco-verbi",
+  "totale": 10,
+  "voci": [
+    { "testo": "ich wohne", "it": "io abito" },
+    { "testo": "du wohnst", "it": "tu abiti" },
+    { "testo": "er wohnt", "it": "lui abita" }
+  ] }
+```
+
+Usa la voce del telefono (Web Speech API). Sopra il gioco ci sono i due pulsanti
+**Normale** e **Lenta**; se il telefono non ha quella lingua installata, compare
+un avviso giallo che spiega dove scaricarla. `it` è la traduzione, mostrata
+insieme alla risposta. Servono almeno 3 frasi.
+
+### Che nota è?
+
+```json
+{ "t": "gioco", "tipo": "note", "chiave": "sol", "da": -2, "a": 9,
+  "record": "musica-note", "totale": 10 }
+```
+
+Disegna una nota sul pentagramma con i glifi di Noto Music. `chiave` è `"sol"`
+oppure `"basso"`. `da` e `a` sono i gradi: **0 è la riga più in basso**, 1 il
+primo spazio, 2 la seconda riga, e così via; i numeri negativi e quelli sopra 8
+escono dal pentagramma e prendono i tagli addizionali. I sette pulsanti restano
+sempre nello stesso ordine, da Do a Si: cercarli ogni volta stanca.

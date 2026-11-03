@@ -1,7 +1,7 @@
 /* Scuola facile — service worker: dopo la prima apertura l'app funziona offline.
    Cambia VERSIONE a ogni pubblicazione per far scaricare i file nuovi. */
 
-const VERSIONE = 'sf-2';
+const VERSIONE = 'sf-3';
 const GUSCIO = `${VERSIONE}-guscio`;
 const CONTENUTI = `${VERSIONE}-contenuti`;
 
@@ -21,6 +21,11 @@ const FILE = [
   'app/progressi.js',
   'app/sw-registra.js',
   'app/giochi/giochi.js',
+  'app/giochi/comune.js',
+  'app/giochi/scelta.js',
+  'app/giochi/ascolta.js',
+  'app/giochi/note.js',
+  'assets/glifi-musica.json',
   'assets/font/atkinson-400-latin.woff2',
   'assets/font/atkinson-400-latin-ext.woff2',
   'assets/font/atkinson-700-latin.woff2',

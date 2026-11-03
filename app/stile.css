@@ -285,3 +285,59 @@
   .tblwrap{overflow:visible}
   .hl{transform:none}
 }
+
+/* ---------- i giochi ----------
+   Riprendono l'aspetto del gioco dei verbi tedeschi e del quiz di musica. */
+@layer components {
+  .gioco{margin:14px 0 4px}
+
+  .punti{display:flex;justify-content:space-between;align-items:center;font-weight:700;margin:4px 0 10px;gap:10px}
+  .pallini{display:flex;gap:4px;flex-wrap:wrap}
+  .pallini i{width:14px;height:14px;border-radius:50%;background:var(--grid);display:block}
+  .pallini i.ok{background:var(--green)}
+  .pallini i.ko{background:var(--red)}
+  .pallini i.ora{background:var(--ink)}
+
+  .domanda{background:var(--card);border:2px solid var(--grid);border-radius:14px;
+    padding:18px 12px;margin:0 0 12px;text-align:center}
+  .domanda .tipo{font-size:15px;color:var(--muted);font-weight:700}
+  .domanda .testo{font-size:26px;font-weight:700;margin:10px 0 4px;line-height:1.2}
+  .domanda .aiuto{font-size:16px;color:var(--muted)}
+  .domanda .vuoto{display:inline-block;min-width:90px;border-bottom:4px solid var(--c);color:var(--c)}
+  /* il disegno dentro la domanda non ha un suo riquadro: è già dentro quello della domanda */
+  .domanda svg{border:none;background:none;padding:0;margin:4px auto 0}
+
+  .scelte{display:grid;grid-template-columns:1fr;gap:10px;margin:0 0 12px}
+  .scelte button{font:inherit;font-weight:700;font-size:20px;min-height:56px;border-radius:14px;
+    border:2px solid var(--grid);background:var(--card);color:var(--ink);cursor:pointer;padding:8px 12px}
+  .scelte button.ok{background:var(--ok);border-color:var(--green);color:var(--green)}
+  .scelte button.ko{background:var(--ko);border-color:var(--red);color:var(--red)}
+  .scelte.corte{grid-template-columns:repeat(4,1fr)}
+  .scelte.corte button{font-size:18px;min-height:48px}
+
+  .esito{min-height:30px;text-align:center;font-weight:700;margin:0 0 10px}
+  .esito .si{color:var(--green)} .esito .no{color:var(--red)}
+
+  .avanti{font:inherit;font-weight:700;font-size:19px;width:100%;min-height:52px;
+    border:none;border-radius:14px;background:var(--ink);color:var(--paper);cursor:pointer}
+
+  .ascolta{display:block;margin:6px auto;width:84px;height:84px;font-size:36px;border-radius:50%;
+    border:3px solid var(--c);background:var(--card);color:var(--c);cursor:pointer}
+  .ascolta:active{transform:scale(.96)}
+  .velocita{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 0 10px}
+  .velocita span{color:var(--muted);font-size:16px}
+  .velocita button{font:inherit;font-size:15px;font-weight:700;border-radius:10px;border:2px solid var(--grid);
+    background:var(--card);color:var(--ink);padding:6px 12px;min-height:44px;cursor:pointer}
+  .velocita button[aria-pressed="true"]{border-color:var(--c);color:var(--c)}
+
+  .fine{text-align:center;background:var(--card);border:2px solid var(--grid);border-radius:14px;padding:16px 12px;margin:0 0 12px}
+  .stelle{font-size:46px;letter-spacing:6px;color:var(--gold);line-height:1.1}
+  .stelle .spenta{opacity:.25}
+  .fine .quanto{font-size:28px;font-weight:700;margin:6px 0}
+  .fine p{margin:4px 0}
+}
+
+@media print{
+  /* In stampa i giochi non servono: restano solo le domande e le risposte. */
+  .gioco{display:none}
+}

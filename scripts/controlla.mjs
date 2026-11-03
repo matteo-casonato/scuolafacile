@@ -41,6 +41,30 @@ function blocco(dove, b, i) {
   if (b.t === 'html') avv(d, 'blocco "html": da convertire in un blocco vero');
   if (b.colore && !COLORI.has(b.colore)) err(d, `colore sconosciuto "${b.colore}"`);
 
+  if (b.t === 'gioco') {
+    const TIPI_GIOCO = ['scelta', 'ascolta', 'note'];
+    if (!TIPI_GIOCO.includes(b.tipo)) return err(d, `gioco sconosciuto "${b.tipo}"`);
+    if (!b.record) avv(d, 'manca "record": senza chiave il punteggio migliore non si salva');
+    if (b.tipo === 'scelta') {
+      const n = (b.elenco || []).length;
+      if (n < 3) err(d, `servono almeno 3 domande, ce ne sono ${n}`);
+      (b.elenco || []).forEach((q, k) => {
+        if (!q.d || !q.r) err(d, `domanda ${k + 1}: manca "d" o "r"`);
+        testo(`${d} domanda ${k + 1}`, q.d || '');
+        testo(`${d} domanda ${k + 1}`, q.r || '');
+      });
+    }
+    if (b.tipo === 'ascolta') {
+      if (!b.lingua) err(d, 'manca "lingua" (per esempio "de-DE")');
+      const n = (b.voci || []).length;
+      if (n < 3) err(d, `servono almeno 3 frasi, ce ne sono ${n}`);
+    }
+    if (b.tipo === 'note' && b.chiave && !['sol', 'basso'].includes(b.chiave)) {
+      err(d, `chiave "${b.chiave}": vanno bene solo "sol" e "basso"`);
+    }
+    return;
+  }
+
   if (b.t === 'svg') {
     if (!b.viewBox) err(d, 'manca viewBox');
     if (!b.alt) avv(d, 'manca alt: il disegno non è descritto');

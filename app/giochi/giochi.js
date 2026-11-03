@@ -7,8 +7,12 @@ const MODULI = {
   note: () => import('./note.js'),
 };
 
+/* Si monta solo quando la pagina viene aperta davvero: così il gioco con la voce
+   non comincia a parlare mentre si è ancora su un'altra pagina. */
 export function montaGiochi(radice) {
   for (const el of radice.querySelectorAll('.gioco')) {
+    if (el.dataset.montato) continue;
+    el.dataset.montato = '1';
     const tipo = el.dataset.gioco;
     const carica = MODULI[tipo];
     if (!carica) {
