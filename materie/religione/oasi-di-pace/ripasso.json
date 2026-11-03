@@ -14,10 +14,6 @@
    "colore": "blue"
   },
   {
-   "nome": "Domande",
-   "colore": "green"
-  },
-  {
    "nome": "Ripasso",
    "colore": "red"
   }
@@ -183,6 +179,66 @@
    ]
   },
   {
+   "sezione": "Il villaggio",
+   "titolo": "Domande possibili",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa vuol dire il nome del villaggio?",
+     "r": "<b>Oasi di Pace</b>, scritto in ebraico (Neve Shalom) e in arabo (Wahat al-Salam)."
+    },
+    {
+     "t": "sol",
+     "d": "Da dove viene il nome?",
+     "r": "Dalla <b>Bibbia</b>, dal libro del profeta <b>Isaia</b> (32,18)."
+    },
+    {
+     "t": "sol",
+     "d": "Chi ha fondato il villaggio e quando?",
+     "r": "<b>Padre Bruno Hussar</b>, un frate domenicano, nel <b>1972</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Dove si trova il villaggio?",
+     "r": "In <b>Israele</b>, fra Gerusalemme e Tel Aviv."
+    },
+    {
+     "t": "sol",
+     "d": "Chi ci vive?",
+     "r": "Famiglie <b>ebree</b> e <b>palestinesi</b>, metà e metà: più di 350 persone."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa ha di speciale la scuola?",
+     "r": "È la <b>prima in Israele</b> con bambini ebrei e palestinesi insieme, e si studia in <b>due lingue</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la casa del silenzio?",
+     "r": "Un posto per <b>pregare o stare in silenzio</b>, aperto a tutte le religioni."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la Scuola per la pace?",
+     "r": "Un luogo dove si impara a <b>parlarsi e ascoltarsi</b>, anche quando non si è d’accordo."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa è successo dopo il 2023?",
+     "r": "È cominciata la guerra, ma dal villaggio <b>non se n’è andato nessuno</b> e la scuola ha riaperto dopo due settimane."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa ci insegna questo villaggio?",
+     "r": "Che vivere insieme si può: bisogna <b>conoscersi</b> e <b>parlarsi</b>, invece di fermarsi ai pregiudizi."
+    }
+   ]
+  },
+  {
    "sezione": "Le parole",
    "titolo": "Parole difficili",
    "blocchi": [
@@ -282,8 +338,8 @@
    ]
   },
   {
-   "sezione": "Domande",
-   "titolo": "Domande possibili",
+   "sezione": "Le parole",
+   "titolo": "Allenati: le parole e le fonti",
    "blocchi": [
     {
      "t": "p",
@@ -291,53 +347,28 @@
     },
     {
      "t": "sol",
-     "d": "Che cosa vuol dire il nome del villaggio?",
-     "r": "<b>Oasi di Pace</b>, scritto in ebraico (Neve Shalom) e in arabo (Wahat al-Salam)."
+     "d": "Che cos’è un’oasi?",
+     "r": "Un luogo <b>verde e con l’acqua</b> in mezzo al deserto."
     },
     {
      "t": "sol",
-     "d": "Da dove viene il nome?",
-     "r": "Dalla <b>Bibbia</b>, dal libro del profeta <b>Isaia</b> (32,18)."
+     "d": "Che cosa vuol dire bilingue?",
+     "r": "In <b>due lingue</b>."
     },
     {
      "t": "sol",
-     "d": "Chi ha fondato il villaggio e quando?",
-     "r": "<b>Padre Bruno Hussar</b>, un frate domenicano, nel <b>1972</b>."
+     "d": "Che cos’è un pregiudizio?",
+     "r": "Un’idea che ci facciamo su qualcuno <b>prima di conoscerlo</b>."
     },
     {
      "t": "sol",
-     "d": "Dove si trova il villaggio?",
-     "r": "In <b>Israele</b>, fra Gerusalemme e Tel Aviv."
+     "d": "Che differenza c’è fra convivenza e dialogo?",
+     "r": "<b>Convivenza</b>: vivere insieme rispettandosi. <b>Dialogo</b>: parlarsi e ascoltarsi, anche quando si è diversi."
     },
     {
      "t": "sol",
-     "d": "Chi ci vive?",
-     "r": "Famiglie <b>ebree</b> e <b>palestinesi</b>, metà e metà: più di 350 persone."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa ha di speciale la scuola?",
-     "r": "È la <b>prima in Israele</b> con bambini ebrei e palestinesi insieme, e si studia in <b>due lingue</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è la casa del silenzio?",
-     "r": "Un posto per <b>pregare o stare in silenzio</b>, aperto a tutte le religioni."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è la Scuola per la pace?",
-     "r": "Un luogo dove si impara a <b>parlarsi e ascoltarsi</b>, anche quando non si è d’accordo."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa è successo dopo il 2023?",
-     "r": "È cominciata la guerra, ma dal villaggio <b>non se n’è andato nessuno</b> e la scuola ha riaperto dopo due settimane."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa ci insegna questo villaggio?",
-     "r": "Che vivere insieme si può: bisogna <b>conoscersi</b> e <b>parlarsi</b>, invece di fermarsi ai pregiudizi."
+     "d": "Dove trovi le foto del villaggio?",
+     "r": "Sul sito ufficiale <b>wasns.org</b>, in inglese."
     }
    ]
   },

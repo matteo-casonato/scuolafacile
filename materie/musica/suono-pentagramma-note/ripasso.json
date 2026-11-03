@@ -22,10 +22,6 @@
    "colore": "purple"
   },
   {
-   "nome": "Domande",
-   "colore": "red"
-  },
-  {
    "nome": "Ripasso",
    "colore": "red"
   },
@@ -304,6 +300,86 @@
     {
      "t": "hl",
      "x": "Il volume troppo alto nelle cuffie è inquinamento acustico."
+    }
+   ]
+  },
+  {
+   "sezione": "Il suono",
+   "titolo": "Domande possibili: il suono",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Esiste il silenzio assoluto sulla Terra?",
+     "r": "<b>No</b>: anche nei luoghi più isolati, come l’Antartide, si sentono piccoli suoni."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una camera anecoica?",
+     "r": "Una stanza costruita in laboratorio che assorbe il <b>99,99%</b> dei suoni. Nessuno ci resiste più di <b>45 minuti</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra sentire e ascoltare?",
+     "r": "<b>Sentire</b>: percepire senza attenzione. <b>Ascoltare</b>: prestare attenzione e capire il suono."
+    },
+    {
+     "t": "sol",
+     "d": "Chi ha scritto 4’33” e che cosa ha di speciale?",
+     "r": "<b>John Cage</b>, nel 1952. I musicisti <b>non suonano</b>: si ascoltano i suoni dell’ambiente."
+    },
+    {
+     "t": "sol",
+     "d": "Descrivi il viaggio del suono nell’orecchio.",
+     "r": "Padiglione e condotto → <b>timpano</b> che vibra → <b>martello, incudine, staffa</b> → <b>coclea</b> (impulso nervoso) → nervo acustico → <b>cervello</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra suono e rumore?",
+     "r": "Suono: vibrazioni <b>regolari</b>, di solito gradevole. Rumore: vibrazioni <b>irregolari</b>, di solito sgradevole."
+    },
+    {
+     "t": "sol",
+     "d": "Come nasce il suono?",
+     "r": "Dalla <b>vibrazione</b> di un corpo, che crea onde sonore."
+    },
+    {
+     "t": "sol",
+     "d": "A che velocità viaggia il suono nell’aria, nei liquidi e nei solidi?",
+     "r": "Aria <b>340 m/s</b>, liquidi <b>1500 m/s</b>, solidi <b>6000 m/s</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Il suono si propaga nel vuoto?",
+     "r": "<b>No</b>: ha bisogno di un materiale che vibri (aria, liquidi o solidi)."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono le 4 caratteristiche del suono?",
+     "r": "<b>Intensità</b>, <b>altezza</b>, <b>durata</b> e <b>timbro</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Da che cosa dipende l’intensità? In che cosa si misura?",
+     "r": "Dall’<b>ampiezza</b> dell’onda. Si misura in <b>decibel (dB)</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Da che cosa dipende l’altezza? In che cosa si misura?",
+     "r": "Dal <b>numero di vibrazioni</b>: poche = grave, tante = acuto. Si misura in <b>hertz (Hz)</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il timbro?",
+     "r": "Il “<b>colore</b>” del suono: ci fa capire chi o che cosa suona."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è l’inquinamento acustico?",
+     "r": "Rumori forti e prolungati (oltre 80–100 dB) che causano stress e danni all’udito."
     }
    ]
   },
@@ -681,87 +757,7 @@
    ]
   },
   {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: il suono",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Esiste il silenzio assoluto sulla Terra?",
-     "r": "<b>No</b>: anche nei luoghi più isolati, come l’Antartide, si sentono piccoli suoni."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è una camera anecoica?",
-     "r": "Una stanza costruita in laboratorio che assorbe il <b>99,99%</b> dei suoni. Nessuno ci resiste più di <b>45 minuti</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra sentire e ascoltare?",
-     "r": "<b>Sentire</b>: percepire senza attenzione. <b>Ascoltare</b>: prestare attenzione e capire il suono."
-    },
-    {
-     "t": "sol",
-     "d": "Chi ha scritto 4’33” e che cosa ha di speciale?",
-     "r": "<b>John Cage</b>, nel 1952. I musicisti <b>non suonano</b>: si ascoltano i suoni dell’ambiente."
-    },
-    {
-     "t": "sol",
-     "d": "Descrivi il viaggio del suono nell’orecchio.",
-     "r": "Padiglione e condotto → <b>timpano</b> che vibra → <b>martello, incudine, staffa</b> → <b>coclea</b> (impulso nervoso) → nervo acustico → <b>cervello</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra suono e rumore?",
-     "r": "Suono: vibrazioni <b>regolari</b>, di solito gradevole. Rumore: vibrazioni <b>irregolari</b>, di solito sgradevole."
-    },
-    {
-     "t": "sol",
-     "d": "Come nasce il suono?",
-     "r": "Dalla <b>vibrazione</b> di un corpo, che crea onde sonore."
-    },
-    {
-     "t": "sol",
-     "d": "A che velocità viaggia il suono nell’aria, nei liquidi e nei solidi?",
-     "r": "Aria <b>340 m/s</b>, liquidi <b>1500 m/s</b>, solidi <b>6000 m/s</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Il suono si propaga nel vuoto?",
-     "r": "<b>No</b>: ha bisogno di un materiale che vibri (aria, liquidi o solidi)."
-    },
-    {
-     "t": "sol",
-     "d": "Quali sono le 4 caratteristiche del suono?",
-     "r": "<b>Intensità</b>, <b>altezza</b>, <b>durata</b> e <b>timbro</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Da che cosa dipende l’intensità? In che cosa si misura?",
-     "r": "Dall’<b>ampiezza</b> dell’onda. Si misura in <b>decibel (dB)</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Da che cosa dipende l’altezza? In che cosa si misura?",
-     "r": "Dal <b>numero di vibrazioni</b>: poche = grave, tante = acuto. Si misura in <b>hertz (Hz)</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è il timbro?",
-     "r": "Il “<b>colore</b>” del suono: ci fa capire chi o che cosa suona."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è l’inquinamento acustico?",
-     "r": "Rumori forti e prolungati (oltre 80–100 dB) che causano stress e danni all’udito."
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
+   "sezione": "I segni",
    "titolo": "Domande possibili: la teoria",
    "blocchi": [
     {
@@ -846,7 +842,16 @@
    ]
   },
   {
-   "sezione": "Domande",
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
    "titolo": "Errori da non fare",
    "blocchi": [
     {
@@ -876,15 +881,6 @@
     {
      "t": "hl",
      "x": "Semiminima = 1 tempo. Minima = 2. Semibreve = 4."
-    }
-   ]
-  },
-  {
-   "sezione": "Ripasso",
-   "titolo": "Tutto in una pagina",
-   "blocchi": [
-    {
-     "t": "schema"
     }
    ]
   },

@@ -373,6 +373,56 @@
    ]
   },
   {
+   "sezione": "Insiemi",
+   "titolo": "Allenati: gli insiemi",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è un insieme?",
+     "r": "Un <b>gruppo di cose</b>, dette elementi. Devi poter dire con <b>certezza</b> se una cosa sta dentro o no."
+    },
+    {
+     "t": "sol",
+     "d": "“I quadri belli” è un insieme?",
+     "r": "No: <b>belli per chi?</b> Non si può dire con certezza."
+    },
+    {
+     "t": "sol",
+     "d": "A = lettere di “luna”. La f appartiene ad A?",
+     "r": "No: <b>f ∉ A</b>. Le lettere sono l, u, n, a."
+    },
+    {
+     "t": "sol",
+     "d": "Come si legge la sbarretta | ?",
+     "r": "“<b>tale che</b>”. {x | x è una nota musicale} si legge “gli x tali che x è una nota musicale”."
+    },
+    {
+     "t": "sol",
+     "d": "A = {1, 2, 4, 5} e B = {2, 4, 6, 8}. Quanto fa A ∩ B?",
+     "r": "<b>{2, 4}</b>: gli elementi in comune."
+    },
+    {
+     "t": "sol",
+     "d": "E A ∪ B?",
+     "r": "<b>{1, 2, 4, 5, 6, 8}</b>: tutti gli elementi, presi una volta sola."
+    },
+    {
+     "t": "sol",
+     "d": "Quando due insiemi sono disgiunti?",
+     "r": "Quando non hanno <b>niente in comune</b>: A ∩ B = ∅."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono i sottoinsiemi impropri?",
+     "r": "L’<b>insieme stesso</b> e il <b>vuoto</b> ∅."
+    }
+   ]
+  },
+  {
    "sezione": "Grafici",
    "titolo": "L’ideogramma",
    "blocchi": [
@@ -452,6 +502,36 @@
      "t": "p",
      "stile": "muted",
      "x": "Peso del cane: dalla 3ª alla 5ª settimana cresce di 3 kg, poi resta a 7 kg."
+    }
+   ]
+  },
+  {
+   "sezione": "Grafici",
+   "titolo": "Allenati: i grafici",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Nell’ideogramma, che cos’è l’unità grafica?",
+     "r": "Il <b>disegno che si ripete</b>. Nel latte un cartone intero = 4 litri, mezzo cartone = 2 litri."
+    },
+    {
+     "t": "sol",
+     "d": "Nel diagramma a barre, che cosa vuol dire una barra più alta?",
+     "r": "Che il <b>dato è più grande</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Come si chiama il grafico a torta?",
+     "r": "<b>Areogramma</b>. Più grande è il dato, più grande è la fetta."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la spezzata?",
+     "r": "La linea che <b>unisce i punti</b> del diagramma cartesiano. Mostra come cambia una cosa nel tempo."
     }
    ]
   },
@@ -569,6 +649,51 @@
    ]
   },
   {
+   "sezione": "Geometria",
+   "titolo": "Allenati: la geometria",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono i tre enti fondamentali?",
+     "r": "<b>Punto</b>, <b>retta</b> e <b>piano</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Quante dimensioni ha il piano?",
+     "r": "<b>2</b>: la <u>lunghezza</u> e la <u>larghezza</u>. Si dice dimensioni, non “lati”."
+    },
+    {
+     "t": "sol",
+     "d": "E lo spazio?",
+     "r": "<b>3</b>: la <u>lunghezza</u>, la <u>larghezza</u> e l’<u>altezza</u>."
+    },
+    {
+     "t": "sol",
+     "d": "Come si indica una retta? E un punto?",
+     "r": "Retta: lettera <b>minuscola</b> (r). Punto: lettera <b>maiuscola</b> (A)."
+    },
+    {
+     "t": "sol",
+     "d": "Un punto O su una retta che cosa forma?",
+     "r": "Due <b>semirette</b>. O è l’<b>origine</b>."
+    },
+    {
+     "t": "sol",
+     "d": "E una retta r su un piano?",
+     "r": "Due <b>semipiani</b>. La retta r è l’origine dei semipiani."
+    },
+    {
+     "t": "sol",
+     "d": "Quando tre punti sono allineati?",
+     "r": "Quando stanno sulla <b>stessa retta</b>."
+    }
+   ]
+  },
+  {
    "sezione": "Assiomi",
    "titolo": "Gli assiomi (1 e 2)",
    "blocchi": [
@@ -673,6 +798,46 @@
    ]
   },
   {
+   "sezione": "Assiomi",
+   "titolo": "Allenati: gli assiomi",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è un assioma?",
+     "r": "Una frase che si accetta come <b>vera</b> perché è evidente. Li ha introdotti <b>Euclide</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Quante rette passano per un punto?",
+     "r": "<b>Infinite</b>: formano un fascio di rette."
+    },
+    {
+     "t": "sol",
+     "d": "E per due punti distinti?",
+     "r": "<b>Una e una sola</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Se una retta ha due punti sul piano?",
+     "r": "Sta <b>tutta</b> sul piano."
+    },
+    {
+     "t": "sol",
+     "d": "Quanti piani passano per tre punti NON allineati?",
+     "r": "<b>Uno solo</b>. Come uno sgabello a 3 gambe: non traballa mai."
+    },
+    {
+     "t": "sol",
+     "d": "E per tre punti allineati?",
+     "r": "<b>Infiniti</b> piani. Attenzione: è il contrario."
+    }
+   ]
+  },
+  {
    "sezione": "Piano cartesiano",
    "titolo": "Il piano cartesiano",
    "blocchi": [
@@ -743,6 +908,72 @@
     {
      "t": "p",
      "x": "<b class=\"f-purple\">Stesso secondo numero:</b> (4 ; 3) e (7 ; 3) salgono tutti e due di 3, ma camminano di quantità diverse. Finiscono <b>uno accanto all’altro</b>, su una retta orizzontale."
+    }
+   ]
+  },
+  {
+   "sezione": "Piano cartesiano",
+   "titolo": "Allenati: il piano cartesiano",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Come si chiamano i due assi?",
+     "r": "Asse <b>x</b> delle ascisse, orizzontale. Asse <b>y</b> delle ordinate, verticale."
+    },
+    {
+     "t": "sol",
+     "d": "In P (2 ; 5), qual è l’ascissa?",
+     "r": "<b>2</b>. Il 5 è l’ordinata."
+    },
+    {
+     "t": "sol",
+     "d": "A (6 ; 3) e B (3 ; 6) sono lo stesso punto?",
+     "r": "No: se <b>scambi i numeri</b> ottieni un altro punto."
+    },
+    {
+     "t": "sol",
+     "d": "Dove finisce il punto D (0 ; 7)?",
+     "r": "Sull’<b>asse y</b>: non ti sposti a destra, sali soltanto."
+    },
+    {
+     "t": "sol",
+     "d": "E il punto C (2 ; 0)?",
+     "r": "Sull’<b>asse x</b>: cammini di 2 e non sali."
+    },
+    {
+     "t": "sol",
+     "d": "Due punti con la stessa ascissa come finiscono?",
+     "r": "Uno <b>sopra l’altro</b>, su una retta verticale."
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
+   "titolo": "Errori da non fare",
+   "blocchi": [
+    {
+     "t": "hl",
+     "x": "Il piano ha due DIMENSIONI, non due “lati”."
+    },
+    {
+     "t": "hl",
+     "x": "3 punti allineati: INFINITI piani. Non allineati: UNO solo."
+    },
+    {
+     "t": "hl",
+     "x": "Se scambi i due numeri ottieni un ALTRO punto: (6 ; 3) ≠ (3 ; 6)."
+    },
+    {
+     "t": "hl",
+     "x": "L’origine della semiretta è il PUNTO che divide la retta."
+    },
+    {
+     "t": "hl",
+     "x": "Un insieme deve essere definito con certezza: “i quadri belli” non lo è."
     }
    ]
   },

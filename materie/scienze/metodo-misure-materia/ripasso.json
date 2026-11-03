@@ -26,10 +26,6 @@
    "colore": "ink"
   },
   {
-   "nome": "Domande",
-   "colore": "red"
-  },
-  {
    "nome": "Ripasso",
    "colore": "red"
   }
@@ -184,6 +180,51 @@
      "t": "sym",
      "simbolo": "6",
      "x": "<b>Condividere</b>: lo racconto, così altri sanno cosa fare."
+    }
+   ]
+  },
+  {
+   "sezione": "Il metodo",
+   "titolo": "Domande possibili: il metodo",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa significa la parola “scienza”?",
+     "r": "Viene dal latino <i>scientia</i>, “conoscenza”. Oggi indica le discipline che studiano la natura con il <b>metodo scientifico sperimentale</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Come si dividono le scienze naturali?",
+     "r": "In <b>fisiche</b> (materia non vivente: chimica, fisica, astronomia, scienze della Terra) e <b>biologiche</b> (esseri viventi: zoologia, botanica, microbiologia)."
+    },
+    {
+     "t": "sol",
+     "d": "Perché Galileo è il fondatore della scienza moderna?",
+     "r": "Perché ha introdotto il <b>metodo sperimentale</b>: spiegare i fenomeni con esperimenti, misure e matematica."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono le tappe del metodo scientifico?",
+     "r": "1 Osservare, 2 Documentarsi, 3 Formulare un’ipotesi, 4 Sperimentare, 5 Trarre le conclusioni, 6 Condividere i risultati."
+    },
+    {
+     "t": "sol",
+     "d": "Qual è la parte più innovativa del metodo?",
+     "r": "Gli <b>esperimenti</b>, con misure che chiunque può ripetere."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa succede se l’ipotesi è sbagliata?",
+     "r": "Si <b>cambia l’ipotesi</b> e si ricomincia dalla tappa 3."
+    },
+    {
+     "t": "sol",
+     "d": "Perché è importante condividere i risultati?",
+     "r": "Così gli altri scienziati possono <b>capire</b>, <b>ripetere</b> l’esperimento e <b>verificare</b> le conclusioni."
     }
    ]
   },
@@ -582,6 +623,61 @@
    ]
   },
   {
+   "sezione": "Misurare",
+   "titolo": "Domande possibili: le misure",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una grandezza fisica? Fai un esempio.",
+     "r": "Una proprietà che si può <b>misurare</b>: lunghezza, massa, tempo, temperatura. La bellezza no."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra grandezza fondamentale e derivata?",
+     "r": "La <b>fondamentale</b> si misura da sola (lunghezza). La <b>derivata</b> si ottiene combinando le fondamentali (velocità = lunghezza : tempo)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa significa misurare?",
+     "r": "Confrontare la grandezza con l’<b>unità di misura</b> e contare quante volte ci sta."
+    },
+    {
+     "t": "sol",
+     "d": "Misura diretta o indiretta: l’area di un banco?",
+     "r": "<b>Indiretta</b>: si calcola base × altezza."
+    },
+    {
+     "t": "sol",
+     "d": "Calcola la media di 13 s, 12 s, 11 s.",
+     "r": "13 + 12 + 11 = 36 → 36 : 3 = <b>12 s</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il Sistema Internazionale?",
+     "r": "Il sistema di unità di misura usato in <b>tutto il mondo</b>, con 7 grandezze fondamentali (metro, kilogrammo, secondo…)."
+    },
+    {
+     "t": "sol",
+     "d": "2,5 m = … cm &nbsp; 3 km = … m &nbsp; 450 mm = … cm",
+     "r": "<b>250 cm</b> &nbsp; <b>3000 m</b> &nbsp; <b>45 cm</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Portata e sensibilità del tuo righello?",
+     "r": "Portata: <b>30 cm</b> (o 20 cm). Sensibilità: <b>1 mm</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra strumento analogico e digitale?",
+     "r": "<b>Analogico</b>: scala graduata con tacche. <b>Digitale</b>: schermo con il numero."
+    }
+   ]
+  },
+  {
    "sezione": "La materia",
    "titolo": "Materia, corpi e sostanze",
    "blocchi": [
@@ -808,6 +904,51 @@
    ]
   },
   {
+   "sezione": "La materia",
+   "titolo": "Domande possibili: la materia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la materia?",
+     "r": "Tutto ciò che <b>occupa spazio</b> (volume) e <b>ha una massa</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra corpo e sostanza?",
+     "r": "<b>Corpo</b>: una porzione di materia (un sasso). <b>Sostanza</b>: un tipo di materia (il rame)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cosa differenzia massa e peso?",
+     "r": "Massa: quantità di materia, in <b>kg</b>, non cambia. Peso: forza di gravità, in <b>newton</b>, cambia (sulla Luna è minore)."
+    },
+    {
+     "t": "sol",
+     "d": "Calcola la densità: massa 60 g, volume 20 cm³.",
+     "r": "d = 60 : 20 = <b>3 g/cm³</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Perché il sughero galleggia e la ceramica affonda?",
+     "r": "Perché hanno <b>densità diverse</b>."
+    },
+    {
+     "t": "sol",
+     "d": "In una matita, trova una proprietà estensiva e una intensiva.",
+     "r": "Estensiva: <b>lunghezza</b> o massa. Intensiva: <b>colore</b> o densità."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra trasformazione fisica e chimica?",
+     "r": "<b>Fisica</b>: reversibile (ghiaccio → acqua). <b>Chimica</b>: irreversibile (ferro → ruggine)."
+    }
+   ]
+  },
+  {
    "sezione": "Sostanze e miscugli",
    "titolo": "Atomi e molecole",
    "blocchi": [
@@ -1009,6 +1150,56 @@
    ]
   },
   {
+   "sezione": "Sostanze e miscugli",
+   "titolo": "Domande possibili: sostanze e miscugli",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Da che cosa è formata la materia?",
+     "r": "Da particelle piccolissime, gli <b>atomi</b>. In natura ce ne sono <b>92 tipi</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una molecola?",
+     "r": "La parte più piccola di una sostanza che ne conserva le proprietà. È fatta di atomi uniti."
+    },
+    {
+     "t": "sol",
+     "d": "Differenza tra elemento e composto?",
+     "r": "<b>Elemento</b>: un solo tipo di atomo (argento, ossigeno). <b>Composto</b>: atomi diversi (acqua H₂O)."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è un miscuglio? Di che tipi?",
+     "r": "Più sostanze mescolate. <b>Eterogeneo</b> (vedi le parti) o <b>omogeneo</b> (sembra tutto uguale)."
+    },
+    {
+     "t": "sol",
+     "d": "Nell’acqua zuccherata, chi è il soluto e chi il solvente?",
+     "r": "Soluto: <b>zucchero</b>. Solvente: <b>acqua</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è una soluzione satura?",
+     "r": "Quando il solvente non scioglie più soluto, che resta sul fondo."
+    },
+    {
+     "t": "sol",
+     "d": "10 g di sale in 90 g di acqua: concentrazione?",
+     "r": "Soluzione = 10 + 90 = 100 g → 10 : 100 = <b>10%</b>"
+    },
+    {
+     "t": "sol",
+     "d": "Come separi acqua e olio?",
+     "r": "Sfruttando la diversa <b>densità</b>: l’olio sta sopra, l’acqua esce prima dal foro sotto."
+    }
+   ]
+  },
+  {
    "sezione": "Quaderno",
    "titolo": "Quaderno: che cos’è la scienza",
    "blocchi": [
@@ -1138,201 +1329,6 @@
     {
      "t": "riquadro",
      "x": "zucchero + acqua = acqua zuccherata<br>(soluto) &nbsp; (solvente) &nbsp; (soluzione)"
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: il metodo",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa significa la parola “scienza”?",
-     "r": "Viene dal latino <i>scientia</i>, “conoscenza”. Oggi indica le discipline che studiano la natura con il <b>metodo scientifico sperimentale</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Come si dividono le scienze naturali?",
-     "r": "In <b>fisiche</b> (materia non vivente: chimica, fisica, astronomia, scienze della Terra) e <b>biologiche</b> (esseri viventi: zoologia, botanica, microbiologia)."
-    },
-    {
-     "t": "sol",
-     "d": "Perché Galileo è il fondatore della scienza moderna?",
-     "r": "Perché ha introdotto il <b>metodo sperimentale</b>: spiegare i fenomeni con esperimenti, misure e matematica."
-    },
-    {
-     "t": "sol",
-     "d": "Quali sono le tappe del metodo scientifico?",
-     "r": "1 Osservare, 2 Documentarsi, 3 Formulare un’ipotesi, 4 Sperimentare, 5 Trarre le conclusioni, 6 Condividere i risultati."
-    },
-    {
-     "t": "sol",
-     "d": "Qual è la parte più innovativa del metodo?",
-     "r": "Gli <b>esperimenti</b>, con misure che chiunque può ripetere."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa succede se l’ipotesi è sbagliata?",
-     "r": "Si <b>cambia l’ipotesi</b> e si ricomincia dalla tappa 3."
-    },
-    {
-     "t": "sol",
-     "d": "Perché è importante condividere i risultati?",
-     "r": "Così gli altri scienziati possono <b>capire</b>, <b>ripetere</b> l’esperimento e <b>verificare</b> le conclusioni."
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: le misure",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è una grandezza fisica? Fai un esempio.",
-     "r": "Una proprietà che si può <b>misurare</b>: lunghezza, massa, tempo, temperatura. La bellezza no."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra grandezza fondamentale e derivata?",
-     "r": "La <b>fondamentale</b> si misura da sola (lunghezza). La <b>derivata</b> si ottiene combinando le fondamentali (velocità = lunghezza : tempo)."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa significa misurare?",
-     "r": "Confrontare la grandezza con l’<b>unità di misura</b> e contare quante volte ci sta."
-    },
-    {
-     "t": "sol",
-     "d": "Misura diretta o indiretta: l’area di un banco?",
-     "r": "<b>Indiretta</b>: si calcola base × altezza."
-    },
-    {
-     "t": "sol",
-     "d": "Calcola la media di 13 s, 12 s, 11 s.",
-     "r": "13 + 12 + 11 = 36 → 36 : 3 = <b>12 s</b>"
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è il Sistema Internazionale?",
-     "r": "Il sistema di unità di misura usato in <b>tutto il mondo</b>, con 7 grandezze fondamentali (metro, kilogrammo, secondo…)."
-    },
-    {
-     "t": "sol",
-     "d": "2,5 m = … cm &nbsp; 3 km = … m &nbsp; 450 mm = … cm",
-     "r": "<b>250 cm</b> &nbsp; <b>3000 m</b> &nbsp; <b>45 cm</b>"
-    },
-    {
-     "t": "sol",
-     "d": "Portata e sensibilità del tuo righello?",
-     "r": "Portata: <b>30 cm</b> (o 20 cm). Sensibilità: <b>1 mm</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Differenza tra strumento analogico e digitale?",
-     "r": "<b>Analogico</b>: scala graduata con tacche. <b>Digitale</b>: schermo con il numero."
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: la materia",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è la materia?",
-     "r": "Tutto ciò che <b>occupa spazio</b> (volume) e <b>ha una massa</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra corpo e sostanza?",
-     "r": "<b>Corpo</b>: una porzione di materia (un sasso). <b>Sostanza</b>: un tipo di materia (il rame)."
-    },
-    {
-     "t": "sol",
-     "d": "Che cosa differenzia massa e peso?",
-     "r": "Massa: quantità di materia, in <b>kg</b>, non cambia. Peso: forza di gravità, in <b>newton</b>, cambia (sulla Luna è minore)."
-    },
-    {
-     "t": "sol",
-     "d": "Calcola la densità: massa 60 g, volume 20 cm³.",
-     "r": "d = 60 : 20 = <b>3 g/cm³</b>"
-    },
-    {
-     "t": "sol",
-     "d": "Perché il sughero galleggia e la ceramica affonda?",
-     "r": "Perché hanno <b>densità diverse</b>."
-    },
-    {
-     "t": "sol",
-     "d": "In una matita, trova una proprietà estensiva e una intensiva.",
-     "r": "Estensiva: <b>lunghezza</b> o massa. Intensiva: <b>colore</b> o densità."
-    },
-    {
-     "t": "sol",
-     "d": "Differenza tra trasformazione fisica e chimica?",
-     "r": "<b>Fisica</b>: reversibile (ghiaccio → acqua). <b>Chimica</b>: irreversibile (ferro → ruggine)."
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: sostanze e miscugli",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Da che cosa è formata la materia?",
-     "r": "Da particelle piccolissime, gli <b>atomi</b>. In natura ce ne sono <b>92 tipi</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è una molecola?",
-     "r": "La parte più piccola di una sostanza che ne conserva le proprietà. È fatta di atomi uniti."
-    },
-    {
-     "t": "sol",
-     "d": "Differenza tra elemento e composto?",
-     "r": "<b>Elemento</b>: un solo tipo di atomo (argento, ossigeno). <b>Composto</b>: atomi diversi (acqua H₂O)."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è un miscuglio? Di che tipi?",
-     "r": "Più sostanze mescolate. <b>Eterogeneo</b> (vedi le parti) o <b>omogeneo</b> (sembra tutto uguale)."
-    },
-    {
-     "t": "sol",
-     "d": "Nell’acqua zuccherata, chi è il soluto e chi il solvente?",
-     "r": "Soluto: <b>zucchero</b>. Solvente: <b>acqua</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è una soluzione satura?",
-     "r": "Quando il solvente non scioglie più soluto, che resta sul fondo."
-    },
-    {
-     "t": "sol",
-     "d": "10 g di sale in 90 g di acqua: concentrazione?",
-     "r": "Soluzione = 10 + 90 = 100 g → 10 : 100 = <b>10%</b>"
-    },
-    {
-     "t": "sol",
-     "d": "Come separi acqua e olio?",
-     "r": "Sfruttando la diversa <b>densità</b>: l’olio sta sopra, l’acqua esce prima dal foro sotto."
     }
    ]
   },

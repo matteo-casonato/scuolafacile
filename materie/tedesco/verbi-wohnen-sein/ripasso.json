@@ -14,10 +14,6 @@
    "colore": "purple"
   },
   {
-   "nome": "Allenati",
-   "colore": "green"
-  },
-  {
    "nome": "Ripasso",
    "colore": "red"
   }
@@ -218,67 +214,7 @@
    ]
   },
   {
-   "sezione": "Come si legge",
-   "titolo": "Come si legge",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Poche regole, tocca 🔊 per sentire gli esempi."
-    },
-    {
-     "t": "voce",
-     "lingua": "de-DE"
-    },
-    {
-     "t": "pronuncia",
-     "lingua": "de-DE",
-     "regole": [
-      {
-       "lettere": "W",
-       "x": "si legge V",
-       "esempio": "wohnen",
-       "dice": "VÓ-nen"
-      },
-      {
-       "lettere": "EI",
-       "x": "si legge AI",
-       "esempio": "seid",
-       "dice": "SAIT"
-      },
-      {
-       "lettere": "IE",
-       "x": "si legge I lunga",
-       "esempio": "sie",
-       "dice": "SI"
-      },
-      {
-       "lettere": "H",
-       "x": "dopo una vocale non si legge: la allunga",
-       "esempio": "wohnt",
-       "dice": "VONT"
-      },
-      {
-       "lettere": "D",
-       "x": "alla fine di parola si legge T",
-       "esempio": "sind",
-       "dice": "SINT"
-      },
-      {
-       "lettere": "ICH",
-       "x": "“ch” dolce, quasi come “sci”",
-       "esempio": "ich",
-       "dice": "ISC"
-      }
-     ]
-    },
-    {
-     "t": "hl",
-     "x": "In tedesco l’accento è quasi sempre sulla prima sillaba: <b>WOH</b>-nen."
-    }
-   ]
-  },
-  {
-   "sezione": "Allenati",
+   "sezione": "I verbi",
    "titolo": "Gioco: il verbo giusto",
    "blocchi": [
     {
@@ -423,7 +359,67 @@
    ]
   },
   {
-   "sezione": "Allenati",
+   "sezione": "Come si legge",
+   "titolo": "Come si legge",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Poche regole, tocca 🔊 per sentire gli esempi."
+    },
+    {
+     "t": "voce",
+     "lingua": "de-DE"
+    },
+    {
+     "t": "pronuncia",
+     "lingua": "de-DE",
+     "regole": [
+      {
+       "lettere": "W",
+       "x": "si legge V",
+       "esempio": "wohnen",
+       "dice": "VÓ-nen"
+      },
+      {
+       "lettere": "EI",
+       "x": "si legge AI",
+       "esempio": "seid",
+       "dice": "SAIT"
+      },
+      {
+       "lettere": "IE",
+       "x": "si legge I lunga",
+       "esempio": "sie",
+       "dice": "SI"
+      },
+      {
+       "lettere": "H",
+       "x": "dopo una vocale non si legge: la allunga",
+       "esempio": "wohnt",
+       "dice": "VONT"
+      },
+      {
+       "lettere": "D",
+       "x": "alla fine di parola si legge T",
+       "esempio": "sind",
+       "dice": "SINT"
+      },
+      {
+       "lettere": "ICH",
+       "x": "“ch” dolce, quasi come “sci”",
+       "esempio": "ich",
+       "dice": "ISC"
+      }
+     ]
+    },
+    {
+     "t": "hl",
+     "x": "In tedesco l’accento è quasi sempre sulla prima sillaba: <b>WOH</b>-nen."
+    }
+   ]
+  },
+  {
+   "sezione": "Come si legge",
    "titolo": "Gioco: ascolta e scegli",
    "blocchi": [
     {

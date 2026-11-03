@@ -22,10 +22,6 @@
    "colore": "green"
   },
   {
-   "nome": "Domande",
-   "colore": "red"
-  },
-  {
    "nome": "Ripasso",
    "colore": "red"
   }
@@ -148,6 +144,46 @@
    ]
   },
   {
+   "sezione": "Immagini",
+   "titolo": "Domande possibili: le immagini",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Perché le immagini sono importanti in geografia?",
+     "r": "Ci avvicinano a luoghi lontani e ci fanno conoscere popoli e abitudini diverse."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra foto panoramica e macro?",
+     "r": "<b>Panoramica</b>: un territorio ampio. <b>Macro</b>: un dettaglio piccolissimo."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il time-lapse?",
+     "r": "Tante foto dello stesso posto a intervalli regolari, fatte scorrere veloci per creare un video."
+    },
+    {
+     "t": "sol",
+     "d": "Con che cosa si fanno le foto aeree?",
+     "r": "Con <b>aerei</b>, <b>elicotteri</b> o <b>droni</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è il telerilevamento?",
+     "r": "Raccogliere informazioni sulla Terra <b>a distanza</b>, con satelliti, aerei o palloni dotati di telecamere, radar e scanner."
+    },
+    {
+     "t": "sol",
+     "d": "A che cosa servono le immagini satellitari?",
+     "r": "Previsioni del tempo, inquinamento, scioglimento dei ghiacci, forma dei continenti."
+    }
+   ]
+  },
+  {
    "sezione": "Il clima",
    "titolo": "Clima e tempo meteorologico",
    "blocchi": [
@@ -256,6 +292,46 @@
    ]
   },
   {
+   "sezione": "Il clima",
+   "titolo": "Domande possibili: il clima",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Che differenza c’è tra clima e tempo meteorologico?",
+     "r": "<b>Tempo</b>: breve periodo. <b>Clima</b>: almeno <b>30 anni</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono gli elementi del clima?",
+     "r": "<b>Temperatura</b>, <b>umidità e precipitazioni</b>, <b>pressione atmosferica</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Che tempo porta l’alta pressione? E la bassa?",
+     "r": "<b>Alta</b>: sereno (aria fredda e secca). <b>Bassa</b>: pioggia (aria calda e umida)."
+    },
+    {
+     "t": "sol",
+     "d": "Come nascono i venti?",
+     "r": "Dalle <b>differenze di pressione</b> tra due zone."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono i fattori del clima?",
+     "r": "<b>Latitudine</b>, <b>altitudine</b>, vicinanza a <b>mari e grandi laghi</b>, <b>correnti marine</b>, <b>rilievi</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Perché in montagna fa più freddo?",
+     "r": "Perché più si sale, più la temperatura scende."
+    }
+   ]
+  },
+  {
    "sezione": "Climi d’Italia",
    "titolo": "I climi d’Italia",
    "blocchi": [
@@ -320,6 +396,41 @@
     {
      "t": "hl",
      "x": "Lunga + penisola + montagne = tanti climi diversi."
+    }
+   ]
+  },
+  {
+   "sezione": "Climi d’Italia",
+   "titolo": "Domande possibili: i climi d’Italia",
+   "blocchi": [
+    {
+     "t": "p",
+     "x": "Rispondi a voce, poi tocca per controllare."
+    },
+    {
+     "t": "sol",
+     "d": "Quali sono le 6 aree climatiche italiane?",
+     "r": "<b>Alpina</b>, <b>padana</b>, <b>appenninica</b>, <b>ligure-tirrenica</b>, <b>adriatica</b>, <b>meridionale e insulare</b>."
+    },
+    {
+     "t": "sol",
+     "d": "Perché l’Italia ha tanti climi?",
+     "r": "È <b>lunga</b> in latitudine, è una <b>penisola</b> e ha grandi <b>montagne</b> (Alpi e Appennini)."
+    },
+    {
+     "t": "sol",
+     "d": "Com’è il clima padano?",
+     "r": "<b>Continentale</b>: inverni freddi e nebbiosi, estati calde e afose."
+    },
+    {
+     "t": "sol",
+     "d": "Che cos’è la bora?",
+     "r": "Un <b>vento freddo</b> da nord-est che soffia sulla costa adriatica del nord."
+    },
+    {
+     "t": "sol",
+     "d": "Com’è il clima meridionale e insulare?",
+     "r": "<b>Mediterraneo</b>: inverni miti, estati molto calde e secche, rischio <b>siccità</b>."
     }
    ]
   },
@@ -494,107 +605,12 @@
    ]
   },
   {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: immagini e clima",
+   "sezione": "Ambienti",
+   "titolo": "Domande possibili: gli ambienti",
    "blocchi": [
     {
      "t": "p",
      "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Perché le immagini sono importanti in geografia?",
-     "r": "Ci avvicinano a luoghi lontani e ci fanno conoscere popoli e abitudini diverse."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra foto panoramica e macro?",
-     "r": "<b>Panoramica</b>: un territorio ampio. <b>Macro</b>: un dettaglio piccolissimo."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è il time-lapse?",
-     "r": "Tante foto dello stesso posto a intervalli regolari, fatte scorrere veloci per creare un video."
-    },
-    {
-     "t": "sol",
-     "d": "Con che cosa si fanno le foto aeree?",
-     "r": "Con <b>aerei</b>, <b>elicotteri</b> o <b>droni</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è il telerilevamento?",
-     "r": "Raccogliere informazioni sulla Terra <b>a distanza</b>, con satelliti, aerei o palloni dotati di telecamere, radar e scanner."
-    },
-    {
-     "t": "sol",
-     "d": "A che cosa servono le immagini satellitari?",
-     "r": "Previsioni del tempo, inquinamento, scioglimento dei ghiacci, forma dei continenti."
-    },
-    {
-     "t": "sol",
-     "d": "Che differenza c’è tra clima e tempo meteorologico?",
-     "r": "<b>Tempo</b>: breve periodo. <b>Clima</b>: almeno <b>30 anni</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Quali sono gli elementi del clima?",
-     "r": "<b>Temperatura</b>, <b>umidità e precipitazioni</b>, <b>pressione atmosferica</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Che tempo porta l’alta pressione? E la bassa?",
-     "r": "<b>Alta</b>: sereno (aria fredda e secca). <b>Bassa</b>: pioggia (aria calda e umida)."
-    },
-    {
-     "t": "sol",
-     "d": "Come nascono i venti?",
-     "r": "Dalle <b>differenze di pressione</b> tra due zone."
-    },
-    {
-     "t": "sol",
-     "d": "Quali sono i fattori del clima?",
-     "r": "<b>Latitudine</b>, <b>altitudine</b>, vicinanza a <b>mari e grandi laghi</b>, <b>correnti marine</b>, <b>rilievi</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Perché in montagna fa più freddo?",
-     "r": "Perché più si sale, più la temperatura scende."
-    }
-   ]
-  },
-  {
-   "sezione": "Domande",
-   "titolo": "Domande possibili: Italia",
-   "blocchi": [
-    {
-     "t": "p",
-     "x": "Rispondi a voce, poi tocca per controllare."
-    },
-    {
-     "t": "sol",
-     "d": "Quali sono le 6 aree climatiche italiane?",
-     "r": "<b>Alpina</b>, <b>padana</b>, <b>appenninica</b>, <b>ligure-tirrenica</b>, <b>adriatica</b>, <b>meridionale e insulare</b>."
-    },
-    {
-     "t": "sol",
-     "d": "Perché l’Italia ha tanti climi?",
-     "r": "È <b>lunga</b> in latitudine, è una <b>penisola</b> e ha grandi <b>montagne</b> (Alpi e Appennini)."
-    },
-    {
-     "t": "sol",
-     "d": "Com’è il clima padano?",
-     "r": "<b>Continentale</b>: inverni freddi e nebbiosi, estati calde e afose."
-    },
-    {
-     "t": "sol",
-     "d": "Che cos’è la bora?",
-     "r": "Un <b>vento freddo</b> da nord-est che soffia sulla costa adriatica del nord."
-    },
-    {
-     "t": "sol",
-     "d": "Com’è il clima meridionale e insulare?",
-     "r": "<b>Mediterraneo</b>: inverni miti, estati molto calde e secche, rischio <b>siccità</b>."
     },
     {
      "t": "sol",
@@ -629,7 +645,16 @@
    ]
   },
   {
-   "sezione": "Domande",
+   "sezione": "Ripasso",
+   "titolo": "Tutto in una pagina",
+   "blocchi": [
+    {
+     "t": "schema"
+    }
+   ]
+  },
+  {
+   "sezione": "Ripasso",
    "titolo": "Errori da non fare",
    "blocchi": [
     {
@@ -655,15 +680,6 @@
     {
      "t": "hl",
      "x": "L’ambiente padano naturale è quasi SCOMPARSO."
-    }
-   ]
-  },
-  {
-   "sezione": "Ripasso",
-   "titolo": "Tutto in una pagina",
-   "blocchi": [
-    {
-     "t": "schema"
     }
    ]
   }
