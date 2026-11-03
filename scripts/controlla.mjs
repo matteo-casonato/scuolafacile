@@ -137,13 +137,19 @@ const radice = new URL('..', import.meta.url).pathname;
 const indice = JSON.parse(readFileSync(join(radice, 'indice.json'), 'utf8'));
 const materie = new Set(indice.materie.map(m => m.id));
 
-for (const v of indice.verifiche) {
+for (const v of indice.argomenti) {
   const dir = join(radice, 'materie', v.materia, v.cartella);
   const dove = `${v.materia}/${v.cartella}`;
   if (!materie.has(v.materia)) err(dove, `materia "${v.materia}" non è in indice.json`);
   if (!existsSync(dir)) { err(dove, 'la cartella non esiste'); continue; }
   for (const f of ['meta.json', 'ripasso.json']) {
     if (!existsSync(join(dir, f))) err(dove, `manca ${f}`);
+  }
+  if (existsSync(join(dir, 'meta.json'))) {
+    const meta = JSON.parse(readFileSync(join(dir, 'meta.json'), 'utf8'));
+    if (!meta.argomento) err(dove, 'in meta.json manca "argomento": è il titolo che si vede');
+    if (meta.verifica || meta.data) avv(dove, 'in meta.json c’è una data: i titoli sono gli argomenti, non le date');
+    testo(`${dove} meta`, meta.argomento || '');
   }
   if (existsSync(join(dir, 'ripasso.json'))) {
     ripasso(dove, JSON.parse(readFileSync(join(dir, 'ripasso.json'), 'utf8')));

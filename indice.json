@@ -36,12 +36,11 @@
       "colore": "teal"
     }
   ],
-  "verifiche": [
+  "argomenti": [
     {
       "materia": "matematica",
       "cartella": "insiemi-grafici-geometria",
       "titolo": "Insiemi, grafici, geometria e piano cartesiano",
-      "data": null,
       "ha": {
         "ripasso": true,
         "schema": true,

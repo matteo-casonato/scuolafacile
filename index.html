@@ -8,20 +8,22 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icone/icon-192.png">
 <link rel="apple-touch-icon" href="assets/icone/apple-touch-icon.png">
-<link rel="stylesheet" href="app/app.css">
-<link rel="stylesheet" href="app/print.css" media="print">
+<link rel="stylesheet" href="app/build.css">
 </head>
-<body class="home c-ink">
-<main>
-  <div class="wrapper">
-    <div class="titolo-app">
-      <img src="assets/icone/icon-192.png" alt="">
-      <h1>Scuola facile</h1>
-    </div>
-    <p class="sottotitolo">Scegli la verifica da ripassare.</p>
-    <div id="elenco"></div>
+<body class="c-ink min-h-full">
+
+<header class="sticky top-0 z-10 border-b border-grid bg-bar backdrop-blur">
+  <div class="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3">
+    <img src="assets/icone/icon-192.png" alt="" class="h-10 w-10 rounded-xl">
+    <h1 class="m-0 text-2xl font-bold">Scuola facile</h1>
   </div>
+</header>
+
+<main class="mx-auto max-w-2xl px-4 pt-5 pb-14">
+  <p class="mb-5 text-muted">Scegli la materia.</p>
+  <div id="materie" class="grid grid-cols-2 gap-3 sm:grid-cols-3"></div>
 </main>
+
 <script type="module" src="app/home.js"></script>
 <script type="module" src="app/sw-registra.js"></script>
 </body>

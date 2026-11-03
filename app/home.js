@@ -1,81 +1,43 @@
-/* Scuola facile — la home: materie, verifiche, data e stato del ripasso. */
+/* Scuola facile — la home: si sceglie la materia. */
 
-const MESI = ['gennaio','febbraio','marzo','aprile','maggio','giugno',
-              'luglio','agosto','settembre','ottobre','novembre','dicembre'];
-const GIORNI = ['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'];
+import { icona } from './icone.js';
 
-function quando(data) {
-  if (!data) return 'data da confermare';
-  const d = new Date(data + 'T12:00:00');
-  if (isNaN(d)) return data;
-  const testo = `${GIORNI[d.getDay()]} ${d.getDate()} ${MESI[d.getMonth()]}`;
-  const oggi = new Date(); oggi.setHours(0, 0, 0, 0);
-  const giorni = Math.round((d - oggi) / 86400000);
-  if (giorni === 0) return `verifica oggi, ${testo}`;
-  if (giorni === 1) return `verifica domani, ${testo}`;
-  if (giorni > 1) return `verifica ${testo}, fra ${giorni} giorni`;
-  return `verifica di ${testo}`;
+const CARD = 'block rounded-2xl border-2 border-[color:var(--c)] bg-card p-4 no-underline ' +
+             'text-ink min-h-[7rem] flex flex-col';
+
+function conteggio(n) {
+  if (!n) return 'ancora niente';
+  return n === 1 ? '1 argomento' : `${n} argomenti`;
 }
 
-/* Lo stato arriva dalla stessa chiave che usa il deck: sf:<materia>/<cartella>:p<pagine>. */
-function stato(materia, cartella) {
-  try {
-    const pre = `sf:${materia}/${cartella}:p`;
-    for (let i = 0; i < localStorage.length; i++) {
-      const k = localStorage.key(i);
-      if (!k.startsWith(pre)) continue;
-      const pagine = parseInt(k.slice(pre.length), 10);
-      const s = JSON.parse(localStorage.getItem(k)) || {};
-      return { pagine, fatte: Object.keys(s.got || {}).length };
-    }
-  } catch (e) { /* senza memoria si mostra la scheda senza barra */ }
-  return null;
-}
+function scheda(m, n) {
+  const dentro =
+    `<span class="tinta mb-2 grid h-11 w-11 place-items-center rounded-xl text-[color:var(--c)]">
+       ${icona(m.id)}
+     </span>
+     <span class="text-lg leading-tight font-bold text-[color:var(--c)]">${m.nome}</span>
+     <span class="mt-auto pt-1 text-sm text-muted">${conteggio(n)}</span>`;
 
-function barra(st) {
-  if (!st || !st.pagine) return '';
-  let h = '<div class="barra" aria-hidden="true">';
-  for (let i = 0; i < st.pagine; i++) h += `<i${i < st.fatte ? ' class="done"' : ''}></i>`;
-  return h + '</div>';
-}
-
-function scheda(v) {
-  const st = stato(v.materia, v.cartella);
-  const link = `ripasso.html?v=${v.materia}/${v.cartella}`;
-  const altro = [];
-  if (v.ha && v.ha.schema) altro.push('schema in una pagina');
-  if (v.ha && v.ha.verifiche) altro.push(`${v.ha.verifiche} prove da stampare`);
-  return `<a class="scheda" href="${link}">
-    <b>${v.titolo}</b>
-    <span class="quando">${quando(v.data)}</span>
-    ${barra(st)}
-    ${altro.length ? `<span class="altro">${altro.join(' · ')}</span>` : ''}
-  </a>`;
+  if (!n) {
+    return `<div class="c-${m.colore} ${CARD} opacity-45">${dentro}</div>`;
+  }
+  return `<a class="c-${m.colore} ${CARD}" href="materia.html?m=${m.id}">${dentro}</a>`;
 }
 
 async function avvia() {
-  const el = document.getElementById('elenco');
+  const el = document.getElementById('materie');
   let dati;
   try {
     dati = await (await fetch('indice.json', { cache: 'no-cache' })).json();
   } catch (e) {
-    el.innerHTML = '<p class="vuoto">Non riesco a leggere l’elenco delle verifiche.</p>';
+    el.innerHTML = '<p class="text-muted">Non riesco a leggere l’elenco delle materie.</p>';
     return;
   }
-  const perMateria = new Map();
-  for (const v of dati.verifiche || []) {
-    if (!perMateria.has(v.materia)) perMateria.set(v.materia, []);
-    perMateria.get(v.materia).push(v);
+  const quanti = new Map();
+  for (const a of dati.argomenti || []) {
+    quanti.set(a.materia, (quanti.get(a.materia) || 0) + 1);
   }
-  el.innerHTML = (dati.materie || []).map(m => {
-    const vs = (perMateria.get(m.id) || [])
-      .sort((a, b) => (b.data || '').localeCompare(a.data || ''));
-    if (!vs.length) return '';
-    return `<section class="materia c-${m.colore}">
-      <h2>${m.nome}</h2>
-      <div class="schede">${vs.map(scheda).join('')}</div>
-    </section>`;
-  }).join('') || '<p class="vuoto">Non c’è ancora nessuna verifica.</p>';
+  el.innerHTML = (dati.materie || []).map(m => scheda(m, quanti.get(m.id) || 0)).join('');
 }
 
 avvia();

@@ -6,10 +6,17 @@ import { montaGiochi } from './giochi/giochi.js';
 
 const $ = sel => document.querySelector(sel);
 
+/* Cambia solo il colore della sezione, senza toccare le altre classi del body. */
+const COLORI = ['ink', 'blue', 'green', 'orange', 'purple', 'red', 'teal'];
+function tinge(colore) {
+  document.body.classList.remove(...COLORI.map(c => 'c-' + c));
+  document.body.classList.add('c-' + colore);
+}
+
 function avviso(testo) {
-  $('#deck').innerHTML = `<div class="avviso"><p>${testo}</p>
-    <p><a href="index.html">Torna all’elenco</a></p></div>`;
-  document.querySelector('nav').hidden = true;
+  $('#deck').innerHTML = `<div class="mx-auto mt-6 max-w-xl rounded-xl border-2 border-red bg-card p-4">
+    <p>${testo}</p><p><a href="index.html">Torna alle materie</a></p></div>`;
+  document.querySelector('.deck-nav').classList.add('nascosta');
 }
 
 async function leggi(base, file, obbligatorio) {
@@ -27,6 +34,7 @@ async function avvia() {
     return avviso('Non so quale ripasso aprire.');
   }
   const base = `materie/${v}`;
+  $('#indietro').href = `materia.html?m=${v.split('/')[0]}`;
 
   let ripasso, schema;
   try {
@@ -49,8 +57,8 @@ async function avvia() {
   /* --- costruzione delle pagine --- */
   $('#deck').innerHTML = pagine.map((p, i) => {
     const col = colori[p.sezione] || 'ink';
-    return `<section class="slide c-${col}" data-sec="${p.sezione}" data-col="${col}" ` +
-           `aria-label="${p.titolo}"${i ? ' hidden' : ''}>` +
+    return `<section class="slide c-${col}${i ? ' nascosta' : ''}" data-sec="${p.sezione}" ` +
+           `data-col="${col}" aria-label="${p.titolo}" aria-hidden="${i > 0}">` +
            `<div class="inner"><h2>${p.titolo}</h2>${renderBlocchi(p.blocchi, { schema })}</div></section>`;
   }).join('\n');
 
@@ -104,16 +112,21 @@ async function avvia() {
     });
   }
 
+  function mostra(sl, visibile) {
+    sl.classList.toggle('nascosta', !visibile);
+    sl.setAttribute('aria-hidden', String(!visibile));
+  }
+
   function vai(i, dir) {
     if (i < 0 || i >= n) return;
-    slides[cur].hidden = true;
+    mostra(slides[cur], false);
     cur = i;
     const sl = slides[cur];
-    sl.hidden = false;
+    mostra(sl, true);
     sl.scrollTop = 0;
     sl.classList.remove('in-next', 'in-prev');
     if (dir) { void sl.offsetWidth; sl.classList.add(dir > 0 ? 'in-next' : 'in-prev'); }
-    document.body.className = 'c-' + sl.dataset.col;
+    tinge(sl.dataset.col);
     secEl.textContent = sl.dataset.sec;
     countEl.textContent = `Pagina ${cur + 1} di ${n}`;
     segs.forEach((s, k) => s.classList.toggle('now', k === cur));
@@ -156,9 +169,9 @@ async function avvia() {
   montaGiochi(deck);
   dipingiGot();
   const start = Math.min(Math.max(stato.i | 0, 0), n - 1);
-  slides[0].hidden = true;
+  mostra(slides[0], false);
   cur = start;
-  slides[start].hidden = false;
+  mostra(slides[start], true);
   vai(start, 0);
 }
 

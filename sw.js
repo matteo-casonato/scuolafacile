@@ -1,21 +1,24 @@
 /* Scuola facile — service worker: dopo la prima apertura l'app funziona offline.
    Cambia VERSIONE a ogni pubblicazione per far scaricare i file nuovi. */
 
-const VERSIONE = 'sf-1';
+const VERSIONE = 'sf-2';
 const GUSCIO = `${VERSIONE}-guscio`;
 const CONTENUTI = `${VERSIONE}-contenuti`;
 
 const FILE = [
   './',
   'index.html',
+  'materia.html',
   'ripasso.html',
   'indice.json',
   'manifest.webmanifest',
-  'app/app.css',
-  'app/print.css',
+  'app/build.css',
   'app/home.js',
+  'app/materia.js',
   'app/deck.js',
   'app/blocchi.js',
+  'app/icone.js',
+  'app/progressi.js',
   'app/sw-registra.js',
   'app/giochi/giochi.js',
   'assets/font/atkinson-400-latin.woff2',

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Materia · Scuola facile</title>
+<meta name="theme-color" content="#fbfcfe">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icone/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icone/apple-touch-icon.png">
+<link rel="stylesheet" href="app/build.css">
+</head>
+<body class="c-ink min-h-full">
+
+<header id="testata" class="sticky top-0 z-10 border-b border-grid bg-bar backdrop-blur">
+  <div class="mx-auto flex max-w-2xl items-center gap-2 px-2 py-2">
+    <a href="index.html" aria-label="Torna alle materie"
+       class="grid h-11 w-11 flex-none place-items-center rounded-xl text-ink no-underline">
+      <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+    </a>
+    <span id="icona" class="tinta grid h-10 w-10 flex-none place-items-center rounded-xl text-[color:var(--c)]"></span>
+    <h1 id="nome" class="m-0 text-2xl font-bold text-[color:var(--c)]"></h1>
+  </div>
+</header>
+
+<main class="mx-auto max-w-2xl px-4 pt-5 pb-14">
+  <p id="intro" class="mb-5 text-muted"></p>
+  <div id="argomenti" class="grid gap-3"></div>
+</main>
+
+<script type="module" src="app/materia.js"></script>
+<script type="module" src="app/sw-registra.js"></script>
+</body>
+</html>

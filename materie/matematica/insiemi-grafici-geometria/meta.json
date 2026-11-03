@@ -1,16 +1,6 @@
 {
   "materia": "matematica",
+  "argomento": "Insiemi, grafici, geometria e piano cartesiano",
   "titolo": "Matematica facile",
-  "titoloVerifica": "Insiemi, grafici, geometria e piano cartesiano",
-  "argomenti": [
-    "insiemi",
-    "grafici",
-    "geometria",
-    "piano cartesiano"
-  ],
-  "verifica": {
-    "data": null,
-    "nota": "data della verifica da confermare"
-  },
   "aggiornato": "2026-11-03"
 }

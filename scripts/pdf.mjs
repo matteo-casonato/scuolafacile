@@ -22,7 +22,10 @@ const browser = await chromium.launch();
 const page = await browser.newPage({ colorScheme: 'light' });
 await page.goto(`http://localhost:${PORTA}/ripasso.html?v=${v}`);
 await page.waitForSelector('.slide');
-await page.evaluate(() => document.querySelectorAll('details').forEach(d => { d.open = true; }));
+await page.evaluate(() => {
+  document.querySelectorAll('details').forEach(d => { d.open = true; });
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('nascosta'));
+});
 await page.emulateMedia({ media: 'print' });
 
 const file = `${out}Ripasso_${materia}.pdf`;

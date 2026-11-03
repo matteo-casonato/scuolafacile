@@ -18,29 +18,54 @@ pulsante **Ho capito** in fondo a ogni pagina colora la barra in alto, e il
 telefono si ricorda dov’eri arrivato. **Stampa** manda in stampa tutte le
 pagine, una per foglio.
 
+## Come si naviga
+
+**Home** → si sceglie la **materia** → si apre l’**archivio degli argomenti** di
+quella materia → ogni argomento apre il suo **ripasso**.
+
+Il titolo di un argomento è l’argomento stesso, per esempio “Insiemi, grafici,
+geometria e piano cartesiano”: non ci sono date.
+
 ## Com’è fatto
 
 ```
-index.html        home: materie e verifiche
+index.html        home: le materie
+materia.html      archivio degli argomenti di una materia
 ripasso.html      il ripasso digitale
-app/              CSS e JavaScript condivisi
-  app.css         token, componenti, tema scuro
-  print.css       la stampa
+app/
+  stile.css       sorgente del CSS (Tailwind v4 + classi semantiche)
+  build.css       il CSS pubblicato: si genera, non si modifica a mano
+  home.js         la home
+  materia.js      l’archivio degli argomenti
   deck.js         navigazione, “Ho capito”, progressi
   blocchi.js      rende i blocchi di contenuto
+  icone.js        un disegno per materia
 materie/<materia>/<cartella>/
-  meta.json       dati della verifica
+  meta.json       materia e titolo dell’argomento
   ripasso.json    le pagine del ripasso
   schema.json     lo schema in una pagina
   verifiche/      le prove da stampare
-indice.json       elenco delle materie e delle verifiche
+indice.json       materie, colori e argomenti pubblicati
 scripts/          controlli, screenshot, PDF, server locale
 ```
 
-**I contenuti sono dati, non codice.** Aggiungere una verifica vuol dire
-aggiungere una cartella in `materie/` e una riga in `indice.json`: non serve
+**I contenuti sono dati, non codice.** Aggiungere un argomento vuol dire
+aggiungere una cartella in `materie/` e lanciare `npm run indice`: non serve
 scrivere HTML né JavaScript. Il formato dei blocchi è descritto in
 [FORMATO.md](FORMATO.md).
+
+### Il CSS
+
+Il CSS si scrive in `app/stile.css` (Tailwind v4) e si compila in
+`app/build.css`, che è il file pubblicato e va committato. Le pagine dell’app
+usano le utility di Tailwind; il deck, i blocchi dei contenuti e la stampa
+usano classi semantiche (`.hl`, `.sym`, `.vs`, `.slide`…) così i file JSON dei
+contenuti restano leggibili.
+
+```bash
+npm run css          # una volta
+npm run css:watch    # mentre si lavora
+```
 
 ## Lavorare al progetto
 
@@ -52,10 +77,14 @@ npm run serve      # http://localhost:8080
 | comando | che cosa fa |
 |---|---|
 | `npm run serve` | server locale per provare l’app |
+| `npm run css` | compila `app/stile.css` in `app/build.css` |
 | `npm run controlla` | controlla i file di dati: tag ammessi, colori, punti, tipografia |
 | `npm run indice` | rigenera `indice.json` leggendo le cartelle di `materie/` |
 | `npm run foto -- <materia>/<cartella>` | screenshot a 390 px, tema chiaro e scuro |
 | `npm run pdf -- <materia>/<cartella>` | il PDF del ripasso, una pagina per foglio |
+
+> Prima di pubblicare: ricompila il CSS e **alza `VERSIONE` in `sw.js`**,
+> altrimenti chi ha già l’app installata continua a vedere la versione vecchia.
 
 ## Licenze
 

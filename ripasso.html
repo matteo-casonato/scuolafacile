@@ -7,23 +7,34 @@
 <meta name="theme-color" content="#fbfcfe">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icone/icon-192.png">
-<link rel="stylesheet" href="app/app.css">
-<link rel="stylesheet" href="app/print.css" media="print">
+<link rel="apple-touch-icon" href="assets/icone/apple-touch-icon.png">
+<link rel="stylesheet" href="app/build.css">
 </head>
-<body class="c-ink">
-<header>
-  <div class="top">
+<body class="c-ink flex h-full flex-col">
+
+<header class="deck-header">
+  <div class="deck-top">
+    <a id="indietro" href="index.html" aria-label="Torna agli argomenti"
+       class="-ml-2 grid h-9 w-9 flex-none place-items-center rounded-lg text-ink no-underline solo-schermo">
+      <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 5l-7 7 7 7"/>
+      </svg>
+    </a>
     <span id="sec"></span>
     <span id="count"></span>
     <button id="print" type="button">Stampa</button>
   </div>
   <div id="progress" aria-hidden="true"></div>
 </header>
-<main id="deck"></main>
-<nav><div class="wrap">
+
+<main id="deck" class="relative flex-1 overflow-hidden"></main>
+
+<nav class="deck-nav"><div class="wrap">
   <button id="prev" type="button">Indietro</button>
   <button id="next" type="button">Avanti</button>
 </div></nav>
+
 <script type="module" src="app/deck.js"></script>
 <script type="module" src="app/sw-registra.js"></script>
 </body>

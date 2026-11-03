@@ -33,7 +33,7 @@ for (const tema of ['light', 'dark']) {
   for (let i = 0; i < n; i++) {
     await page.evaluate(k => {
       const sl = document.querySelectorAll('.slide');
-      sl.forEach((s, j) => { s.hidden = j !== k; });
+      sl.forEach((s, j) => s.classList.toggle('nascosta', j !== k));
       document.querySelectorAll('details').forEach(d => { d.open = true; });
       /* la testata la aggiorna di solito deck.js: qui la sistemiamo a mano */
       document.body.className = 'c-' + sl[k].dataset.col;
@@ -51,7 +51,7 @@ for (const tema of ['light', 'dark']) {
   const fuori = await page.evaluate(() => {
     const brutti = [];
     document.querySelectorAll('.slide').forEach((s, k) => {
-      s.hidden = false;
+      s.classList.remove('nascosta');
       s.querySelectorAll('svg').forEach(sv => {
         const box = sv.getBoundingClientRect();
         sv.querySelectorAll('text').forEach(t => {
@@ -61,7 +61,7 @@ for (const tema of ['light', 'dark']) {
           }
         });
       });
-      s.hidden = true;
+      s.classList.add('nascosta');
     });
     return brutti;
   });
